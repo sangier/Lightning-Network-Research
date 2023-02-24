@@ -1,0 +1,84 @@
+{
+    "channels": [
+        {
+            "Capacity": 3999000, 
+            "Node1_pub_key": "02acb5b3bdf46d3a35e665c9abe46def12c341f55d603853ddeb1371076cab5c57", 
+            "MaxReal_Capacity": 1074731, 
+            "Channel_ID": "1601043961182552064", 
+            "Short_Channel_ID": "1456141:18:0", 
+            "MinReal_Capacity": 849787, 
+            "Node2_pub_key": "02a68237add204623021d09b0334c4992c132eb3c9dcfcb8f3cf8a57386775538e", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 1000000, 
+            "Node1_pub_key": "02acb5b3bdf46d3a35e665c9abe46def12c341f55d603853ddeb1371076cab5c57", 
+            "MaxReal_Capacity": 943750, 
+            "Channel_ID": "1601043961182552064", 
+            "Short_Channel_ID": "1456141:18:0", 
+            "MinReal_Capacity": 887500, 
+            "Node2_pub_key": "02a68237add204623021d09b0334c4992c132eb3c9dcfcb8f3cf8a57386775538e", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 100001, 
+            "Node1_pub_key": "02acb5b3bdf46d3a35e665c9abe46def12c341f55d603853ddeb1371076cab5c57", 
+            "MaxReal_Capacity": 100001, 
+            "Channel_ID": "1632961684226572288", 
+            "Short_Channel_ID": "1485170:38:0", 
+            "MinReal_Capacity": 94375, 
+            "Node2_pub_key": "03e567bce8a40f5c36f6d431102290ad82cd99f9abca6b3f11aabcdd46f1d7bfcc", 
+            "Channel_direction": 1
+        }, 
+        {
+            "Capacity": 200002, 
+            "Node1_pub_key": "02acb5b3bdf46d3a35e665c9abe46def12c341f55d603853ddeb1371076cab5c57", 
+            "MaxReal_Capacity": 98750, 
+            "Channel_ID": "1632961684226572288", 
+            "Short_Channel_ID": "1485170:38:0", 
+            "MinReal_Capacity": 87500, 
+            "Node2_pub_key": "03e567bce8a40f5c36f6d431102290ad82cd99f9abca6b3f11aabcdd46f1d7bfcc", 
+            "Channel_direction": 1
+        }, 
+        {
+            "Capacity": 2999000, 
+            "Node1_pub_key": "02acb5b3bdf46d3a35e665c9abe46def12c341f55d603853ddeb1371076cab5c57", 
+            "MaxReal_Capacity": 10, 
+            "Channel_ID": "1633417981558652929", 
+            "Short_Channel_ID": "1485585:138:1", 
+            "MinReal_Capacity": 0, 
+            "Node2_pub_key": "02f260cbb047515f0eefa3f48d8cfa90dc5428db7261b0d040d8a133713ae6ba6d", 
+            "Channel_direction": 1
+        }, 
+        {
+            "Capacity": 1200000, 
+            "Node1_pub_key": "02acb5b3bdf46d3a35e665c9abe46def12c341f55d603853ddeb1371076cab5c57", 
+            "MaxReal_Capacity": 10, 
+            "Channel_ID": "1633932552999534593", 
+            "Short_Channel_ID": "1486053:124:1", 
+            "MinReal_Capacity": 0, 
+            "Node2_pub_key": "0320faa27a5c5efc4f14936dd338b141bebf89232175fc2ae1f6bf0be62b3ffc0f", 
+            "Channel_direction": 1
+        }, 
+        {
+            "Capacity": 1000000, 
+            "MinReal_Capacity": 0, 
+            "Node1_pub_key": "02acb5b3bdf46d3a35e665c9abe46def12c341f55d603853ddeb1371076cab5c57", 
+            "MaxReal_Capacity": 10, 
+            "Channel_ID": "1634419636653326336", 
+            "Short_Channel_ID": "1486496:165:0", 
+            "Node2_pub_key": "02d55347649948b26d07471f00652d37fe4336324120b164cbcd0d1390b018f20e", 
+            "Channel_direction": 1
+        }, 
+        {
+            "Channel_ID": "1635019969997307905", 
+            "Short_Channel_ID": "1487042:92:1", 
+            "Node2_pub_key": "03a88c84d4adb36602754b8fd5e21072e2bba7d0b37ee5c4fa850054f541514395", 
+            "Capacity": 1864667, 
+            "MinReal_Capacity": 0, 
+            "Node1_pub_key": "02acb5b3bdf46d3a35e665c9abe46def12c341f55d603853ddeb1371076cab5c57", 
+            "MaxReal_Capacity": 10, 
+            "Channel_direction": 1
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+Interledger as a system that tries to solve a problem similar to the one solved by lighting but potentially across coins \cite{Interledger}.
+
+The basics of Lightning and the Lightning Network can be found in the Lightning Network In-Progress Specifications \cite{ln-spec}. In particular, the
+Onion Routing Protocol used in the current version is described in \cite{BOLT_4_onion_routing}.
+%
+A description of how payments are routed and how to choose fees to obtain low user fees and good network performance is presented in \cite{dirouting}.
+
+A study \cite{LightningStrikes} shows that the probability of success of routing a payment deceases sharply as the amount increases. 
+%Este mismo articulo ha sido analizado en estos: 
+%https://medium.com/novamining/analysis-of-the-lightning-network-routing-problems-reported-by-diar-6d7ac0410471
+%https://bitcoinnews.com/100-success-rate-on-bitcoins-lightning-network-only-for-3-cents-or-less/
+%https://cointelegraph.com/news/study-low-reliability-for-successfully-routing-payments-on-lightning-network
+%Pero el metodo utilizado para sacar estos resultados ha sido contestado para los del DevTeam de lightning mismo: 
+%https://thenextweb.com/hardfork/2018/06/26/lighting-network-transactions/
+%Y esta es la respuesta:
+%https://diar.co/response-to-lighting-labs-lightning-network-dev-teams/
+The lighting developers expect to correct this issue with the usage of Atomic Multi-Path Payments (AMP) \cite{LightningStrikes,TNW}, which allows a large payment divided into multiple smaller parallel payments. AMP will only make the routing problem more important.
+
+
+-------- Editing here
+
+Referencias para el problema de routing: 
+https://www.yours.org/content/the-lightning-network-routing-problem--explained-31e1ba7b38f5
+https://www.trustnodes.com/2019/03/13/lightning-network-has-many-routing-problems-says-lead-dev-at-lightning-labs
+
+
+
+Y esta es una serie de aritculos  que describen una esperiencia de testeo de lightning hecha por Andreas Brekken (CEO de shitcoin.com). 
+Andreas ha montados nodos,  ha incrementado la capacidad de la red del 68% poniendo dinero en sus nodos y ha intentado de hacer varios pagos.  
+
+https://medium.com/andreas-tries-blockchain/bitcoin-lightning-network-1-can-i-compile-and-run-a-node-cd3138c68c15
+https://medium.com/andreas-tries-blockchain/bitcoin-lightning-network-2-we-must-first-become-the-lightning-network-49c46953c1d7
+
+En la parte 3 de esta serie, insegna los problemas tenido en hacer pagos debidos al routing y a los bucles del los wallet.
+
+https://medium.com/andreas-tries-blockchain/bitcoin-lightning-network-3-paying-for-goods-and-services-5d9c492b0eb2
+https://medium.com/andreas-tries-blockchain/bitcoin-lightning-network-4-what-happens-when-you-close-half-of-the-lightning-network-b25b330dfad2

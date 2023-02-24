@@ -1,0 +1,97 @@
+\documentclass[journal]{IEEEtran}
+%% INFOCOM 2012 addition: 
+\makeatletter
+\def\ps@headings{%
+\def\@oddhead{\mbox{}\scriptsize\rightmark \hfil \thepage}%
+\def\@evenhead{\scriptsize\thepage \hfil \leftmark\mbox{}}%
+\def\@oddfoot{}%
+\def\@evenfoot{}}
+\makeatother
+\pagestyle{headings}
+\usepackage{tabularx}
+\usepackage{multirow}
+\usepackage{booktabs}
+\usepackage[utf8x]{inputenc}
+\usepackage{framed, color}
+\usepackage{mathtools}
+\usepackage[super]{nth}
+\usepackage{url}
+\usepackage{subfig}
+\usepackage{hyphenat}
+\usepackage{ifthen}
+\usepackage{tikz}
+\usepackage[square, numbers, sort&compress]{natbib}
+\usetikzlibrary{positioning,calc}
+\usepackage{epstopdf}
+\usepackage{nameref}
+\usepackage{chngcntr}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{adjustbox}
+\usepackage{soul}
+\usepackage{authblk}
+
+\usepackage{algorithm}
+\usepackage[noend]{algpseudocode}
+
+\def\remove#1{}
+\newcommand\ed[1]{{\color{red}#1}}
+
+%\setremarkmarkup{\textcolor{red}{\bf{[#2]}}}
+
+
+\counterwithin*{paragraph}{subsubsection} % removes paragraph from the subsubsections
+\counterwithin*{paragraph}{section}
+%\captionsetup[figure]{labelfont=bf,textfont={bf}}
+%\captionsetup[table]{font=bf,position=below}
+
+
+\begin{document}
+
+ 
+\title{Measuring the Real Capacity of Lightning Channels}
+ \author[1]{Marcelo Bagnulo} 
+ \author[1]{Alberto  Garc\'{i}a-Mart\'{i}nez}
+ \author[1]{Stefano Angieri}
+ \author[2]{Antonio Fern\'{a}ndez Anta}
+ \affil[1]{Universidad Carlos III de Madrid}
+ \affil[2]{IMDEA Networks Institute}
+ \renewcommand\Authands{ and }
+ 
+ \maketitle
+
+
+%\input{abstract}
+
+
+\section{Introduction}
+\input{Introduction}
+
+\section{Off-line payment channels}
+\input{lightning-description}
+
+\section{Channel capacity measurement methodology}
+\input{measurement-methodology}
+
+\section{Implementation and tests}
+\input{implementation}
+
+\section{Experiment results}
+\input{experiment-results}
+
+\section{MeasureBIs}
+\input{measures_bis}
+
+\section{Related Work}
+\input{related}
+
+\section{Conclusions}
+\input{conclusions}
+
+\small
+
+\bibliographystyle{IEEEtran}
+\bibliography{./references} 
+
+\end{document}
