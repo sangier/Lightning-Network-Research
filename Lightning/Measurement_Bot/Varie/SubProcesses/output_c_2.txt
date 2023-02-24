@@ -1,0 +1,1 @@
+[lncli] rpc error: code = Unknown desc = funding amount is too large, the max channel size is: 0.16777215 BTC

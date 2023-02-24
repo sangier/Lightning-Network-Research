@@ -1,0 +1,11 @@
+---------------BEGIN LND CIPHER SEED---------------
+ 1. absorb    2. genre     3. glow      4. state
+ 5. wait      6. swing     7. damage    8. certain
+ 9. month    10. chest    11. club     12. increase
+13. tonight  14. bacon    15. brush    16. stuff
+17. author   18. awkward  19. swap     20. blush
+21. visual   22. trip     23. country  24. pole
+---------------END LND CIPHER SEED-----------------
+
+
+https://medium.com/shyft-network-media/understanding-trie-databases-in-ethereum-9f03d2c3325d

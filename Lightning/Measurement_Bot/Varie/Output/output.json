@@ -1,0 +1,5 @@
+{
+	"payment_error": "unable to route payment to destination: TemporaryChannelFailure(update=(*lnwire.ChannelUpdate)(0xc0017834a0)({\n Signature: (lnwire.Sig) (len=64 cap=64) {\n  00000000  9d 51 99 4b 50 c1 db 69  0f 25 42 88 16 78 80 9f  |.Q.KP..i.%B..x..|\n  00000010  1d c0 4b 49 5b 02 25 b2  2a 9b 1b 70 11 36 8d 6a  |..KI[.%.*..p.6.j|\n  00000020  46 5c 34 da 5f ba cd 9f  7d 57 97 32 86 27 f0 bb  |F\\4._...}W.2.'..|\n  00000030  61 e4 3f 25 d3 c1 62 d3  2c 5b 9e c8 c1 9f 7e 88  |a.?%..b.,[....~.|\n },\n ChainHash: (chainhash.Hash) (len=32 cap=32) 000000000933ea01ad0ee984209779baaec3ced90fa3f408719526f8d77f4943,\n ShortChannelID: (lnwire.ShortChannelID) 1480451:9:0,\n Timestamp: (uint32) 1551283199,\n Flags: (lnwire.ChanUpdateFlag) 256,\n TimeLockDelta: (uint16) 144,\n HtlcMinimumMsat: (lnwire.MilliSatoshi) 1000 mSAT,\n BaseFee: (uint32) 1000,\n FeeRate: (uint32) 1,\n ExtraOpaqueData: ([]uint8) (len=8 cap=1536) {\n  00000000  00 00 00 00 35 1b 94 c0                           |....5...|\n }\n})\n)",
+	"payment_preimage": "",
+	"payment_route": null
+}

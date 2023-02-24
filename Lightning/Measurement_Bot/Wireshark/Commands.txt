@@ -1,0 +1,7 @@
+tcpdump port 18333 or port 9735 -w dupm1.pcap
+
+tcpdump port 18533 or port 9935 -w dumpv2.pcap
+
+tcpdump port 18433 or port 9835 -w dumpv3.pcap
+
+tcpdump port 18633 or port 9945 -w dumpv4.pcap

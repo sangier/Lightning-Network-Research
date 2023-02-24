@@ -1,0 +1,4094 @@
+{
+    "channels": [
+        {
+            "Capacity": 3000000, 
+            "MeasurementTime": 28.51397681236267, 
+            "EstimatedCapacity": 3000000, 
+            "Channel_ID": "573079754137927680", 
+            "Node2_pub_key": "035f813598df61688b7eff80d546b2ba200bb00c1726bf32f44b692cc98a3580cd", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "521213:1372:0"
+        }, 
+        {
+            "Capacity": 100000, 
+            "MeasurementTime": 32.08076500892639, 
+            "EstimatedCapacity": 100000, 
+            "Channel_ID": "575857120563232769", 
+            "Node2_pub_key": "027ba5217fecd12ebb621e51b88b8c9640cce659bd894f4c8e820e09173826fca2", 
+            "ShortChannelID": "523739:2189:1", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 1000000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -1, 
+            "Channel_ID": "577534975268945920", 
+            "Node2_pub_key": "0351e197ce9dda4cf37a228a7d5f7b3ab0f9e386ae833412fd2da5528fbc2bd037", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 1000000, 
+            "MeasurementTime": 61.763805866241455, 
+            "EstimatedCapacity": 1000000, 
+            "Channel_ID": "577553666952593409", 
+            "Node2_pub_key": "03144fcc73cea41a002b2865f98190ab90e4ff58a2ce24d3870f5079081e42922d", 
+            "ShortChannelID": "525282:1391:1", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 100000, 
+            "MeasurementTime": 22.861109972000122, 
+            "EstimatedCapacity": 101000, 
+            "Channel_ID": "579772481353547776", 
+            "Node2_pub_key": "03d4d48ecccfe3f6a062f9ea3d948109ac008f4fdf8579607f20259eea1613c807", 
+            "Channel_direction": 1, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 100000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -1, 
+            "Channel_ID": "581230433779122176", 
+            "Node2_pub_key": "02de9511923b20bae5823ed5113287ae6d272e5f587b46a57a04fec0c35c4354bc", 
+            "ShortChannelID": "", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 100000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -1, 
+            "Channel_ID": "592679648399851521", 
+            "Node2_pub_key": "03d17f740b52cc88d028c7abefdae8196de629e6f9920f2e27bedc8d091c5cd9a0", 
+            "Channel_direction": 1, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 100000, 
+            "MeasurementTime": 22.115283012390137, 
+            "EstimatedCapacity": 100000, 
+            "Channel_ID": "593174428710666241", 
+            "Node2_pub_key": "03829e914fc787d1f239dd05408565aa81ef69f52deefacb3b148761f13b97163d", 
+            "ShortChannelID": "539489:2341:1", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 195000, 
+            "MeasurementTime": 23.385629892349243, 
+            "EstimatedCapacity": 195000, 
+            "Channel_ID": "593552660617363456", 
+            "Node2_pub_key": "03487fa0212243e20cb6504d5b93a144d0bc4d83d3d8a083691037a8892f9e5522", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "539833:918:0"
+        }, 
+        {
+            "Capacity": 100000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -1, 
+            "Channel_ID": "593945186268741632", 
+            "Node2_pub_key": "02acdd667633b3e3c0d57feda90886b710e54c9107aa600a8a6db3d60491d15576", 
+            "ShortChannelID": "", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 3000000, 
+            "MeasurementTime": 18.757867097854614, 
+            "EstimatedCapacity": 3030000, 
+            "Channel_ID": "595727494686507008", 
+            "Node2_pub_key": "032b2b3f4abda9677bb9563e226c068d3a2456fb8b036635a81c9bcaa1671d1ada", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 200000, 
+            "MeasurementTime": 21.13125491142273, 
+            "EstimatedCapacity": 200000, 
+            "Channel_ID": "595827550184275969", 
+            "Node2_pub_key": "03783fe0ad682e695e1d132df84222066d483599b5b49b879a7c6aeb66f57adb56", 
+            "ShortChannelID": "541902:1056:1", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 100420, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "596613701057118209", 
+            "Node2_pub_key": "032d4baebebfdeab7a2ecef2fbe109cbef10de95f05aa54090fdb687789547dbf5", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 200000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "597298696769437697", 
+            "Node2_pub_key": "03783fe0ad682e695e1d132df84222066d483599b5b49b879a7c6aeb66f57adb56", 
+            "ShortChannelID": "", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 600000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "597298696769503233", 
+            "Node2_pub_key": "03783fe0ad682e695e1d132df84222066d483599b5b49b879a7c6aeb66f57adb56", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 536970, 
+            "MeasurementTime": 20.156620025634766, 
+            "EstimatedCapacity": 536970, 
+            "Channel_ID": "597301995226202112", 
+            "Node2_pub_key": "02fffb0baa1f8a64d92c8b4222278c33a9c16d0f37bba24104c678fd9e4e7f57d6", 
+            "ShortChannelID": "543243:279:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 120000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -1, 
+            "Channel_ID": "597513101473611777", 
+            "Node2_pub_key": "0356ed5f420a8cefe127aef9b3dba5f4b3ac74fe04d7aa9ef05d308ff5e7dbf5b3", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 250000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "598275063107878913", 
+            "Node2_pub_key": "030043d0a2cfb69d80867094eb030f8abde7a5dc36e1a0faece73e614cf779bde8", 
+            "ShortChannelID": "", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 4000000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "598566433656995841", 
+            "Node2_pub_key": "034955913a44e335be62b4e9ee33be036f72d150302163d2cd02ae6546ce9ce899", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 1000000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "598789634504589312", 
+            "Node2_pub_key": "0210a8a60f869a0054374540411e05d7461b6655a2e6f10e873d0e22715939fc56", 
+            "ShortChannelID": "", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 1100000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "599318499630186496", 
+            "Node2_pub_key": "02309f3556d51e9d855594762dcf68cb283fbfd7e48618b6cecb8cd90e2e34d8ad", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 1000000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "599389967908274176", 
+            "Node2_pub_key": "0204a2b95b4c208383d7f02e741a8bfd5b5b7e8bea8d1543b1255da8342d9f2c6b", 
+            "ShortChannelID": "", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 500000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "599945221239013377", 
+            "Node2_pub_key": "036b343eb46c5db996d3d1e2c6cc9742cbfa7e3b4146d4b4b0aef694b6d12960c8", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 100000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "600019988069548032", 
+            "Node2_pub_key": "02e7c42ae2952d7a71398e23535b53ffc60deb269acbc7c10307e6b797b91b1e79", 
+            "ShortChannelID": "", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 2000000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "600027684661624832", 
+            "Node2_pub_key": "0358b6d4e10b3a232b7b6f4acee3aab99b5f7f4e9a9e69bcecc875ea1e1a147681", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 150000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "600224497240047617", 
+            "Node2_pub_key": "03e5a594f574f845409d474c105c5d233291f94d1fba4ee6a4de595c576bd2f4e1", 
+            "ShortChannelID": "", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 1
+        }, 
+        {
+            "Capacity": 3000000, 
+            "MeasurementTime": 19.87893009185791, 
+            "EstimatedCapacity": 3000000, 
+            "Channel_ID": "600381727371231233", 
+            "Node2_pub_key": "02cffd722f871b8f064130d2879027c9b169a95ab6ccedbaea4ade7b5d0678ff67", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "546044:1433:1"
+        }, 
+        {
+            "Capacity": 100000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "600700585708486656", 
+            "Node2_pub_key": "030dff591fa1b0b4f9e31f4ef595624d6bf0e55a51bbb6949fe337de19c4033c1a", 
+            "ShortChannelID": "", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 1433511, 
+            "MeasurementTime": 31.03667116165161, 
+            "EstimatedCapacity": 279981, 
+            "Channel_ID": "600993055899582464", 
+            "Node2_pub_key": "024a8228d764091fce2ed67e1a7404f83e38ea3c7cb42030a2789e73cf3b341365", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "546600:2399:0"
+        }, 
+        {
+            "Capacity": 1000000, 
+            "MeasurementTime": 20.761055946350098, 
+            "EstimatedCapacity": 1000000, 
+            "Channel_ID": "601232749407764480", 
+            "Node2_pub_key": "03c436af41160a355fc1ed230a64f6a64bcbd2ae50f12171d1318f9782602be601", 
+            "ShortChannelID": "546818:1992:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 1
+        }, 
+        {
+            "Capacity": 500000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "601313013720285185", 
+            "Node2_pub_key": "0309869dc743430ecbe3f159bb7a1a44490778cbe8acc854fe71fb0b513753de36", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 500000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "601479039977390081", 
+            "Node2_pub_key": "0267586e510d80fab314fbfa091f383b775646e7a87bc9ed8cd59bcded50405d6a", 
+            "ShortChannelID": "", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 200000, 
+            "MeasurementTime": 20.224756002426147, 
+            "EstimatedCapacity": 200000, 
+            "Channel_ID": "601514224362258433", 
+            "Node2_pub_key": "0367492d91a9e452dc5dca730c8c9bb081c45f412a844d50e5a9992c0a7ccc431a", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "547074:1653:1"
+        }, 
+        {
+            "Capacity": 100000, 
+            "MeasurementTime": 21.27962589263916, 
+            "EstimatedCapacity": 10, 
+            "Channel_ID": "601745121819099136", 
+            "Node2_pub_key": "03f47ba61341a704b0910b6d1fc8a938bb97152e8df94dfc142816d2721b5d5c73", 
+            "ShortChannelID": "547284:1882:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 1
+        }, 
+        {
+            "Capacity": 500000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "601798997831647232", 
+            "Node2_pub_key": "02868e12f320073cad0c2959c42559fbcfd1aa326fcb943492ed7f02c9820aa399", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 300000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "602563158509486081", 
+            "Node2_pub_key": "033ac2f9f7ff643c235cc247c521663924aff73b26b38118a6c6821460afcde1b3", 
+            "ShortChannelID": "", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 2700000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -1, 
+            "Channel_ID": "602965579745067009", 
+            "Node2_pub_key": "03fc243a6301e51c213de54cdee092967f5fca95f9f1f025c97bf9ba1ba68356f5", 
+            "Channel_direction": 1, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 600000, 
+            "MeasurementTime": 14.450985193252563, 
+            "EstimatedCapacity": 473437, 
+            "Channel_ID": "603185482097491969", 
+            "Node2_pub_key": "03ad6cd751e6b91831a0ea19c0e84f54f17ac51b6a9d5d2e81663238701286186f", 
+            "ShortChannelID": "548594:2584:1", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 1
+        }, 
+        {
+            "Capacity": 110000, 
+            "MeasurementTime": 21.10382103919983, 
+            "EstimatedCapacity": 110000, 
+            "Channel_ID": "603228363000512513", 
+            "Node2_pub_key": "02433a4392aae169249949ba4af6658e1cc985cfaf87fd3898bf58f3a543b31dd1", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "548633:1814:1"
+        }, 
+        {
+            "Capacity": 100000, 
+            "MeasurementTime": 21.990640878677368, 
+            "EstimatedCapacity": 100000, 
+            "Channel_ID": "603381195030331392", 
+            "Node2_pub_key": "020164d1a57b1af439a3a682c14369d6381b9e41bea956e42b8e9ea2b375cb85d0", 
+            "ShortChannelID": "548772:495:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 300000, 
+            "MeasurementTime": 21.89396595954895, 
+            "EstimatedCapacity": 300000, 
+            "Channel_ID": "603455961858441217", 
+            "Node2_pub_key": "02ea01e2476f9c6c69f720e369aa302b43e5c101423d7a5dc9f0e5834d1b152fb7", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "548840:1066:1"
+        }, 
+        {
+            "Capacity": 2000000, 
+            "MeasurementTime": 18.002781867980957, 
+            "EstimatedCapacity": 2000000, 
+            "Channel_ID": "604198132276199424", 
+            "Node2_pub_key": "02aaaacf06de5c658fd1544301fe9e41670d079e942382d584db9a372d504b72be", 
+            "ShortChannelID": "549515:2119:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 535000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "604370755577249792", 
+            "Node2_pub_key": "02e867c794a0544032eb2fb1cc4a29132a692363006781ed98567b474cf0e9343d", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "549672:1745:0"
+        }, 
+        {
+            "Capacity": 750000, 
+            "MeasurementTime": 21.4182288646698, 
+            "EstimatedCapacity": 750000, 
+            "Channel_ID": "604940302591918081", 
+            "Node2_pub_key": "02eae56f155bae8a8eaab82ddc6fef04d5a79a6b0b0d7bcdd0b60d52f3015af031", 
+            "ShortChannelID": "550190:1615:1", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 100000, 
+            "MeasurementTime": 21.624828100204468, 
+            "EstimatedCapacity": 100000, 
+            "Channel_ID": "605138214622199808", 
+            "Node2_pub_key": "036ea2480936850c5d64a3266ae25e70e479f2fc54fb70f44e1c938d10d8173bf3", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "550370:658:0"
+        }, 
+        {
+            "Capacity": 294648, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -1, 
+            "Channel_ID": "605573621278965760", 
+            "Node2_pub_key": "036948d13fe9c468169c6a14c5388a74198b485a8917bbb30dcd6a907e0cf68dd7", 
+            "ShortChannelID": "", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 1000000, 
+            "MeasurementTime": 18.926416873931885, 
+            "EstimatedCapacity": 1000000, 
+            "Channel_ID": "605867190857302016", 
+            "Node2_pub_key": "02c38022478fc46244e229be5bfa3d3de94a009c64cd380bad5bfad8d8e2120917", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "551033:1053:0"
+        }, 
+        {
+            "Capacity": 500000, 
+            "MeasurementTime": 21.58691096305847, 
+            "EstimatedCapacity": 505000, 
+            "Channel_ID": "605987037657104385", 
+            "Node2_pub_key": "02ec3e575a0641fc419b783f48c4ec3a330c80ddd18b6c4ec0c653a0fb704df6ed", 
+            "ShortChannelID": "", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 100000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "607625309992321025", 
+            "Node2_pub_key": "026d9c78088e1cdf96c5478aeadb1d83e981f6a9ea03113fa4182bed3d91c697ed", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 1500000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "607686882649702401", 
+            "Node2_pub_key": "02e5067afb7be9470214acc10d7b3ebc39e84cd7de57d86cc3598514fa6d821229", 
+            "ShortChannelID": "", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 100000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -1, 
+            "Channel_ID": "607689081596870657", 
+            "Node2_pub_key": "037a9a36d8065bbe43970bd9c3388d304432c3bd427d7c3996b167de9218fabf08", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 100000, 
+            "MeasurementTime": 22.818411111831665, 
+            "EstimatedCapacity": 100000, 
+            "Channel_ID": "607781440756645888", 
+            "Node2_pub_key": "028303182c9885da93b3b25c9621d22cf34475e63c123942e402ab530c0556e675", 
+            "ShortChannelID": "552774:3424:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 662973, 
+            "MeasurementTime": 27.766316890716553, 
+            "EstimatedCapacity": 119127, 
+            "Channel_ID": "607935372267225088", 
+            "Node2_pub_key": "03dab87ff8635982815c4567eb58af48f9944d11c56beb12b91e1049aaea06e187", 
+            "Channel_direction": 1, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "564015:2021:0"
+        }, 
+        {
+            "Capacity": 120636, 
+            "MeasurementTime": 19.734516143798828, 
+            "EstimatedCapacity": 120636, 
+            "Channel_ID": "607944168423751681", 
+            "Node2_pub_key": "029ccbe1f4835d0fd4258d215a03a3ba6860ff2c49ab58b9207aa27455c5d1815c", 
+            "ShortChannelID": "552922:2603:1", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 500000, 
+            "MeasurementTime": 19.49801993370056, 
+            "EstimatedCapacity": 500000, 
+            "Channel_ID": "607963959585079297", 
+            "Node2_pub_key": "023e6cb005e98137ec507aa64eb7f7049ccf246b4fca4d169f7c8ac8d3f856193c", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "552940:1871:1"
+        }, 
+        {
+            "Capacity": 200000, 
+            "MeasurementTime": 20.395341873168945, 
+            "EstimatedCapacity": 10, 
+            "Channel_ID": "608158573181272064", 
+            "Node2_pub_key": "03b036004195f1f5010b8da057495d903c39351c27357c25c3e1f0efa086106e8c", 
+            "ShortChannelID": "553117:2452:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 1
+        }, 
+        {
+            "Capacity": 200000, 
+            "MeasurementTime": 20.55547308921814, 
+            "EstimatedCapacity": 200000, 
+            "Channel_ID": "608213548721897473", 
+            "Node2_pub_key": "03c2abfa93eacec04721c019644584424aab2ba4dff3ac9bdab4e9c97007491dda", 
+            "Channel_direction": 1, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "553167:1830:1"
+        }, 
+        {
+            "Capacity": 150000, 
+            "MeasurementTime": 21.636761903762817, 
+            "EstimatedCapacity": 150000, 
+            "Channel_ID": "608437849031901184", 
+            "Node2_pub_key": "035f3a87393269e9bfb594f9ed6d2d3551ff527889be510429a8fa99736d710fdb", 
+            "ShortChannelID": "553371:883:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 100000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -1, 
+            "Channel_ID": "608539004072099841", 
+            "Node2_pub_key": "0252fbfedfeea648405ea36988f6fee4de36adf87e99371e4e34d1a310f8a873ec", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 1500000, 
+            "MeasurementTime": 19.05096983909607, 
+            "EstimatedCapacity": 1500000, 
+            "Channel_ID": "608781996189548544", 
+            "Node2_pub_key": "02110544e20886a1f43c61490300fef4acaf18126633da94558a1f36735db45539", 
+            "ShortChannelID": "553684:1160:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 1000000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "609079963890876416", 
+            "Node2_pub_key": "02480676e5bda7b6c902e316c5c57b14cb7a855c287dc927f8c42abba503d64bff", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 200000, 
+            "MeasurementTime": 20.653561115264893, 
+            "EstimatedCapacity": 200000, 
+            "Channel_ID": "609390026088251393", 
+            "Node2_pub_key": "0225f559ad1bcdd275d06765d7bfa6b1e332b463629bcb80f6ddddb5d8ea30c458", 
+            "ShortChannelID": "554237:680:1", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 400000, 
+            "MeasurementTime": 22.142501831054688, 
+            "EstimatedCapacity": 400000, 
+            "Channel_ID": "609767158582673409", 
+            "Node2_pub_key": "0238107198ba9e0e5fd5a0c67eac88e3633072885397c5925205891f8985e52078", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "554580:773:1"
+        }, 
+        {
+            "Capacity": 100000, 
+            "MeasurementTime": 20.043264150619507, 
+            "EstimatedCapacity": 100000, 
+            "Channel_ID": "609779253213069312", 
+            "Node2_pub_key": "02a5c7b9a2be3ab3d8c1647f991bf5f0757651a0b92f4133dc31e52b3315881adf", 
+            "ShortChannelID": "554591:811:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 161561, 
+            "MeasurementTime": 30.28258204460144, 
+            "EstimatedCapacity": 87090, 
+            "Channel_ID": "609792447460278272", 
+            "Node2_pub_key": "0396155d18e9db01f15f760d42b248cc1dd7e8dde6e0cde1085493147ece520a1c", 
+            "Channel_direction": 1, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "554603:2454:0"
+        }, 
+        {
+            "Capacity": 100000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -1, 
+            "Channel_ID": "609848522485989377", 
+            "Node2_pub_key": "03aedc5302d3fa4c33eb84f98287a78268d0cdfa70624f7708664264880f6b482c", 
+            "ShortChannelID": "", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 1
+        }, 
+        {
+            "Capacity": 1000000, 
+            "MeasurementTime": 18.524452924728394, 
+            "EstimatedCapacity": 1000000, 
+            "Channel_ID": "609880408374444032", 
+            "Node2_pub_key": "031118c94f180709cb566f86396e345f7ad800a0be2d477b0c930a9677da91e46b", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "554683:2209:0"
+        }, 
+        {
+            "Capacity": 500000, 
+            "MeasurementTime": 22.702636003494263, 
+            "EstimatedCapacity": 500000, 
+            "Channel_ID": "610035439449341952", 
+            "Node2_pub_key": "02b8db36a01866d78cba98109886495f3c13c4b3668a8328b582a0c4fa460b4e8d", 
+            "ShortChannelID": "554824:1223:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 100000, 
+            "MeasurementTime": 21.12844204902649, 
+            "EstimatedCapacity": 100000, 
+            "Channel_ID": "610261938882805760", 
+            "Node2_pub_key": "0230465203e24e014c0879067908f24cee03ef708e5a1b6fa1c2f816c6a5d41edf", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "555030:1805:0"
+        }, 
+        {
+            "Capacity": 300000, 
+            "MeasurementTime": 20.10020089149475, 
+            "EstimatedCapacity": 300000, 
+            "Channel_ID": "610401576882536449", 
+            "Node2_pub_key": "023c1f3d0efc623da2829a41426b324245133f99840363435c2e98086de3494bb7", 
+            "ShortChannelID": "555157:2156:1", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 600000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "610481841235165185", 
+            "Node2_pub_key": "02f3c32b3ecd2e258bdbeeab5748a47fce7f8b6ba4e169511fee5555f9c6ed94c6", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 373937, 
+            "MeasurementTime": 20.502686977386475, 
+            "EstimatedCapacity": 373937, 
+            "Channel_ID": "610570901582905344", 
+            "Node2_pub_key": "0234d70cf65a4e8974d3d49e23ec7b9792877f783f2f5dfd3882422aada18a916c", 
+            "ShortChannelID": "555311:778:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 250000, 
+            "MeasurementTime": 20.78042984008789, 
+            "EstimatedCapacity": 250000, 
+            "Channel_ID": "610731430358810624", 
+            "Node2_pub_key": "03317598ee590de12b4e267982ba2b3250cc6059549203b6d658b29ace439c63fc", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "555457:1972:0"
+        }, 
+        {
+            "Capacity": 1000000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -1, 
+            "Channel_ID": "610742425409552384", 
+            "Node2_pub_key": "026d92e8c39aa2c08d51b56647508be2c8de32e71a69ca2f3f5880c46c5d8e0ea7", 
+            "ShortChannelID": "", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 500000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -1, 
+            "Channel_ID": "610869968754180097", 
+            "Node2_pub_key": "0238bb15a12b3da5df3c18e0bd268808f2bf352f58e7fb68a279a41d47f521ea00", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 622587, 
+            "MeasurementTime": 34.74836492538452, 
+            "EstimatedCapacity": 578811, 
+            "Channel_ID": "611126155095638016", 
+            "Node2_pub_key": "03842a085b8b89da9db708b83aae8e9baff7a0a6f34368a439aa8d2ca3e408a662", 
+            "ShortChannelID": "555816:2925:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 1000000, 
+            "MeasurementTime": 20.00804591178894, 
+            "EstimatedCapacity": 1000000, 
+            "Channel_ID": "611206419339935745", 
+            "Node2_pub_key": "0376a33371c17cd4fab6c1202f8031b4c899a53cc89739dd411d5b924afcd6cc7f", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "555889:1330:1"
+        }, 
+        {
+            "Capacity": 720207, 
+            "MeasurementTime": 19.922872066497803, 
+            "EstimatedCapacity": 720207, 
+            "Channel_ID": "611537372397699073", 
+            "Node2_pub_key": "02251c2b931203848152b1c52e63ee91c74f53b0bfa8dd634a9b016d7b77c5afa9", 
+            "ShortChannelID": "556190:2212:1", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 1000000, 
+            "MeasurementTime": 18.78851294517517, 
+            "EstimatedCapacity": 1000000, 
+            "Channel_ID": "612133307659583488", 
+            "Node2_pub_key": "033181a72d4d61c6f3138240d98994e9553726bc65c892e9fe7a7b728a54005a36", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "556732:1596:0"
+        }, 
+        {
+            "Capacity": 250000, 
+            "MeasurementTime": 28.165180921554565, 
+            "EstimatedCapacity": 250000, 
+            "Channel_ID": "612231164139012097", 
+            "Node2_pub_key": "02c0b38022846c6b6f45b30031859ac7c5fb0c67ec8ed5cce8409c4b438c267ffe", 
+            "ShortChannelID": "556816:1875:1", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 150000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "612280642143387649", 
+            "Node2_pub_key": "02527dc14bac8d8c959e9ac208813b6df5bc278da5d6f1cdf74f6bdd23aab1ea71", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 3000000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -1, 
+            "Channel_ID": "612303731929186305", 
+            "Node2_pub_key": "03030bf668f974e30e8e7ad8bd7445358afd86dd879bc8700e52cadd43a6e942f9", 
+            "ShortChannelID": "", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 400000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -1, 
+            "Channel_ID": "612365304600985600", 
+            "Node2_pub_key": "0257bff646569a7ce93b640ceccb97f01c2c521d012f080d76a34f2285a3fec0ee", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 522000, 
+            "MeasurementTime": 18.810064792633057, 
+            "EstimatedCapacity": 522000, 
+            "Channel_ID": "612377399306944512", 
+            "Node2_pub_key": "03525a26e79adf5793bb9e2747ea7d0d925bf8157362148f3b5da6e1c855be07bf", 
+            "ShortChannelID": "556954:2603:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 1234567, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "612610495735005185", 
+            "Node2_pub_key": "020e56a13babec99abdc2c4afbe34e1e44230d79b234c059fd4ff1e367765fdb1b", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 4194303, 
+            "MeasurementTime": 18.436038970947266, 
+            "EstimatedCapacity": 4194303, 
+            "Channel_ID": "612686361958154240", 
+            "Node2_pub_key": "027ce055380348d7812d2ae7745701c9f93e70c1adeb2657f053f91df4f2843c71", 
+            "ShortChannelID": "556816:1904:1", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 210000, 
+            "MeasurementTime": 21.13027596473694, 
+            "EstimatedCapacity": 210000, 
+            "Channel_ID": "612828199031734272", 
+            "Node2_pub_key": "03077fb48968df38f9decd91c5f4e100c093cbd6d848c2d541f5d1b454db653760", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "557364:1953:0"
+        }, 
+        {
+            "Capacity": 399268, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -1, 
+            "Channel_ID": "612856786307186688", 
+            "Node2_pub_key": "029442ed09fe11636ed8f01f982096868877908cf28100407c2c196ec30ac8a00a", 
+            "ShortChannelID": "", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 3000000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "612877677044367361", 
+            "Node2_pub_key": "02628d8e2f33869db7417c8da48947d441dcd839e0a3ce5e91f9c790d1131cf9f7", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 522000, 
+            "MeasurementTime": 19.192769050598145, 
+            "EstimatedCapacity": 522000, 
+            "Channel_ID": "613365860146610177", 
+            "Node2_pub_key": "03525a26e79adf5793bb9e2747ea7d0d925bf8157362148f3b5da6e1c855be07bf", 
+            "ShortChannelID": "556954:2603:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 1000000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "613970591567773696", 
+            "Node2_pub_key": "02ad3fea735a00896607a626caddb03338f52c0651670bb05815401e5e74cc4cee", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 500000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "614421391333916673", 
+            "Node2_pub_key": "02875ac2c27835990ef62e5755c34264b2c39f51a41525adc5e52a7f94b3a19f8b", 
+            "ShortChannelID": "", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 100000, 
+            "MeasurementTime": 24.379544019699097, 
+            "EstimatedCapacity": 100000, 
+            "Channel_ID": "614424689846255617", 
+            "Node2_pub_key": "02c960a2f65ee043600bd6e98898d4d6ba92d463bb04b5758b9b704d2e7750992d", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "558816:900:1"
+        }, 
+        {
+            "Capacity": 365964, 
+            "MeasurementTime": 20.827282905578613, 
+            "EstimatedCapacity": 365964, 
+            "Channel_ID": "614426888897953793", 
+            "Node2_pub_key": "02875ac2c27835990ef62e5755c34264b2c39f51a41525adc5e52a7f94b3a19f8b", 
+            "ShortChannelID": "558813:1244:1", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 300000, 
+            "MeasurementTime": 21.262753009796143, 
+            "EstimatedCapacity": 300000, 
+            "Channel_ID": "614429087930384384", 
+            "Node2_pub_key": "020d1c4a7bb8dba65e7214f805f73a719585ab32b7925b51ce0ab5cfeeadd6a673", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "558820:1474:0"
+        }, 
+        {
+            "Capacity": 100000, 
+            "MeasurementTime": 20.68267011642456, 
+            "EstimatedCapacity": 100000, 
+            "Channel_ID": "614517048916508672", 
+            "Node2_pub_key": "0252caf93a748b4a63778c28057ee4736b64fcd9706978ab90b6ce5a4642543961", 
+            "ShortChannelID": "558900:2327:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 200000, 
+            "MeasurementTime": 22.417871952056885, 
+            "EstimatedCapacity": 10, 
+            "Channel_ID": "614750145280081920", 
+            "Node2_pub_key": "03cf8394d3976b234b6e0f4a36a6d4ed44f5d117fd7010c18a8e9b7f989d14302b", 
+            "Channel_direction": 1, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "559112:778:0"
+        }, 
+        {
+            "Capacity": 100000, 
+            "MeasurementTime": 20.623743057250977, 
+            "EstimatedCapacity": 10, 
+            "Channel_ID": "614799623300972544", 
+            "Node2_pub_key": "03ecc0c608148e7318364aaf519e9da623bb67802afc2896652ffb8006aae1e505", 
+            "ShortChannelID": "559157:742:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 1
+        }, 
+        {
+            "Capacity": 355426, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "615170158766522368", 
+            "Node2_pub_key": "030995c0c0217d763c2274aa6ed69a0bb85fa2f7d118f93631550f3b6219a577f5", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 100000, 
+            "MeasurementTime": 22.45613384246826, 
+            "EstimatedCapacity": 100000, 
+            "Channel_ID": "615227333420253185", 
+            "Node2_pub_key": "02458b08c5820784cd60a9b71a9b45cad5ea90fb63491f57370b7259bae02ffe60", 
+            "ShortChannelID": "559546:2208:1", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 1300000, 
+            "MeasurementTime": 20.741093158721924, 
+            "EstimatedCapacity": 1300000, 
+            "Channel_ID": "615348279725916161", 
+            "Node2_pub_key": "0366d8a3608b352daca0d29c6c0ca464be81bef261153339b2571da8e1f7ff8228", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "559656:2614:1"
+        }, 
+        {
+            "Capacity": 4000000, 
+            "MeasurementTime": 17.35982608795166, 
+            "EstimatedCapacity": 4000000, 
+            "Channel_ID": "615415349827534848", 
+            "Node2_pub_key": "03205b045b0126c0d3fb826a38b9befc4babf51689544908c704d8e51fdec75ffb", 
+            "ShortChannelID": "556817:922:1", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 4000000, 
+            "MeasurementTime": 3.089946985244751, 
+            "EstimatedCapacity": 4000000, 
+            "Channel_ID": "615416449362427904", 
+            "Node2_pub_key": "03205b045b0126c0d3fb826a38b9befc4babf51689544908c704d8e51fdec75ffb", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "556817:922:1"
+        }, 
+        {
+            "Capacity": 1000000, 
+            "MeasurementTime": 23.494261026382446, 
+            "EstimatedCapacity": 1000000, 
+            "Channel_ID": "615827666829967360", 
+            "Node2_pub_key": "029d48dc90dd482d3c71596b9ec1591f2f90840f8a33f4063c4c8891d41376b40a", 
+            "ShortChannelID": "560092:3138:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 421100, 
+            "MeasurementTime": 23.37559223175049, 
+            "EstimatedCapacity": 421100, 
+            "Channel_ID": "615972802229567488", 
+            "Node2_pub_key": "0346b0f7d0a03791392036c5ac20c7b73dd4e4c0b207b62da24444cb37631f27d4", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "560224:1074:0"
+        }, 
+        {
+            "Capacity": 300000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "615985996480512001", 
+            "Node2_pub_key": "0302dcdbf91e5bc2cf349d5be50008ae82cf4fa0c16dc8965367a43f0563de4eea", 
+            "ShortChannelID": "", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 350000, 
+            "MeasurementTime": 20.0870201587677, 
+            "EstimatedCapacity": 10, 
+            "Channel_ID": "616294959139127297", 
+            "Node2_pub_key": "03a46be38d068c2bc5af3fc13da840790ed5643f3d6d27e5e34d67ed2aec16ce67", 
+            "Channel_direction": 1, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "560517:1114:1"
+        }, 
+        {
+            "Capacity": 990000, 
+            "MeasurementTime": 28.45529794692993, 
+            "EstimatedCapacity": 69609, 
+            "Channel_ID": "616849113056346112", 
+            "Node2_pub_key": "024b9a1fa8e006f1e3937f65f66c408e6da8e1ca728ea43222a7381df1cc449605", 
+            "ShortChannelID": "561021:1981:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 2500000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "616857909120925696", 
+            "Node2_pub_key": "020f0d93c700cf5cf556e61828fab473a5c30ee6eb927ae36a130cc1c57326d21a", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 980000, 
+            "MeasurementTime": 20.824522018432617, 
+            "EstimatedCapacity": 10, 
+            "Channel_ID": "616861207598727169", 
+            "Node2_pub_key": "03f38829a9b9131e3a0887ca21fd042f2d07bd7f151fffefcc3d1585f24c1b3e7e", 
+            "ShortChannelID": "561032:676:1", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 1
+        }, 
+        {
+            "Capacity": 350000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -1, 
+            "Channel_ID": "616944770539847681", 
+            "Node2_pub_key": "03b9a80dff08738625d887ed406556c009698c7ec182c0ce1e8494f77385247218", 
+            "Channel_direction": 1, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 1000000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -1, 
+            "Channel_ID": "616988750995521536", 
+            "Node2_pub_key": "02de367d7c2610a3f2d5b831ffdf6b5fe07b5b47a539b68b2976b5a807777d1456", 
+            "ShortChannelID": "", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 295000, 
+            "MeasurementTime": 19.957808017730713, 
+            "EstimatedCapacity": 10, 
+            "Channel_ID": "617065716869955585", 
+            "Node2_pub_key": "03e61afe293cc14394a1495bacd187910adc6a04d26dc14c050c18f93afa81dfeb", 
+            "Channel_direction": 1, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "561218:2331:1"
+        }, 
+        {
+            "Capacity": 1420000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "617374679589519361", 
+            "Node2_pub_key": "02f302189b8c0028aa919e5441a5d7e80c82ebdff421219e34408acea58274a823", 
+            "ShortChannelID": "", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 300000, 
+            "MeasurementTime": 21.224031925201416, 
+            "EstimatedCapacity": 300000, 
+            "Channel_ID": "617788095933579264", 
+            "Node2_pub_key": "02dfec60f3cafbe1b34951073e1956e1bfd72f7302ed3e68d1f69a24a479fa9329", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "561875:1174:0"
+        }, 
+        {
+            "Capacity": 800000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "617803489180581889", 
+            "Node2_pub_key": "031e47777e35627e1018bc886ee24f81633a54527cfce24df0183a8fee7b3a24ef", 
+            "ShortChannelID": "", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 300000, 
+            "MeasurementTime": 20.120850801467896, 
+            "EstimatedCapacity": 10, 
+            "Channel_ID": "617848569047613441", 
+            "Node2_pub_key": "0396cbb6ad2d46c372693ad375e2b1cb22c5b83046b712cfb37319ae3d26548193", 
+            "Channel_direction": 1, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "561930:785:1"
+        }, 
+        {
+            "Capacity": 3182600, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "617910141789011968", 
+            "Node2_pub_key": "03c6483f5b2d0bc00884ac08b0ddb40d239de338a1f74746bc949403d5e90ad571", 
+            "ShortChannelID": "", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 1
+        }, 
+        {
+            "Capacity": 1000000, 
+            "MeasurementTime": 19.891464948654175, 
+            "EstimatedCapacity": 1000000, 
+            "Channel_ID": "617967316396474369", 
+            "Node2_pub_key": "02cca6c5c966fcf61d121e3a70e03a1cd9eeeea024b26ea666ce974d43b242e636", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "562038:2205:1"
+        }, 
+        {
+            "Capacity": 500000, 
+            "MeasurementTime": 20.106210947036743, 
+            "EstimatedCapacity": 10, 
+            "Channel_ID": "618144337669259264", 
+            "Node2_pub_key": "03c4909cb262a7c7a4d88ad216086783985153b6bd837e99768b260b4a4d315c38", 
+            "ShortChannelID": "562199:690:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 1
+        }, 
+        {
+            "Capacity": 151563, 
+            "MeasurementTime": 21.64209818840027, 
+            "EstimatedCapacity": 151563, 
+            "Channel_ID": "618150934845652992", 
+            "Node2_pub_key": "033b2bd88e5ced63a84490f7268c0c402bc335d822e866109ba9569309265ee623", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "562205:2317:0"
+        }, 
+        {
+            "Capacity": 777990, 
+            "MeasurementTime": 23.759193181991577, 
+            "EstimatedCapacity": 777990, 
+            "Channel_ID": "618304866441035776", 
+            "Node2_pub_key": "034282d9e7c7e9b46a95f4f4a11cbe805b168f43fc2a49b86d42af060947795618", 
+            "ShortChannelID": "562345:1821:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 200000, 
+            "MeasurementTime": 20.600495100021362, 
+            "EstimatedCapacity": 200000, 
+            "Channel_ID": "618324657616846848", 
+            "Node2_pub_key": "035b017b7e0e490ded4d70efee7b131a490249672265de1bdb4b31df465e6a1b43", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "562363:1310:0"
+        }, 
+        {
+            "Capacity": 300000, 
+            "MeasurementTime": 21.3907310962677, 
+            "EstimatedCapacity": 10, 
+            "Channel_ID": "618606132549255169", 
+            "Node2_pub_key": "03a8dfd2a1c7fb5bf0f76fd9f2b02252c095ddfce0af0d238d4b20ba8491bee6e1", 
+            "ShortChannelID": "562619:634:1", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 1
+        }, 
+        {
+            "Capacity": 1254781, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "618621525835055104", 
+            "Node2_pub_key": "036e8a8efeb26f3cffce99f462839ef6ea3b1691d569d59c402be0d3d6cef9b79c", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 1000000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "618636918942793728", 
+            "Node2_pub_key": "02bfcdab693d131125e1ea8161df97d47db6cc70106261af15f3b8c829f112c010", 
+            "ShortChannelID": "", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 380000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "618657809651073025", 
+            "Node2_pub_key": "02e0e951b20e9f7c35b840722abfe82337f7f65b4953e063a29c46e93c43dc4706", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 1000000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "618710586213007361", 
+            "Node2_pub_key": "03d33299897473544b10ff4a3d2cf3d0db2bd68066c00b18225cbb817976695a86", 
+            "ShortChannelID": "", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 1
+        }, 
+        {
+            "Capacity": 100000, 
+            "MeasurementTime": 22.333177089691162, 
+            "EstimatedCapacity": 10, 
+            "Channel_ID": "618745770599251968", 
+            "Node2_pub_key": "03b333cebac0862d2e35a6c7fa916a17dd78bdfdfb8278a93897c1e2e129074f04", 
+            "Channel_direction": 1, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "562746:1752:0"
+        }, 
+        {
+            "Capacity": 3500000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "618823835843559424", 
+            "Node2_pub_key": "03f9f50529564517dad007ce0f711ec0bf0a83d9cb4dd00d78a6e5cc3238d5d448", 
+            "ShortChannelID": "", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 1
+        }, 
+        {
+            "Capacity": 2180421, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "618904100217225216", 
+            "Node2_pub_key": "02247d9db0dfafea745ef8c9e161eb322f73ac3f8858d8730b6fd97254747ce76b", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 2180421, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "618906299227176960", 
+            "Node2_pub_key": "03e5ea100e6b1ef3959f79627cb575606b19071235c48b3e7f9808ebcd6d12e87d", 
+            "ShortChannelID": "", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 1
+        }, 
+        {
+            "Capacity": 2180421, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "618906299238907904", 
+            "Node2_pub_key": "028a8e53d70bc0eb7b5660943582f10b7fd6c727a78ad819ba8d45d6a638432c49", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 2180421, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "618906299243036672", 
+            "Node2_pub_key": "022755c3ff4e5a1d71f573cda4b315887fc00a9e5c9ea9a847d939f3e517e69a70", 
+            "ShortChannelID": "", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 2180421, 
+            "MeasurementTime": 18.35133409500122, 
+            "EstimatedCapacity": 10, 
+            "Channel_ID": "618906299245461504", 
+            "Node2_pub_key": "039edc94987c8f3adc28dab455efc00dea876089a120f573bd0b03c40d9d3fb1e1", 
+            "Channel_direction": 1, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "562892:967:0"
+        }, 
+        {
+            "Capacity": 2500000, 
+            "MeasurementTime": 22.432690858840942, 
+            "EstimatedCapacity": 2500000, 
+            "Channel_ID": "618955777263730688", 
+            "Node2_pub_key": "0200c06eaaef0ffc98447b5f0c5810c8325fc50fba4c509ebf558d67d1f088bdad", 
+            "ShortChannelID": "562937:891:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 1947248, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "619039340243058689", 
+            "Node2_pub_key": "031ce29116eab7edd66148f5169f1fb658fad62bdc5091221ab895fe5d36db00b2", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 1947248, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "619039340245549056", 
+            "Node2_pub_key": "03da1c27ca77872ac5b3e568af30673e599a47a5e4497f85c7b5da42048807b3ed", 
+            "ShortChannelID": "", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 1
+        }, 
+        {
+            "Capacity": 1947248, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "619039340251840512", 
+            "Node2_pub_key": "02c91d6aa51aa940608b497b6beebcb1aec05be3c47704b682b3889424679ca490", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 1947248, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "619039340253937664", 
+            "Node2_pub_key": "0303a518845db99994783f606e6629e705cfaf072e5ce9a4d8bf9e249de4fbd019", 
+            "ShortChannelID": "", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 1947248, 
+            "MeasurementTime": 19.65667486190796, 
+            "EstimatedCapacity": 10, 
+            "Channel_ID": "619039340261343232", 
+            "Node2_pub_key": "03fb822818be083e0a954db85257a2911a3d55458b8c1ea4124b157e865a836d12", 
+            "Channel_direction": 1, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "563013:2629:0"
+        }, 
+        {
+            "Capacity": 1947248, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "619039340264488960", 
+            "Node2_pub_key": "022c260f9ad58196af280c80a96ec9eabf6404df59ff1a7553b0f381c875a29ba0", 
+            "ShortChannelID": "", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 600000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "619230655190859777", 
+            "Node2_pub_key": "02c16149d3ce6ccd670e2b719c9093f3cf61e3c775cd2f9fa879c97924c4b9d3a6", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 170000, 
+            "MeasurementTime": 9.091288089752197, 
+            "EstimatedCapacity": 170000, 
+            "Channel_ID": "619232854295052289", 
+            "Node2_pub_key": "037f990e61acee8a7697966afd29dd88f3b1f8a7b14d625c4f8742bd952003a590", 
+            "ShortChannelID": "563189:2434:1", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 2000000, 
+            "MeasurementTime": 18.811929941177368, 
+            "EstimatedCapacity": 2000000, 
+            "Channel_ID": "619232854301474816", 
+            "Node2_pub_key": "034b51f42ab2d2ff03b5a284ced8477798f5f1aab0b87229c9fd5295f1456a1df4", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "563189:2532:0"
+        }, 
+        {
+            "Capacity": 700000, 
+            "MeasurementTime": 20.34521985054016, 
+            "EstimatedCapacity": 700000, 
+            "Channel_ID": "619247147895947264", 
+            "Node2_pub_key": "0256c133d4bc7c0ad9f104855a568718ebf200a0cb35576cf670ab8dcd3999292a", 
+            "ShortChannelID": "563202:1667:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 1000000, 
+            "MeasurementTime": 19.317189931869507, 
+            "EstimatedCapacity": 1000000, 
+            "Channel_ID": "619253744910663680", 
+            "Node2_pub_key": "031b0f156ec8ff59e5d3219f4a2293251a8e0094c1181889cbf04c233178dcbf95", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "563208:827:0"
+        }, 
+        {
+            "Capacity": 1947248, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "619286730241015808", 
+            "Node2_pub_key": "0311cad0edf4ac67298805cf4407d94358ca60cd44f2e360856f3b1c088bcd4782", 
+            "ShortChannelID": "", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 367685, 
+            "MeasurementTime": 21.15052604675293, 
+            "EstimatedCapacity": 367685, 
+            "Channel_ID": "619299924459520000", 
+            "Node2_pub_key": "027cd0e9992309bc89f5de36d2c4758bbe780c9d681472d2d91ab92b618595627f", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "563250:1750:0"
+        }, 
+        {
+            "Capacity": 100000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "619550613189558273", 
+            "Node2_pub_key": "02e2bf9e87c7ba0ea046882d9b3301ca9a3b049aa920dccbd836c4008eac32d4e5", 
+            "ShortChannelID": "", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 2000000, 
+            "MeasurementTime": 18.385061979293823, 
+            "EstimatedCapacity": 2000000, 
+            "Channel_ID": "619606688170442753", 
+            "Node2_pub_key": "02a81c886f7cc867205c4fd4e6e9d4049a60db183599ab006d45e0c7170547a7ec", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "563529:1243:1"
+        }, 
+        {
+            "Capacity": 250000, 
+            "MeasurementTime": 22.742398977279663, 
+            "EstimatedCapacity": 250000, 
+            "Channel_ID": "619626479471165440", 
+            "Node2_pub_key": "03477dcce210a37a46a74ac8e8baecd97043d73bfd6f5c76bd4c59e0ed504fa33c", 
+            "ShortChannelID": "563547:2638:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 100000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -1, 
+            "Channel_ID": "619675957360590849", 
+            "Node2_pub_key": "03b04a28a3eabffe100c3125e4465bab729027f2c52b1d659f3542ae1402c50150", 
+            "Channel_direction": 1, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 609063, 
+            "MeasurementTime": 23.730712890625, 
+            "EstimatedCapacity": 609063, 
+            "Channel_ID": "619707843196878848", 
+            "Node2_pub_key": "027070dc64b8850689b52020571d0e3173ba38cc456501ad1b5d994d6063eb0ec8", 
+            "ShortChannelID": "563621:582:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 250000, 
+            "MeasurementTime": 24.934823036193848, 
+            "EstimatedCapacity": 250000, 
+            "Channel_ID": "612231164139012097", 
+            "Node2_pub_key": "02c0b38022846c6b6f45b30031859ac7c5fb0c67ec8ed5cce8409c4b438c267ffe", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "556816:1875:1"
+        }, 
+        {
+            "Capacity": 150000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "612280642143387649", 
+            "Node2_pub_key": "02527dc14bac8d8c959e9ac208813b6df5bc278da5d6f1cdf74f6bdd23aab1ea71", 
+            "ShortChannelID": "", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 3000000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -1, 
+            "Channel_ID": "612303731929186305", 
+            "Node2_pub_key": "03030bf668f974e30e8e7ad8bd7445358afd86dd879bc8700e52cadd43a6e942f9", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 400000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -1, 
+            "Channel_ID": "612365304600985600", 
+            "Node2_pub_key": "0257bff646569a7ce93b640ceccb97f01c2c521d012f080d76a34f2285a3fec0ee", 
+            "ShortChannelID": "", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 522000, 
+            "MeasurementTime": 18.764317989349365, 
+            "EstimatedCapacity": 522000, 
+            "Channel_ID": "612377399306944512", 
+            "Node2_pub_key": "03525a26e79adf5793bb9e2747ea7d0d925bf8157362148f3b5da6e1c855be07bf", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "556954:2603:0"
+        }, 
+        {
+            "Capacity": 1234567, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "612610495735005185", 
+            "Node2_pub_key": "020e56a13babec99abdc2c4afbe34e1e44230d79b234c059fd4ff1e367765fdb1b", 
+            "ShortChannelID": "", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 4194303, 
+            "MeasurementTime": 18.552828073501587, 
+            "EstimatedCapacity": 4194303, 
+            "Channel_ID": "612686361958154240", 
+            "Node2_pub_key": "027ce055380348d7812d2ae7745701c9f93e70c1adeb2657f053f91df4f2843c71", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "556816:1904:1"
+        }, 
+        {
+            "Capacity": 210000, 
+            "MeasurementTime": 23.094069004058838, 
+            "EstimatedCapacity": 210000, 
+            "Channel_ID": "612828199031734272", 
+            "Node2_pub_key": "03077fb48968df38f9decd91c5f4e100c093cbd6d848c2d541f5d1b454db653760", 
+            "ShortChannelID": "557364:1953:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 399268, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -1, 
+            "Channel_ID": "612856786307186688", 
+            "Node2_pub_key": "029442ed09fe11636ed8f01f982096868877908cf28100407c2c196ec30ac8a00a", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 3000000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "612877677044367361", 
+            "Node2_pub_key": "02628d8e2f33869db7417c8da48947d441dcd839e0a3ce5e91f9c790d1131cf9f7", 
+            "ShortChannelID": "", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 522000, 
+            "MeasurementTime": 19.548280954360962, 
+            "EstimatedCapacity": 522000, 
+            "Channel_ID": "613365860146610177", 
+            "Node2_pub_key": "03525a26e79adf5793bb9e2747ea7d0d925bf8157362148f3b5da6e1c855be07bf", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "556954:2603:0"
+        }, 
+        {
+            "Capacity": 1000000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "613970591567773696", 
+            "Node2_pub_key": "02ad3fea735a00896607a626caddb03338f52c0651670bb05815401e5e74cc4cee", 
+            "ShortChannelID": "", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 500000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "614421391333916673", 
+            "Node2_pub_key": "02875ac2c27835990ef62e5755c34264b2c39f51a41525adc5e52a7f94b3a19f8b", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 100000, 
+            "MeasurementTime": 20.01969599723816, 
+            "EstimatedCapacity": 100000, 
+            "Channel_ID": "614424689846255617", 
+            "Node2_pub_key": "02c960a2f65ee043600bd6e98898d4d6ba92d463bb04b5758b9b704d2e7750992d", 
+            "ShortChannelID": "558816:900:1", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 365964, 
+            "MeasurementTime": 21.23019814491272, 
+            "EstimatedCapacity": 365964, 
+            "Channel_ID": "614426888897953793", 
+            "Node2_pub_key": "02875ac2c27835990ef62e5755c34264b2c39f51a41525adc5e52a7f94b3a19f8b", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "558813:1244:1"
+        }, 
+        {
+            "Capacity": 300000, 
+            "MeasurementTime": 21.38829803466797, 
+            "EstimatedCapacity": 300000, 
+            "Channel_ID": "614429087930384384", 
+            "Node2_pub_key": "020d1c4a7bb8dba65e7214f805f73a719585ab32b7925b51ce0ab5cfeeadd6a673", 
+            "ShortChannelID": "558820:1474:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 100000, 
+            "MeasurementTime": 22.338027000427246, 
+            "EstimatedCapacity": 100000, 
+            "Channel_ID": "614517048916508672", 
+            "Node2_pub_key": "0252caf93a748b4a63778c28057ee4736b64fcd9706978ab90b6ce5a4642543961", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "558900:2327:0"
+        }, 
+        {
+            "Capacity": 200000, 
+            "MeasurementTime": 22.09840202331543, 
+            "EstimatedCapacity": 10, 
+            "Channel_ID": "614750145280081920", 
+            "Node2_pub_key": "03cf8394d3976b234b6e0f4a36a6d4ed44f5d117fd7010c18a8e9b7f989d14302b", 
+            "ShortChannelID": "559112:778:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 1
+        }, 
+        {
+            "Capacity": 100000, 
+            "MeasurementTime": 21.02876877784729, 
+            "EstimatedCapacity": 10, 
+            "Channel_ID": "614799623300972544", 
+            "Node2_pub_key": "03ecc0c608148e7318364aaf519e9da623bb67802afc2896652ffb8006aae1e505", 
+            "Channel_direction": 1, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "559157:742:0"
+        }, 
+        {
+            "Capacity": 355426, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "615170158766522368", 
+            "Node2_pub_key": "030995c0c0217d763c2274aa6ed69a0bb85fa2f7d118f93631550f3b6219a577f5", 
+            "ShortChannelID": "", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 100000, 
+            "MeasurementTime": 21.713195085525513, 
+            "EstimatedCapacity": 100000, 
+            "Channel_ID": "615227333420253185", 
+            "Node2_pub_key": "02458b08c5820784cd60a9b71a9b45cad5ea90fb63491f57370b7259bae02ffe60", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "559546:2208:1"
+        }, 
+        {
+            "Capacity": 1300000, 
+            "MeasurementTime": 20.566405057907104, 
+            "EstimatedCapacity": 1300000, 
+            "Channel_ID": "615348279725916161", 
+            "Node2_pub_key": "0366d8a3608b352daca0d29c6c0ca464be81bef261153339b2571da8e1f7ff8228", 
+            "ShortChannelID": "559656:2614:1", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 4000000, 
+            "MeasurementTime": 17.258049964904785, 
+            "EstimatedCapacity": 4000000, 
+            "Channel_ID": "615415349827534848", 
+            "Node2_pub_key": "03205b045b0126c0d3fb826a38b9befc4babf51689544908c704d8e51fdec75ffb", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "556817:922:1"
+        }, 
+        {
+            "Capacity": 4000000, 
+            "MeasurementTime": 2.8294191360473633, 
+            "EstimatedCapacity": 4000000, 
+            "Channel_ID": "615416449362427904", 
+            "Node2_pub_key": "03205b045b0126c0d3fb826a38b9befc4babf51689544908c704d8e51fdec75ffb", 
+            "ShortChannelID": "556817:922:1", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 1000000, 
+            "MeasurementTime": 22.80643105506897, 
+            "EstimatedCapacity": 1000000, 
+            "Channel_ID": "615827666829967360", 
+            "Node2_pub_key": "029d48dc90dd482d3c71596b9ec1591f2f90840f8a33f4063c4c8891d41376b40a", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "560092:3138:0"
+        }, 
+        {
+            "Capacity": 421100, 
+            "MeasurementTime": 21.775916814804077, 
+            "EstimatedCapacity": 421100, 
+            "Channel_ID": "615972802229567488", 
+            "Node2_pub_key": "0346b0f7d0a03791392036c5ac20c7b73dd4e4c0b207b62da24444cb37631f27d4", 
+            "ShortChannelID": "560224:1074:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 300000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "615985996480512001", 
+            "Node2_pub_key": "0302dcdbf91e5bc2cf349d5be50008ae82cf4fa0c16dc8965367a43f0563de4eea", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 350000, 
+            "MeasurementTime": 21.034941911697388, 
+            "EstimatedCapacity": 10, 
+            "Channel_ID": "616294959139127297", 
+            "Node2_pub_key": "03a46be38d068c2bc5af3fc13da840790ed5643f3d6d27e5e34d67ed2aec16ce67", 
+            "ShortChannelID": "560517:1114:1", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 1
+        }, 
+        {
+            "Capacity": 990000, 
+            "MeasurementTime": 30.729128122329712, 
+            "EstimatedCapacity": 69609, 
+            "Channel_ID": "616849113056346112", 
+            "Node2_pub_key": "024b9a1fa8e006f1e3937f65f66c408e6da8e1ca728ea43222a7381df1cc449605", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "561021:1981:0"
+        }, 
+        {
+            "Capacity": 2500000, 
+            "MeasurementTime": 17.89783215522766, 
+            "EstimatedCapacity": 2500000, 
+            "Channel_ID": "616857909120925696", 
+            "Node2_pub_key": "020f0d93c700cf5cf556e61828fab473a5c30ee6eb927ae36a130cc1c57326d21a", 
+            "ShortChannelID": "561029:1547:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 980000, 
+            "MeasurementTime": 19.96513295173645, 
+            "EstimatedCapacity": 10, 
+            "Channel_ID": "616861207598727169", 
+            "Node2_pub_key": "03f38829a9b9131e3a0887ca21fd042f2d07bd7f151fffefcc3d1585f24c1b3e7e", 
+            "Channel_direction": 1, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "561032:676:1"
+        }, 
+        {
+            "Capacity": 350000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -1, 
+            "Channel_ID": "616944770539847681", 
+            "Node2_pub_key": "03b9a80dff08738625d887ed406556c009698c7ec182c0ce1e8494f77385247218", 
+            "ShortChannelID": "", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 1
+        }, 
+        {
+            "Capacity": 1000000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -1, 
+            "Channel_ID": "616988750995521536", 
+            "Node2_pub_key": "02de367d7c2610a3f2d5b831ffdf6b5fe07b5b47a539b68b2976b5a807777d1456", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 295000, 
+            "MeasurementTime": 20.280680894851685, 
+            "EstimatedCapacity": 10, 
+            "Channel_ID": "617065716869955585", 
+            "Node2_pub_key": "03e61afe293cc14394a1495bacd187910adc6a04d26dc14c050c18f93afa81dfeb", 
+            "ShortChannelID": "561218:2331:1", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 1
+        }, 
+        {
+            "Capacity": 1420000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "617374679589519361", 
+            "Node2_pub_key": "02f302189b8c0028aa919e5441a5d7e80c82ebdff421219e34408acea58274a823", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 300000, 
+            "MeasurementTime": 21.1336989402771, 
+            "EstimatedCapacity": 300000, 
+            "Channel_ID": "617788095933579264", 
+            "Node2_pub_key": "02dfec60f3cafbe1b34951073e1956e1bfd72f7302ed3e68d1f69a24a479fa9329", 
+            "ShortChannelID": "561875:1174:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 800000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "617803489180581889", 
+            "Node2_pub_key": "031e47777e35627e1018bc886ee24f81633a54527cfce24df0183a8fee7b3a24ef", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 300000, 
+            "MeasurementTime": 20.715278148651123, 
+            "EstimatedCapacity": 10, 
+            "Channel_ID": "617848569047613441", 
+            "Node2_pub_key": "0396cbb6ad2d46c372693ad375e2b1cb22c5b83046b712cfb37319ae3d26548193", 
+            "ShortChannelID": "561930:785:1", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 1
+        }, 
+        {
+            "Capacity": 3182600, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "617910141789011968", 
+            "Node2_pub_key": "03c6483f5b2d0bc00884ac08b0ddb40d239de338a1f74746bc949403d5e90ad571", 
+            "Channel_direction": 1, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 1000000, 
+            "MeasurementTime": 18.979055881500244, 
+            "EstimatedCapacity": 1000000, 
+            "Channel_ID": "617967316396474369", 
+            "Node2_pub_key": "02cca6c5c966fcf61d121e3a70e03a1cd9eeeea024b26ea666ce974d43b242e636", 
+            "ShortChannelID": "562038:2205:1", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 500000, 
+            "MeasurementTime": 19.60362982749939, 
+            "EstimatedCapacity": 10, 
+            "Channel_ID": "618144337669259264", 
+            "Node2_pub_key": "03c4909cb262a7c7a4d88ad216086783985153b6bd837e99768b260b4a4d315c38", 
+            "Channel_direction": 1, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "562199:690:0"
+        }, 
+        {
+            "Capacity": 151563, 
+            "MeasurementTime": 20.458969116210938, 
+            "EstimatedCapacity": 151563, 
+            "Channel_ID": "618150934845652992", 
+            "Node2_pub_key": "033b2bd88e5ced63a84490f7268c0c402bc335d822e866109ba9569309265ee623", 
+            "ShortChannelID": "562205:2317:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 777990, 
+            "MeasurementTime": 23.096168041229248, 
+            "EstimatedCapacity": 777990, 
+            "Channel_ID": "618304866441035776", 
+            "Node2_pub_key": "034282d9e7c7e9b46a95f4f4a11cbe805b168f43fc2a49b86d42af060947795618", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "562345:1821:0"
+        }, 
+        {
+            "Capacity": 200000, 
+            "MeasurementTime": 20.09560799598694, 
+            "EstimatedCapacity": 200000, 
+            "Channel_ID": "618324657616846848", 
+            "Node2_pub_key": "035b017b7e0e490ded4d70efee7b131a490249672265de1bdb4b31df465e6a1b43", 
+            "ShortChannelID": "562363:1310:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 300000, 
+            "MeasurementTime": 21.185193061828613, 
+            "EstimatedCapacity": 10, 
+            "Channel_ID": "618606132549255169", 
+            "Node2_pub_key": "03a8dfd2a1c7fb5bf0f76fd9f2b02252c095ddfce0af0d238d4b20ba8491bee6e1", 
+            "Channel_direction": 1, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "562619:634:1"
+        }, 
+        {
+            "Capacity": 1254781, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "618621525835055104", 
+            "Node2_pub_key": "036e8a8efeb26f3cffce99f462839ef6ea3b1691d569d59c402be0d3d6cef9b79c", 
+            "ShortChannelID": "", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 1000000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "618636918942793728", 
+            "Node2_pub_key": "02bfcdab693d131125e1ea8161df97d47db6cc70106261af15f3b8c829f112c010", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 380000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "618657809651073025", 
+            "Node2_pub_key": "02e0e951b20e9f7c35b840722abfe82337f7f65b4953e063a29c46e93c43dc4706", 
+            "ShortChannelID": "", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 1000000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "618710586213007361", 
+            "Node2_pub_key": "03d33299897473544b10ff4a3d2cf3d0db2bd68066c00b18225cbb817976695a86", 
+            "Channel_direction": 1, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 100000, 
+            "MeasurementTime": 21.94549584388733, 
+            "EstimatedCapacity": 10, 
+            "Channel_ID": "618745770599251968", 
+            "Node2_pub_key": "03b333cebac0862d2e35a6c7fa916a17dd78bdfdfb8278a93897c1e2e129074f04", 
+            "ShortChannelID": "562746:1752:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 1
+        }, 
+        {
+            "Capacity": 3500000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "618823835843559424", 
+            "Node2_pub_key": "03f9f50529564517dad007ce0f711ec0bf0a83d9cb4dd00d78a6e5cc3238d5d448", 
+            "Channel_direction": 1, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 2180421, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "618904100217225216", 
+            "Node2_pub_key": "02247d9db0dfafea745ef8c9e161eb322f73ac3f8858d8730b6fd97254747ce76b", 
+            "ShortChannelID": "", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 2180421, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "618906299227176960", 
+            "Node2_pub_key": "03e5ea100e6b1ef3959f79627cb575606b19071235c48b3e7f9808ebcd6d12e87d", 
+            "Channel_direction": 1, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 2180421, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "618906299238907904", 
+            "Node2_pub_key": "028a8e53d70bc0eb7b5660943582f10b7fd6c727a78ad819ba8d45d6a638432c49", 
+            "ShortChannelID": "", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 2180421, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "618906299243036672", 
+            "Node2_pub_key": "022755c3ff4e5a1d71f573cda4b315887fc00a9e5c9ea9a847d939f3e517e69a70", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 2180421, 
+            "MeasurementTime": 18.74643611907959, 
+            "EstimatedCapacity": 10, 
+            "Channel_ID": "618906299245461504", 
+            "Node2_pub_key": "039edc94987c8f3adc28dab455efc00dea876089a120f573bd0b03c40d9d3fb1e1", 
+            "ShortChannelID": "562892:967:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 1
+        }, 
+        {
+            "Capacity": 2500000, 
+            "MeasurementTime": 23.000339031219482, 
+            "EstimatedCapacity": 2500000, 
+            "Channel_ID": "618955777263730688", 
+            "Node2_pub_key": "0200c06eaaef0ffc98447b5f0c5810c8325fc50fba4c509ebf558d67d1f088bdad", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "562937:891:0"
+        }, 
+        {
+            "Capacity": 1947248, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "619039340245549056", 
+            "Node2_pub_key": "03da1c27ca77872ac5b3e568af30673e599a47a5e4497f85c7b5da42048807b3ed", 
+            "ShortChannelID": "", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 1
+        }, 
+        {
+            "Capacity": 1947248, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "619039340251840512", 
+            "Node2_pub_key": "02c91d6aa51aa940608b497b6beebcb1aec05be3c47704b682b3889424679ca490", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 1947248, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "619039340253937664", 
+            "Node2_pub_key": "0303a518845db99994783f606e6629e705cfaf072e5ce9a4d8bf9e249de4fbd019", 
+            "ShortChannelID": "", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 1947248, 
+            "MeasurementTime": 19.42084312438965, 
+            "EstimatedCapacity": 10, 
+            "Channel_ID": "619039340261343232", 
+            "Node2_pub_key": "03fb822818be083e0a954db85257a2911a3d55458b8c1ea4124b157e865a836d12", 
+            "Channel_direction": 1, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "563013:2629:0"
+        }, 
+        {
+            "Capacity": 1947248, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "619039340264488960", 
+            "Node2_pub_key": "022c260f9ad58196af280c80a96ec9eabf6404df59ff1a7553b0f381c875a29ba0", 
+            "ShortChannelID": "", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 600000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "619230655190859777", 
+            "Node2_pub_key": "02c16149d3ce6ccd670e2b719c9093f3cf61e3c775cd2f9fa879c97924c4b9d3a6", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 170000, 
+            "MeasurementTime": 11.680247068405151, 
+            "EstimatedCapacity": 170000, 
+            "Channel_ID": "619232854295052289", 
+            "Node2_pub_key": "037f990e61acee8a7697966afd29dd88f3b1f8a7b14d625c4f8742bd952003a590", 
+            "ShortChannelID": "563189:2434:1", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 2000000, 
+            "MeasurementTime": 20.903631925582886, 
+            "EstimatedCapacity": 2000000, 
+            "Channel_ID": "619232854301474816", 
+            "Node2_pub_key": "034b51f42ab2d2ff03b5a284ced8477798f5f1aab0b87229c9fd5295f1456a1df4", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "563189:2532:0"
+        }, 
+        {
+            "Capacity": 700000, 
+            "MeasurementTime": 19.10667896270752, 
+            "EstimatedCapacity": 700000, 
+            "Channel_ID": "619247147895947264", 
+            "Node2_pub_key": "0256c133d4bc7c0ad9f104855a568718ebf200a0cb35576cf670ab8dcd3999292a", 
+            "ShortChannelID": "563202:1667:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 1000000, 
+            "MeasurementTime": 18.986586093902588, 
+            "EstimatedCapacity": 1000000, 
+            "Channel_ID": "619253744910663680", 
+            "Node2_pub_key": "031b0f156ec8ff59e5d3219f4a2293251a8e0094c1181889cbf04c233178dcbf95", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "563208:827:0"
+        }, 
+        {
+            "Capacity": 1947248, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "619286730241015808", 
+            "Node2_pub_key": "0311cad0edf4ac67298805cf4407d94358ca60cd44f2e360856f3b1c088bcd4782", 
+            "ShortChannelID": "", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 367685, 
+            "MeasurementTime": 20.187609910964966, 
+            "EstimatedCapacity": 367685, 
+            "Channel_ID": "619299924459520000", 
+            "Node2_pub_key": "027cd0e9992309bc89f5de36d2c4758bbe780c9d681472d2d91ab92b618595627f", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "563250:1750:0"
+        }, 
+        {
+            "Capacity": 100000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "619550613189558273", 
+            "Node2_pub_key": "02e2bf9e87c7ba0ea046882d9b3301ca9a3b049aa920dccbd836c4008eac32d4e5", 
+            "ShortChannelID": "", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 2000000, 
+            "MeasurementTime": 18.031360149383545, 
+            "EstimatedCapacity": 2000000, 
+            "Channel_ID": "619606688170442753", 
+            "Node2_pub_key": "02a81c886f7cc867205c4fd4e6e9d4049a60db183599ab006d45e0c7170547a7ec", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "563529:1243:1"
+        }, 
+        {
+            "Capacity": 250000, 
+            "MeasurementTime": 21.147507905960083, 
+            "EstimatedCapacity": 250000, 
+            "Channel_ID": "619626479471165440", 
+            "Node2_pub_key": "03477dcce210a37a46a74ac8e8baecd97043d73bfd6f5c76bd4c59e0ed504fa33c", 
+            "ShortChannelID": "563547:2638:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 100000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -1, 
+            "Channel_ID": "619675957360590849", 
+            "Node2_pub_key": "03b04a28a3eabffe100c3125e4465bab729027f2c52b1d659f3542ae1402c50150", 
+            "Channel_direction": 1, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 609063, 
+            "MeasurementTime": 23.102988958358765, 
+            "EstimatedCapacity": 609063, 
+            "Channel_ID": "619707843196878848", 
+            "Node2_pub_key": "027070dc64b8850689b52020571d0e3173ba38cc456501ad1b5d994d6063eb0ec8", 
+            "ShortChannelID": "563621:582:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 1000000, 
+            "MeasurementTime": 18.54190492630005, 
+            "EstimatedCapacity": 1000000, 
+            "Channel_ID": "619729833476030465", 
+            "Node2_pub_key": "0256fdaf3b0b505b13fefc2dde22f4388abcc9f778f79a2ddfc59091d19923ec35", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "563641:1293:1"
+        }, 
+        {
+            "Capacity": 500000, 
+            "MeasurementTime": 27.475802898406982, 
+            "EstimatedCapacity": 144531, 
+            "Channel_ID": "619736430565130240", 
+            "Node2_pub_key": "028a8e53d70bc0eb7b5660943582f10b7fd6c727a78ad819ba8d45d6a638432c49", 
+            "ShortChannelID": "562892:867:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 1790453, 
+            "MeasurementTime": 26.343703985214233, 
+            "EstimatedCapacity": 69939, 
+            "Channel_ID": "619736430576926720", 
+            "Node2_pub_key": "030995c0c0217d763c2274aa6ed69a0bb85fa2f7d118f93631550f3b6219a577f5", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "563647:1768:0"
+        }, 
+        {
+            "Capacity": 2455635, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "619756221848027136", 
+            "Node2_pub_key": "03d9a5341083d9ae16fd4f6fc117ed8a7f25689c02d0e3f4a955d45105e5ba9c63", 
+            "ShortChannelID": "", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 1
+        }, 
+        {
+            "Capacity": 1000000, 
+            "MeasurementTime": 20.880645990371704, 
+            "EstimatedCapacity": 1000000, 
+            "Channel_ID": "619771614958321664", 
+            "Node2_pub_key": "035f3a87393269e9bfb594f9ed6d2d3551ff527889be510429a8fa99736d710fdb", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "563679:1910:0"
+        }, 
+        {
+            "Capacity": 1000000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "619847481323421697", 
+            "Node2_pub_key": "03a503d8e30f2ff407096d235b5db63b4fcf3f89a653acb6f43d3fc492a7674019", 
+            "ShortChannelID": "", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 1
+        }, 
+        {
+            "Capacity": 4000000, 
+            "MeasurementTime": 19.346115827560425, 
+            "EstimatedCapacity": 4000000, 
+            "Channel_ID": "619890362149568512", 
+            "Node2_pub_key": "0395033b252c6f40e3756984162d68174e2bd8060a129c0d3462a9370471c6d28f", 
+            "Channel_direction": 1, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "549374:1059:1"
+        }, 
+        {
+            "Capacity": 400000, 
+            "MeasurementTime": 27.598169088363647, 
+            "EstimatedCapacity": 400000, 
+            "Channel_ID": "619931044068917248", 
+            "Node2_pub_key": "0221680d25fcb652398cc04b79e64e5bce3477d430465026aa1f5309a5c02542c5", 
+            "ShortChannelID": "563824:759:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 500000, 
+            "MeasurementTime": 25.76181411743164, 
+            "EstimatedCapacity": 144531, 
+            "Channel_ID": "619932143594766336", 
+            "Node2_pub_key": "028a8e53d70bc0eb7b5660943582f10b7fd6c727a78ad819ba8d45d6a638432c49", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "562892:867:0"
+        }, 
+        {
+            "Capacity": 1000000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "619965129054945281", 
+            "Node2_pub_key": "0283183481c1421d43d591b0e330221e741ba41f0f846a5b482a37cff46b6998ec", 
+            "ShortChannelID": "", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 100000, 
+            "MeasurementTime": 20.118743896484375, 
+            "EstimatedCapacity": 100000, 
+            "Channel_ID": "620073980596715520", 
+            "Node2_pub_key": "0206ee81d2906577e0f9217279eda8c08b86b44a2bd6a6f207947dcbce875be18c", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "563954:1006:0"
+        }, 
+        {
+            "Capacity": 1000000, 
+            "MeasurementTime": 19.492160081863403, 
+            "EstimatedCapacity": 1000000, 
+            "Channel_ID": "620091572750385152", 
+            "Node2_pub_key": "0324d8f66feaf3e003a12366502f509834ee355485d63d7d50514bad82f3389013", 
+            "ShortChannelID": "563970:512:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 300000, 
+            "MeasurementTime": 19.34577488899231, 
+            "EstimatedCapacity": 300000, 
+            "Channel_ID": "620134453836185600", 
+            "Node2_pub_key": "035a95bdafeaec089ded020248939b636296ea32e8cf9a0b6af70e9e517f703fce", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "564009:2531:0"
+        }, 
+        {
+            "Capacity": 500000, 
+            "MeasurementTime": 26.925106048583984, 
+            "EstimatedCapacity": 144531, 
+            "Channel_ID": "620141050870824960", 
+            "Node2_pub_key": "028a8e53d70bc0eb7b5660943582f10b7fd6c727a78ad819ba8d45d6a638432c49", 
+            "ShortChannelID": "562892:867:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 1393793, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "620141050872528896", 
+            "Node2_pub_key": "03dab87ff8635982815c4567eb58af48f9944d11c56beb12b91e1049aaea06e187", 
+            "Channel_direction": 1, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 100000, 
+            "MeasurementTime": 21.750378131866455, 
+            "EstimatedCapacity": 100000, 
+            "Channel_ID": "620165240149180416", 
+            "Node2_pub_key": "02d925132e2c79d65cd13bba919a9223f43a44305591c60a01519826ac2ac6e69e", 
+            "ShortChannelID": "564037:2339:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 100000, 
+            "MeasurementTime": 21.729839086532593, 
+            "EstimatedCapacity": 100000, 
+            "Channel_ID": "620176235210473472", 
+            "Node2_pub_key": "028e252c921488cd956b6c3a80a94fe0f81de8fab9076ea2abc549d55b34506f2f", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "564047:1500:0"
+        }, 
+        {
+            "Capacity": 1370000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -1, 
+            "Channel_ID": "620193827412443137", 
+            "Node2_pub_key": "02ee60c307561d12c2f9ce96a447c480cd6ecd3b43892afa4038302f6d0459410a", 
+            "ShortChannelID": "", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 1000000, 
+            "MeasurementTime": 18.912543058395386, 
+            "EstimatedCapacity": 1000000, 
+            "Channel_ID": "620510486761897984", 
+            "Node2_pub_key": "02a0c6516180eb52bd4d17ad8d6049d79f8300f668fff6eb720bc57bb981eaad3e", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "564351:1753:0"
+        }, 
+        {
+            "Capacity": 1221002, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -1, 
+            "Channel_ID": "620514884712202241", 
+            "Node2_pub_key": "025d0676bb8e3b4646c94cb7e73c811394710d2a967e3f6d89672b58b5f3611d7e", 
+            "ShortChannelID": "", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 1438263, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "620575357920542720", 
+            "Node2_pub_key": "02723063a9122c66c4b679ff6b297d28887c2bd6e9b1b1518f798a471c47984b28", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 500000, 
+            "MeasurementTime": 21.331490993499756, 
+            "EstimatedCapacity": 10, 
+            "Channel_ID": "620612741309988864", 
+            "Node2_pub_key": "03b6a724726336b5ef12453f8dabf1e946f44c3686ad3f96d6303b117bb4a22ec8", 
+            "ShortChannelID": "564444:1245:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 1
+        }, 
+        {
+            "Capacity": 100000, 
+            "MeasurementTime": 22.714807987213135, 
+            "EstimatedCapacity": 100000, 
+            "Channel_ID": "620631432945401856", 
+            "Node2_pub_key": "028e860f97db9702c59d9970270b83f1b22f98315170d8c260d7ef61c14ae77e7e", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "564461:295:0"
+        }, 
+        {
+            "Capacity": 3000000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -1, 
+            "Channel_ID": "620662219342020609", 
+            "Node2_pub_key": "0279ad04d636e60aaac1b63d576ba6d099d26367f846dc1060b0b923947c922551", 
+            "ShortChannelID": "", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 820000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -1, 
+            "Channel_ID": "620822748056977408", 
+            "Node2_pub_key": "03b9c09d8522d6d6ca3c4fe3e635b65e962fade78437ef2ac46f37df4c0119aa03", 
+            "Channel_direction": 1, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 150000, 
+            "MeasurementTime": 20.34142279624939, 
+            "EstimatedCapacity": 150000, 
+            "Channel_ID": "620827146037690368", 
+            "Node2_pub_key": "0314dc1c496290a33f8fba3e78332418b1c136d9fb2a14d4a181e3cc9a653ee2f8", 
+            "ShortChannelID": "564639:639:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 2000000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -1, 
+            "Channel_ID": "620863429930385409", 
+            "Node2_pub_key": "03b3b190082c60e0d0ee6d4c7e300a30cdc81841eec531d849ce74b0a26d6bfb7a", 
+            "Channel_direction": 1, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 333555, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "621072337139597313", 
+            "Node2_pub_key": "0307c952e4f85c42629bc1f8b5b502538a038e8c20eb597a79e2a40cc3e84ef891", 
+            "ShortChannelID": "", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 250000, 
+            "MeasurementTime": 20.478538036346436, 
+            "EstimatedCapacity": 10, 
+            "Channel_ID": "621103123569049600", 
+            "Node2_pub_key": "03caa5b28c78005d1c6ccb80298ec8b97be079daa1ca27b865a8798a5d68c2d954", 
+            "Channel_direction": 1, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "564890:2360:0"
+        }, 
+        {
+            "Capacity": 2000000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "621107521583710208", 
+            "Node2_pub_key": "02731b798b39a09f9f14e90ee601afb6ebb796d6e5797de14582a978770b33700f", 
+            "ShortChannelID": "", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 500000, 
+            "MeasurementTime": 23.175920009613037, 
+            "EstimatedCapacity": 500000, 
+            "Channel_ID": "621150402448523264", 
+            "Node2_pub_key": "02ad33d99d0bb3bf3bb8ec8e089cbefa8fd7de23a13cfa59aec9af9730816be76f", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "564933:521:0"
+        }, 
+        {
+            "Capacity": 319536, 
+            "MeasurementTime": 20.66966199874878, 
+            "EstimatedCapacity": 319536, 
+            "Channel_ID": "621154800482320385", 
+            "Node2_pub_key": "0353308936d64e44970186cb43f215fbce1e2ab8631da17c545fadb0a79312229c", 
+            "ShortChannelID": "564937:327:1", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 800000, 
+            "MeasurementTime": 18.953826904296875, 
+            "EstimatedCapacity": 800000, 
+            "Channel_ID": "621182288349560833", 
+            "Node2_pub_key": "025ec98aec0297b115008e29628762a6f9a6b14fae97aeb53d63a86e193374852f", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "564962:1495:1"
+        }, 
+        {
+            "Capacity": 250000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -1, 
+            "Channel_ID": "621308732220899329", 
+            "Node2_pub_key": "02b9b5dae292526f4a2db3d0d9ff7be28eb786aca42a438773fb12643fef727845", 
+            "ShortChannelID": "", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 100000, 
+            "MeasurementTime": 19.87828016281128, 
+            "EstimatedCapacity": 100000, 
+            "Channel_ID": "621309831663845376", 
+            "Node2_pub_key": "03863a2a99201832bcb1dc25872c91dda0fbf84f9c8a9a8f5eabd766b63f98e87d", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "565078:968:0"
+        }, 
+        {
+            "Capacity": 300000, 
+            "MeasurementTime": 21.631114959716797, 
+            "EstimatedCapacity": 300000, 
+            "Channel_ID": "621309831773487105", 
+            "Node2_pub_key": "02195490540472b638519fe5d023f022ec398c66d8d34d5ff6fbf0dc9224b64260", 
+            "ShortChannelID": "565078:2641:1", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 200000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -1, 
+            "Channel_ID": "621317528206114817", 
+            "Node2_pub_key": "03577170d9a4c8ca4516a083c585d8332192213614dbbd42cd3ef43f96c99d009f", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 357812, 
+            "MeasurementTime": 20.853821992874146, 
+            "EstimatedCapacity": 357812, 
+            "Channel_ID": "621336220013887488", 
+            "Node2_pub_key": "0308c6579e6596b4d5f3f247a8c37da072b11679f1fc67fe34ea7e8f83754e2b79", 
+            "ShortChannelID": "565102:2051:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 2500000, 
+            "MeasurementTime": 18.514364004135132, 
+            "EstimatedCapacity": 2500000, 
+            "Channel_ID": "621427479492689920", 
+            "Node2_pub_key": "02779c5e4fb6a87d8d18e8b9fa2846d847af6da0501cb39993478203248e922642", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "565185:2260:0"
+        }, 
+        {
+            "Capacity": 100000, 
+            "MeasurementTime": 23.3720920085907, 
+            "EstimatedCapacity": 100000, 
+            "Channel_ID": "621490151673298945", 
+            "Node2_pub_key": "035aef5661e1a6e370db60dc0455796800afd5b51fbc12a0a8b34836b15f5d7ef6", 
+            "ShortChannelID": "565242:2532:1", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 4071891, 
+            "MeasurementTime": 18.413758993148804, 
+            "EstimatedCapacity": 4071891, 
+            "Channel_ID": "621509942752247809", 
+            "Node2_pub_key": "021ec9dcb5db6b31433ad864b64d278a556d56576673db889cb05099d57c01988b", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "565260:543:1"
+        }, 
+        {
+            "Capacity": 100000, 
+            "MeasurementTime": 21.497960805892944, 
+            "EstimatedCapacity": 100000, 
+            "Channel_ID": "621525335937056768", 
+            "Node2_pub_key": "035234dc0dec3f740fa09cdde583945a8c07102326b3e17faee97e7ea176b09ec7", 
+            "ShortChannelID": "565274:879:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 100000, 
+            "MeasurementTime": 22.091036081314087, 
+            "EstimatedCapacity": 100000, 
+            "Channel_ID": "621552823761764352", 
+            "Node2_pub_key": "028eef316e8a46699f775e0739cb34de8a15eb48e5276fcfabcc861261c226d35c", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "565299:1398:0"
+        }, 
+        {
+            "Capacity": 650000, 
+            "MeasurementTime": 25.132135152816772, 
+            "EstimatedCapacity": 10, 
+            "Channel_ID": "621638585648087040", 
+            "Node2_pub_key": "039fcde7836a25c0d37f24ac271128115e589bcee7d059d468ff2e59cc3fdf5dbe", 
+            "ShortChannelID": "565377:1083:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 1
+        }, 
+        {
+            "Capacity": 200000, 
+            "MeasurementTime": 22.370815992355347, 
+            "EstimatedCapacity": 200000, 
+            "Channel_ID": "621681466629619712", 
+            "Node2_pub_key": "02ff33371a2363dd87618398511d8e4fcc37602d4b1240f769c3cdf22f94149a5e", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "565416:1511:0"
+        }, 
+        {
+            "Capacity": 200000, 
+            "MeasurementTime": 21.44932508468628, 
+            "EstimatedCapacity": 202000, 
+            "Channel_ID": "621685864667873280", 
+            "Node2_pub_key": "02fe9469e1d7da69539e365c9b2a64d277ed5589622cb314dc8b3060f3c55f79e6", 
+            "ShortChannelID": "", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 1500000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "621745238244458497", 
+            "Node2_pub_key": "0297b368360113e290322da439be2295db31bc0c39870078172b360c34560dbf23", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 1000000, 
+            "MeasurementTime": 27.297024965286255, 
+            "EstimatedCapacity": 820312, 
+            "Channel_ID": "621752934926778369", 
+            "Node2_pub_key": "024c05b9a8f38a44d1b4c13c52f9e6fefadaaecf9970fb055d3a552f7e6b5dc831", 
+            "ShortChannelID": "565481:2142:1", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 250000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "621789218681520129", 
+            "Node2_pub_key": "03d973769c40aee9eb6f0ea347c6e5d04d839e22dd2910ef4752bbbec78735faae", 
+            "Channel_direction": 1, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 459217, 
+            "MeasurementTime": 20.3836669921875, 
+            "EstimatedCapacity": 10, 
+            "Channel_ID": "621924458756374529", 
+            "Node2_pub_key": "03872c602d9fa9e41c80ed09fda7dd77399fe8b54b1f9fe5a658e1e89e74dc5797", 
+            "ShortChannelID": "565637:2381:1", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 1
+        }, 
+        {
+            "Capacity": 100000, 
+            "MeasurementTime": 22.24775981903076, 
+            "EstimatedCapacity": 100000, 
+            "Channel_ID": "622095982515650560", 
+            "Node2_pub_key": "029a9b6cae3c41077542aad1f07b81f89b273497ebdf10c9b61ffc99de1019ddb4", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "565793:1547:0"
+        }, 
+        {
+            "Capacity": 4080000, 
+            "MeasurementTime": 21.66493797302246, 
+            "EstimatedCapacity": 4080000, 
+            "Channel_ID": "622183943419461633", 
+            "Node2_pub_key": "02b775b4d8e51f60914853ae55a2cf38a254163bb2639cd15dc0dd419612c43b71", 
+            "ShortChannelID": "565873:1144:1", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 200000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -1, 
+            "Channel_ID": "622252113201594369", 
+            "Node2_pub_key": "02c7f34c0ced5ccfc0c71c2eb4058b95258550fe71d99804e6d3d6bace2922a336", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 500000, 
+            "MeasurementTime": 27.489573001861572, 
+            "EstimatedCapacity": 128906, 
+            "Channel_ID": "622280700514074624", 
+            "Node2_pub_key": "0311cad0edf4ac67298805cf4407d94358ca60cd44f2e360856f3b1c088bcd4782", 
+            "ShortChannelID": "563238:545:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 500000, 
+            "MeasurementTime": 30.83435297012329, 
+            "EstimatedCapacity": 472656, 
+            "Channel_ID": "622280700516761600", 
+            "Node2_pub_key": "022c260f9ad58196af280c80a96ec9eabf6404df59ff1a7553b0f381c875a29ba0", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "563013:2677:0"
+        }, 
+        {
+            "Capacity": 2682909, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "622280700517875712", 
+            "Node2_pub_key": "02c91d6aa51aa940608b497b6beebcb1aec05be3c47704b682b3889424679ca490", 
+            "ShortChannelID": "", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 500000, 
+            "MeasurementTime": 21.173115015029907, 
+            "EstimatedCapacity": 500000, 
+            "Channel_ID": "622281799945551872", 
+            "Node2_pub_key": "0303a518845db99994783f606e6629e705cfaf072e5ce9a4d8bf9e249de4fbd019", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "563013:2516:0"
+        }, 
+        {
+            "Capacity": 500000, 
+            "MeasurementTime": 21.780877828598022, 
+            "EstimatedCapacity": 500000, 
+            "Channel_ID": "622281799946731520", 
+            "Node2_pub_key": "03da1c27ca77872ac5b3e568af30673e599a47a5e4497f85c7b5da42048807b3ed", 
+            "ShortChannelID": "563013:2388:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 1
+        }, 
+        {
+            "Capacity": 1094617, 
+            "MeasurementTime": 27.04391884803772, 
+            "EstimatedCapacity": 128275, 
+            "Channel_ID": "622281799947714560", 
+            "Node2_pub_key": "03dab87ff8635982815c4567eb58af48f9944d11c56beb12b91e1049aaea06e187", 
+            "Channel_direction": 1, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "564015:2021:0"
+        }, 
+        {
+            "Capacity": 500000, 
+            "MeasurementTime": 19.793508052825928, 
+            "EstimatedCapacity": 10, 
+            "Channel_ID": "622281799955316736", 
+            "Node2_pub_key": "03fb822818be083e0a954db85257a2911a3d55458b8c1ea4124b157e865a836d12", 
+            "ShortChannelID": "563013:2629:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 1
+        }, 
+        {
+            "Capacity": 500000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "622281799956889600", 
+            "Node2_pub_key": "030995c0c0217d763c2274aa6ed69a0bb85fa2f7d118f93631550f3b6219a577f5", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 559602, 
+            "MeasurementTime": 29.367273807525635, 
+            "EstimatedCapacity": 144271, 
+            "Channel_ID": "622281799960035328", 
+            "Node2_pub_key": "028a8e53d70bc0eb7b5660943582f10b7fd6c727a78ad819ba8d45d6a638432c49", 
+            "ShortChannelID": "562892:867:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 100000, 
+            "MeasurementTime": 21.837708950042725, 
+            "EstimatedCapacity": 100000, 
+            "Channel_ID": "622341173605892096", 
+            "Node2_pub_key": "034c4d5987d5b3b4704132ce5fefe044f7615c7882ad0ccccbf127ec29729bc7e6", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "566016:1505:0"
+        }, 
+        {
+            "Capacity": 300000, 
+            "MeasurementTime": 21.288767099380493, 
+            "EstimatedCapacity": 300000, 
+            "Channel_ID": "622399447764500480", 
+            "Node2_pub_key": "025779d6d48e8943a5c0313c0006da5683910c1739de6a2a66831df2541ae705fb", 
+            "ShortChannelID": "566069:2151:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 1295831, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "622483010592309248", 
+            "Node2_pub_key": "03620223d97b1067ebf767f8379df05b0b6967d84a11e8ef46f9b1d1249832af75", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 1000000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "622486309094227969", 
+            "Node2_pub_key": "02b536fe1c2b50b6ab6b7074826a59dd3bbf93612594a33d4440c4f4f7095640a2", 
+            "ShortChannelID": "", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 1200000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "622568772435902465", 
+            "Node2_pub_key": "02f1d4269294176bdd64088a38324de75b927baf3328047257fed3e087b0316b40", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 300000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "622617150969282560", 
+            "Node2_pub_key": "02df2cefe673216c26caaa28cc72e0f616242e5b06b0f098010795afd05da8a2c9", 
+            "ShortChannelID": "", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 3000000, 
+            "MeasurementTime": 18.19722604751587, 
+            "EstimatedCapacity": 3000000, 
+            "Channel_ID": "622754590059659265", 
+            "Node2_pub_key": "025cb2d324ae423d32984c7fc74edd7185b9fc9bd473d389f12483e3738d526600", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "566392:2752:1"
+        }, 
+        {
+            "Capacity": 144424, 
+            "MeasurementTime": 20.09117102622986, 
+            "EstimatedCapacity": 144424, 
+            "Channel_ID": "622831555811540993", 
+            "Node2_pub_key": "026122dc5ada15cf3e9f8c740b08dd92fc5fa5ebeef0a03acd0b2170bb0befa051", 
+            "ShortChannelID": "566462:1805:1", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 200000, 
+            "MeasurementTime": 22.034943103790283, 
+            "EstimatedCapacity": 200000, 
+            "Channel_ID": "622898625977843713", 
+            "Node2_pub_key": "02be70303ef57de6fb62da1accefd5757616819599c94608f587006a230878484a", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "566523:1149:1"
+        }, 
+        {
+            "Capacity": 750000, 
+            "MeasurementTime": 19.558305978775024, 
+            "EstimatedCapacity": 750000, 
+            "Channel_ID": "623098737159045121", 
+            "Node2_pub_key": "024a4aad26583790132c0b5a45885e9441f8a5ebcc3aa73ecf365c037154d9980c", 
+            "ShortChannelID": "566705:2140:1", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 1000000, 
+            "MeasurementTime": 20.24590301513672, 
+            "EstimatedCapacity": 10, 
+            "Channel_ID": "623111931252113409", 
+            "Node2_pub_key": "03bb1ef44535ce797ad5fb811a790eac966cd4f25fb8d00c412ab35b88b215ba17", 
+            "Channel_direction": 1, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "566717:1431:1"
+        }, 
+        {
+            "Capacity": 100000, 
+            "MeasurementTime": 22.46235489845276, 
+            "EstimatedCapacity": 10, 
+            "Channel_ID": "623133921438662656", 
+            "Node2_pub_key": "03cd8d692b963b5abcd451607ab7a8a9c1eeee69df1adb3c1ac575e1f8be3b8fee", 
+            "ShortChannelID": "566737:729:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 1
+        }, 
+        {
+            "Capacity": 290000, 
+            "MeasurementTime": 19.625730991363525, 
+            "EstimatedCapacity": 10, 
+            "Channel_ID": "623203190723837953", 
+            "Node2_pub_key": "03c6d5394ef296da7fb7ca1b9d975287cb7cd6b7e69cf8ec41ba74ea689fd1560e", 
+            "Channel_direction": 1, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "566800:1532:1"
+        }, 
+        {
+            "Capacity": 100000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "623320838452936705", 
+            "Node2_pub_key": "032b76d18c33d8b6af7b4d93d666bdc876b44ccdd4f5d3870f4e1550bfb0f9e142", 
+            "ShortChannelID": "", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 200000, 
+            "MeasurementTime": 20.95647406578064, 
+            "EstimatedCapacity": 200000, 
+            "Channel_ID": "623493461735374848", 
+            "Node2_pub_key": "020e2d95c6432e20ef80cb885916cd04c6cf8ae1c3b7a81f0cfe158b0db3cff355", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "567064:644:0"
+        }, 
+        {
+            "Capacity": 100000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -1, 
+            "Channel_ID": "623496760337367041", 
+            "Node2_pub_key": "02ffc8457afdf7b3be6c42d082226371160a29ced75abff0c38542c4a8b0b2ab29", 
+            "ShortChannelID": "", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 1600000, 
+            "MeasurementTime": 19.986024141311646, 
+            "EstimatedCapacity": 1600000, 
+            "Channel_ID": "623506655898501121", 
+            "Node2_pub_key": "02a45def9ae014fdd2603dd7033d157faa3a55a72b06a63ae22ef46d9fafdc6e8d", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "567076:1004:1"
+        }, 
+        {
+            "Capacity": 100000, 
+            "MeasurementTime": 21.94856595993042, 
+            "EstimatedCapacity": 100000, 
+            "Channel_ID": "623536342770384897", 
+            "Node2_pub_key": "0204c4b86bd2212883140f31da8829f4db1dced8864d9fe995182c2d9e332cf95c", 
+            "ShortChannelID": "567103:1888:1", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 200000, 
+            "MeasurementTime": 21.192291975021362, 
+            "EstimatedCapacity": 200000, 
+            "Channel_ID": "623540740788584448", 
+            "Node2_pub_key": "0246eaf6812013fb860306943f79a0e4fdc5971d5efaeb3cd58049545803bfb491", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "567107:1456:0"
+        }, 
+        {
+            "Capacity": 2000000, 
+            "MeasurementTime": 18.37513303756714, 
+            "EstimatedCapacity": 2000000, 
+            "Channel_ID": "623557233393664000", 
+            "Node2_pub_key": "022893a61764e54ef4f16736869efa7f9a187f726cc4839cda0eb77230504dad28", 
+            "ShortChannelID": "567122:398:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 1000000, 
+            "MeasurementTime": 19.889689207077026, 
+            "EstimatedCapacity": 1000000, 
+            "Channel_ID": "623688075313479680", 
+            "Node2_pub_key": "0217f51b51d6bd7a14947c457324dbcd4592f1dae2f6f9bfb95323678e81782e67", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "567241:949:0"
+        }, 
+        {
+            "Capacity": 2414594, 
+            "MeasurementTime": 18.785862922668457, 
+            "EstimatedCapacity": 2414594, 
+            "Channel_ID": "623702369051279360", 
+            "Node2_pub_key": "02de11c748f5b25cfd2ce801176d3926bfde4de23b1ff43e692a5b76cf06805e4a", 
+            "ShortChannelID": "567254:2271:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 2414594, 
+            "MeasurementTime": 17.473373889923096, 
+            "EstimatedCapacity": 2414594, 
+            "Channel_ID": "623702369060716544", 
+            "Node2_pub_key": "035f5236d7e6c6d16107c1f86e4514e6ccdd6b2c13c2abc1d7a83cd26ecb4c1d0e", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "567254:2415:0"
+        }, 
+        {
+            "Capacity": 500000, 
+            "MeasurementTime": 26.486999988555908, 
+            "EstimatedCapacity": 144531, 
+            "Channel_ID": "623703468497895424", 
+            "Node2_pub_key": "028a8e53d70bc0eb7b5660943582f10b7fd6c727a78ad819ba8d45d6a638432c49", 
+            "ShortChannelID": "562892:867:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 2414594, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "623703468507725824", 
+            "Node2_pub_key": "033e9ce4e8f0e68f7db49ffb6b9eecc10605f3f3fcb3c630545887749ab515b9c7", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 546932, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "623705667498147840", 
+            "Node2_pub_key": "02b3a8dfea0259d93bbc799c25126c84e2950b60a3bc25248dc508f946c2878883", 
+            "ShortChannelID": "", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 200000, 
+            "MeasurementTime": 21.57751202583313, 
+            "EstimatedCapacity": 200000, 
+            "Channel_ID": "623707866523303937", 
+            "Node2_pub_key": "0317d8cb7e9df372d70553048994ec959199dd5bdc7fae44a889bb7b78ad9b5d5a", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "567259:957:1"
+        }, 
+        {
+            "Capacity": 2200000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "623801324963364865", 
+            "Node2_pub_key": "02f3069a342ae2883a6f29e275f06f28a56a6ea2e2d96f5888a3266444dcf542b6", 
+            "ShortChannelID": "", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 500000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "623806822629834753", 
+            "Node2_pub_key": "03465f79f840a1169e2b4cb42d684e1723af861b8a82336aa72f9766643a6ef4e4", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 2000000, 
+            "MeasurementTime": 18.13593888282776, 
+            "EstimatedCapacity": 10, 
+            "Channel_ID": "623863997184606209", 
+            "Node2_pub_key": "03a5886df676f3b3216a4520156157b8d653e262b520281d8d325c24fd8b456b9c", 
+            "ShortChannelID": "567401:1112:1", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 1
+        }, 
+        {
+            "Capacity": 1000000, 
+            "MeasurementTime": 17.703909873962402, 
+            "EstimatedCapacity": 1000000, 
+            "Channel_ID": "623870594203713536", 
+            "Node2_pub_key": "036516bfe50e0ce9c550c96061c5e46d34c3d9234827a7dae27f74b18d597305a4", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "567407:339:0"
+        }, 
+        {
+            "Capacity": 500000, 
+            "MeasurementTime": 21.90995502471924, 
+            "EstimatedCapacity": 500000, 
+            "Channel_ID": "623916773812469760", 
+            "Node2_pub_key": "025de1ab430106fa6033637d0ff2946b48808c718d3202bd8183558119df98f25c", 
+            "ShortChannelID": "567449:2176:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 733601, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -1, 
+            "Channel_ID": "624152069284626432", 
+            "Node2_pub_key": "02c095d069538f96bf14c5f90f6c0851bdf354a0ec86039a24bf38a73f705adc2c", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 1000000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "624252124843016193", 
+            "Node2_pub_key": "03f47bc2f611f1b4a4aea1e08b8b2626d4c965a7253f8ef9066a734cc3df0dd141", 
+            "ShortChannelID": "", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 1
+        }, 
+        {
+            "Capacity": 100000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -1, 
+            "Channel_ID": "624388464276865024", 
+            "Node2_pub_key": "02121f8dbac9a3c30e3880ffd39895821bc23b5b582c03d75d1245d3b3d3c83bcd", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 2000000, 
+            "MeasurementTime": 5.984750032424927, 
+            "EstimatedCapacity": 2000000, 
+            "Channel_ID": "624430245752799233", 
+            "Node2_pub_key": "037f990e61acee8a7697966afd29dd88f3b1f8a7b14d625c4f8742bd952003a590", 
+            "ShortChannelID": "567916:2331:1", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 100000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -1, 
+            "Channel_ID": "624442340247797760", 
+            "Node2_pub_key": "035d3a4133421775f3dcb134b3be59306e0084dc7cf11cfde1ab128e2f8d544062", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 100000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "624451136414285824", 
+            "Node2_pub_key": "02a4eaca3d8770d7859a3a49cb9e979dcbe7eef3c2767c8222c6948eef902c2196", 
+            "ShortChannelID": "", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 3000000, 
+            "MeasurementTime": 18.842557191848755, 
+            "EstimatedCapacity": 3000000, 
+            "Channel_ID": "624603968495353856", 
+            "Node2_pub_key": "02365ed88612478a8286eb169bbff497eb8d3d040721120e5098abc577d932b510", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "568074:887:0"
+        }, 
+        {
+            "Capacity": 130000, 
+            "MeasurementTime": 21.673509120941162, 
+            "EstimatedCapacity": 130000, 
+            "Channel_ID": "624606167489445889", 
+            "Node2_pub_key": "0230ca47a0eff2ec283c86acffb6afda09353d766bcebcd04f68033b2fdf39210a", 
+            "ShortChannelID": "568076:442:1", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 2500000, 
+            "MeasurementTime": 18.930739164352417, 
+            "EstimatedCapacity": 2500000, 
+            "Channel_ID": "624667740234186752", 
+            "Node2_pub_key": "0200424bd89b5282c310e10a52fd783070556f947b54d93f73fd89534ce0cba708", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "568132:1870:0"
+        }, 
+        {
+            "Capacity": 978529, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "624687531390664705", 
+            "Node2_pub_key": "021607cfce19a4c5e7e6e738663dfafbbbac262e4ff76c2c9b30dbeefc35c00643", 
+            "ShortChannelID": "", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 4000000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "624712820203454465", 
+            "Node2_pub_key": "037f990e61acee8a7697966afd29dd88f3b1f8a7b14d625c4f8742bd952003a590", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 250000, 
+            "MeasurementTime": 20.073523998260498, 
+            "EstimatedCapacity": 250000, 
+            "Channel_ID": "624742507040538624", 
+            "Node2_pub_key": "02563f8917069dfa941de50d9231aaac194c1f7923b651abbd4b84dc784eace83b", 
+            "ShortChannelID": "568200:2109:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 100000, 
+            "MeasurementTime": 21.268864154815674, 
+            "EstimatedCapacity": 10, 
+            "Channel_ID": "624802980210212864", 
+            "Node2_pub_key": "03af6a89ead93fe38a755113d5202572c52e138743ec4ab8c8b5b598112bcbed4c", 
+            "Channel_direction": 1, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "568255:2569:0"
+        }, 
+        {
+            "Capacity": 500000, 
+            "MeasurementTime": 20.055360078811646, 
+            "EstimatedCapacity": 10, 
+            "Channel_ID": "624888742017105920", 
+            "Node2_pub_key": "03e336bf3ef3268b1f6e18ab563bb036d594bac758269cd40e0edf80a01b340cba", 
+            "ShortChannelID": "568333:1042:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 1
+        }, 
+        {
+            "Capacity": 100000, 
+            "MeasurementTime": 20.542195081710815, 
+            "EstimatedCapacity": 10, 
+            "Channel_ID": "624962409304358913", 
+            "Node2_pub_key": "03a98cedc0a9a0df3d5043e3d83bfab1aad11ea39aa000fa967752d83ab4f9d823", 
+            "Channel_direction": 1, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "568400:1167:1"
+        }, 
+        {
+            "Capacity": 4000000, 
+            "MeasurementTime": 19.503205060958862, 
+            "EstimatedCapacity": 4000000, 
+            "Channel_ID": "625027280597745665", 
+            "Node2_pub_key": "021e69b1a4350fa21263f184ed821b7850ba941dfc108a26779111d171c24ebe53", 
+            "ShortChannelID": "568459:2805:1", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 100000, 
+            "MeasurementTime": 21.90737795829773, 
+            "EstimatedCapacity": 100000, 
+            "Channel_ID": "625050370243493888", 
+            "Node2_pub_key": "036ec86c1230685189e2481e48f6cbbd47c749f150ffa3d75b6fb7f9a1e318159f", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "568480:1303:0"
+        }, 
+        {
+            "Capacity": 500000, 
+            "MeasurementTime": 19.665198802947998, 
+            "EstimatedCapacity": 500000, 
+            "Channel_ID": "625061365399420928", 
+            "Node2_pub_key": "0314da85ec42da046703ea16f8ffd3b69c181c09652138f517af87df92a64502e8", 
+            "ShortChannelID": "568490:1908:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 1000000, 
+            "MeasurementTime": 18.957003116607666, 
+            "EstimatedCapacity": 1000000, 
+            "Channel_ID": "625078957495156737", 
+            "Node2_pub_key": "037e1439d8f1394d00868beeff636e42518a30b3ead303bb3ad4185b53e41d6d52", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "568506:530:1"
+        }, 
+        {
+            "Capacity": 1000000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "625213098011590657", 
+            "Node2_pub_key": "031d2bbc75802689312220a017c6b51fa246efc59c7aa9355f6f7395038ffb4d6a", 
+            "ShortChannelID": "", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 500000, 
+            "MeasurementTime": 21.41647505760193, 
+            "EstimatedCapacity": 500000, 
+            "Channel_ID": "625310954561273856", 
+            "Node2_pub_key": "0303ebeb7f4f6bb012a40a18e0f3ea7b9812e133aa679f6652562d7f9fe967e02f", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "568717:2249:0"
+        }, 
+        {
+            "Capacity": 150000, 
+            "MeasurementTime": 22.344247817993164, 
+            "EstimatedCapacity": 150000, 
+            "Channel_ID": "625467085179846657", 
+            "Node2_pub_key": "038071f639b8489f0e8f66c5813d66e65e27b886b8f3c425113c369376d4fdc7a4", 
+            "ShortChannelID": "568859:1752:1", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 400000, 
+            "MeasurementTime": 21.123712062835693, 
+            "EstimatedCapacity": 400000, 
+            "Channel_ID": "625563842128248833", 
+            "Node2_pub_key": "03340bdaa60a2162192eecece875a76d1900337d5c4599b206f0ff2173f2da2770", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "568947:610:1"
+        }, 
+        {
+            "Capacity": 1600000, 
+            "MeasurementTime": 20.65636897087097, 
+            "EstimatedCapacity": 1600000, 
+            "Channel_ID": "625603424602161152", 
+            "Node2_pub_key": "035970cca750924dd0e5c402c32b2506f47ca498593f534e571097248ea7183042", 
+            "ShortChannelID": "568983:1454:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 725000, 
+            "MeasurementTime": 22.480906009674072, 
+            "EstimatedCapacity": 725000, 
+            "Channel_ID": "625657300686143489", 
+            "Node2_pub_key": "024b8019795ec753fcdb1eb21ecd319bfab6a8b05e017f357dc5f052a181fb8c91", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "556817:914:0"
+        }, 
+        {
+            "Capacity": 4000000, 
+            "MeasurementTime": 17.777374029159546, 
+            "EstimatedCapacity": 4000000, 
+            "Channel_ID": "625697982605492224", 
+            "Node2_pub_key": "027640436da13f78e0383c71a1daac9dd356758ce06d5ca16e8556d6790e69c7df", 
+            "ShortChannelID": "569069:1505:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 473943, 
+            "MeasurementTime": 21.753133058547974, 
+            "EstimatedCapacity": 10, 
+            "Channel_ID": "625702380754305024", 
+            "Node2_pub_key": "03c9f4e801f0a676656f5ea3823707f6d6fd1b30f87fac065189b1956775c51cb7", 
+            "Channel_direction": 1, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "569073:3066:0"
+        }, 
+        {
+            "Capacity": 391612, 
+            "MeasurementTime": 21.08532691001892, 
+            "EstimatedCapacity": 391612, 
+            "Channel_ID": "625845317124096001", 
+            "Node2_pub_key": "03260b2b1365ae3b6dd889e3a0964ca070b537d466d97a245a7a999183540a39cc", 
+            "ShortChannelID": "569203:902:1", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 600000, 
+            "MeasurementTime": 20.984642028808594, 
+            "EstimatedCapacity": 600000, 
+            "Channel_ID": "625850814771101697", 
+            "Node2_pub_key": "021abd04ff7ad5c13115985fc34bf504c14a2602db89c3e0827ac5f3355566abac", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "569208:2258:1"
+        }, 
+        {
+            "Capacity": 250000, 
+            "MeasurementTime": 21.352823972702026, 
+            "EstimatedCapacity": 250000, 
+            "Channel_ID": "625854113235927040", 
+            "Node2_pub_key": "023a4c662ab9c71826b5793d3ab3853b993f0265f53ca7f648a562611176cf0b16", 
+            "ShortChannelID": "569211:1189:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 367674, 
+            "MeasurementTime": 24.05945611000061, 
+            "EstimatedCapacity": 367674, 
+            "Channel_ID": "625882700505415680", 
+            "Node2_pub_key": "029bd34009848ba89606ea5d488b966bab4e23da8582265ececbb38c28ecd6d591", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "569237:688:0"
+        }, 
+        {
+            "Capacity": 100000, 
+            "MeasurementTime": 24.19827699661255, 
+            "EstimatedCapacity": 100000, 
+            "Channel_ID": "625975059618660352", 
+            "Node2_pub_key": "02856d85fbf903d4b2bca3522a3feec72d0b3625fc2221340d164e63e4b656dcf2", 
+            "ShortChannelID": "569321:2771:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 250000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "626056423409516545", 
+            "Node2_pub_key": "03472d3e488f6bd2e33b4992ce75c211393ba1ac66a4270cc26502a6fbac646c99", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 500000, 
+            "MeasurementTime": 23.275654077529907, 
+            "EstimatedCapacity": 500000, 
+            "Channel_ID": "626108100396580865", 
+            "Node2_pub_key": "035a2bab9508850f961dec02879314d8bd54fef051c7662cc07a8cedc1f3245ebc", 
+            "ShortChannelID": "569442:802:1", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 800000, 
+            "MeasurementTime": 6.098196029663086, 
+            "EstimatedCapacity": 800000, 
+            "Channel_ID": "626143284828635137", 
+            "Node2_pub_key": "031a5b68b9ce7b9db5cf3ceeae69626cdd5b25eec35de4b2ca85c8ac245fbb0e87", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "569474:1717:1"
+        }, 
+        {
+            "Capacity": 100000, 
+            "MeasurementTime": 21.14844298362732, 
+            "EstimatedCapacity": 10, 
+            "Channel_ID": "626183966675566592", 
+            "Node2_pub_key": "03fc8794433fa87967bb8df7469f6895a9dd46a9de40465a739f7b5c34f11cc26e", 
+            "ShortChannelID": "569511:446:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 1
+        }, 
+        {
+            "Capacity": 1200000, 
+            "MeasurementTime": 19.723214864730835, 
+            "EstimatedCapacity": 1200000, 
+            "Channel_ID": "626231245695221760", 
+            "Node2_pub_key": "033fd3e16bc450ea25cad365c8422f5534429c084a2f5e200caaf5fee6811418e5", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "569554:746:0"
+        }, 
+        {
+            "Capacity": 100000, 
+            "MeasurementTime": 21.068789958953857, 
+            "EstimatedCapacity": 10, 
+            "Channel_ID": "626282922839834624", 
+            "Node2_pub_key": "03d2f0c5ed27e3153c1f714165a0f7bd9b92130594d3508b8d560e8cef447b9361", 
+            "ShortChannelID": "569601:2243:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 1
+        }, 
+        {
+            "Capacity": 100000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -1, 
+            "Channel_ID": "626288420308516865", 
+            "Node2_pub_key": "03286b7d87c5df90f2656b8292de3b9297bcfb1d8a2c3db8529fbf13c1fa542bdb", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 500000, 
+            "MeasurementTime": 22.123832941055298, 
+            "EstimatedCapacity": 10, 
+            "Channel_ID": "626292818348343296", 
+            "Node2_pub_key": "03dd23fae9eeb1947d1a267f2c8a5560977355c453097331b0bae9de03f9f147c4", 
+            "ShortChannelID": "569610:776:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 1
+        }, 
+        {
+            "Capacity": 2500000, 
+            "MeasurementTime": 21.267325162887573, 
+            "EstimatedCapacity": 2500000, 
+            "Channel_ID": "626352192058032128", 
+            "Node2_pub_key": "03166e47f36d94b7b4d1a0c0a2bcfc563e7318ea10b5db8c77e570ff3e75d47d82", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "569664:2024:0"
+        }, 
+        {
+            "Capacity": 1000000, 
+            "MeasurementTime": 20.153170108795166, 
+            "EstimatedCapacity": 1000000, 
+            "Channel_ID": "626516019230015489", 
+            "Node2_pub_key": "02fb825f9fb2ae312f642f0ea1437a095380469bdeeb73e3d72e6647beb60afef6", 
+            "ShortChannelID": "569813:1100:1", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 399373, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -1, 
+            "Channel_ID": "626520417382498305", 
+            "Node2_pub_key": "0249b0e7f93ced7877234fcbda889c18da768ac7c5cf2fe15384bd49e30010f5e1", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 100000, 
+            "MeasurementTime": 22.519479036331177, 
+            "EstimatedCapacity": 100000, 
+            "Channel_ID": "626745817266847744", 
+            "Node2_pub_key": "02f4080ad2b12c5a7f055d426bac6abe08820573237bdb745dc62bc8b43d21f986", 
+            "ShortChannelID": "570022:2727:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 1000000, 
+            "MeasurementTime": 21.19188380241394, 
+            "EstimatedCapacity": 1000000, 
+            "Channel_ID": "626817285383651328", 
+            "Node2_pub_key": "022c27b7140c6a5a3d0e6dc0db3d92103e0bfad98809b461a8136e07295688f999", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "570087:606:0"
+        }, 
+        {
+            "Capacity": 1000000, 
+            "MeasurementTime": 18.842320919036865, 
+            "EstimatedCapacity": 1000000, 
+            "Channel_ID": "626843673693650945", 
+            "Node2_pub_key": "02d8cccc83729b1c30bb9b06f9643787255dd56ed3bc7cac1167f3274645912b9e", 
+            "ShortChannelID": "570111:1078:1", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 200000, 
+            "MeasurementTime": 19.80979895591736, 
+            "EstimatedCapacity": 10, 
+            "Channel_ID": "626849171308478465", 
+            "Node2_pub_key": "03b80fca5590c310f3989b00922160af9fff9019615c08e393f64dcf2847a42ea4", 
+            "Channel_direction": 1, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "570116:1943:1"
+        }, 
+        {
+            "Capacity": 2000000, 
+            "MeasurementTime": 21.58436608314514, 
+            "EstimatedCapacity": 10, 
+            "Channel_ID": "626860166441140225", 
+            "Node2_pub_key": "03de7f5fa97bc87f048e977533fdc0484bf4e0a5b5ca6e55f7baf32b533cbac3f7", 
+            "ShortChannelID": "570126:2193:1", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 1
+        }, 
+        {
+            "Capacity": 400000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -1, 
+            "Channel_ID": "626934933246377985", 
+            "Node2_pub_key": "020f48d0e53287bf12ad0f2e007278ef818569efb147d936a629e8355e35764d4c", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 2000000, 
+            "MeasurementTime": 19.205336093902588, 
+            "EstimatedCapacity": 2000000, 
+            "Channel_ID": "626936032668745729", 
+            "Node2_pub_key": "03587466207e0ff2787d23f5567ab666436f04fc0df7c996b69701b7e77900993e", 
+            "ShortChannelID": "570195:1053:1", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 2000000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "627037187697934336", 
+            "Node2_pub_key": "022996023fa7b2621d62f01045f9a299ec04a903147b0aa529ab2ecce93fba54f2", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 4000000, 
+            "MeasurementTime": 19.11264991760254, 
+            "EstimatedCapacity": 4000000, 
+            "Channel_ID": "627069073604280321", 
+            "Node2_pub_key": "026165850492521f4ac8abd9bd8088123446d126f648ca35e60f88177dc149ceb2", 
+            "ShortChannelID": "570957:1400:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 100000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -1, 
+            "Channel_ID": "627074571127029760", 
+            "Node2_pub_key": "03992eacb7e7db333db000f1b47e2366ab1e97ecfaeb10a6b9e75207a4228c8336", 
+            "Channel_direction": 1, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 2000000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "627077869638844417", 
+            "Node2_pub_key": "0330e0a4e314681b739cae329cf93d5f56469b256b46f834f599eafceb8b081be5", 
+            "ShortChannelID": "", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 1000000, 
+            "MeasurementTime": 22.427428007125854, 
+            "EstimatedCapacity": 1000000, 
+            "Channel_ID": "627083367180795905", 
+            "Node2_pub_key": "02ad33d99d0bb3bf3bb8ec8e089cbefa8fd7de23a13cfa59aec9af9730816be76f", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "564933:521:0"
+        }, 
+        {
+            "Capacity": 250000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -1, 
+            "Channel_ID": "627107556485693440", 
+            "Node2_pub_key": "03b053229a315d4071520d7466f50b91be0edad375122c15932ba3334539a72a6c", 
+            "ShortChannelID": "", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 1
+        }, 
+        {
+            "Capacity": 400000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "627113054172086272", 
+            "Node2_pub_key": "03ed7a880e89471a8493b156e97528bf7e89747cdb1559e05df0483fc8109cff8d", 
+            "Channel_direction": 1, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 650000, 
+            "MeasurementTime": 21.377439975738525, 
+            "EstimatedCapacity": 10, 
+            "Channel_ID": "627116352667058176", 
+            "Node2_pub_key": "039128dd192e21009f4eea7fa973d21ee9010acef0d9f7c922175aa87616dfe4d9", 
+            "ShortChannelID": "570359:2447:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 1
+        }, 
+        {
+            "Capacity": 350000, 
+            "MeasurementTime": 13.911773920059204, 
+            "EstimatedCapacity": 101171, 
+            "Channel_ID": "627116352667189249", 
+            "Node2_pub_key": "02025c2f87e4f913fefe69a84f398cbb090dc42a9ad1002d334cb6b4bf16aa04c5", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "570359:2449:1"
+        }, 
+        {
+            "Capacity": 187881, 
+            "MeasurementTime": 20.578809022903442, 
+            "EstimatedCapacity": 10, 
+            "Channel_ID": "627139442271256576", 
+            "Node2_pub_key": "03b02e48bc282ab9008279e8cc00c1072d4b73ecb1cb5ecee86f4dc3d94757990a", 
+            "ShortChannelID": "570380:311:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 1
+        }, 
+        {
+            "Capacity": 120000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "627147138988769281", 
+            "Node2_pub_key": "02ecce609a8f9237d7d95d166b4964f2cb270c63fb7ffade35bba47d56d60641b0", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 2900000, 
+            "MeasurementTime": 20.869940042495728, 
+            "EstimatedCapacity": 2900000, 
+            "Channel_ID": "627182323243417601", 
+            "Node2_pub_key": "02c58cabc78496cb847adbe4af654b2b0b94c54aa829840edde7777897a57e9db3", 
+            "ShortChannelID": "570419:596:1", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 1000000, 
+            "MeasurementTime": 18.369837045669556, 
+            "EstimatedCapacity": 1000000, 
+            "Channel_ID": "627193318337478657", 
+            "Node2_pub_key": "03863a2a99201832bcb1dc25872c91dda0fbf84f9c8a9a8f5eabd766b63f98e87d", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "570429:257:1"
+        }, 
+        {
+            "Capacity": 2440000, 
+            "MeasurementTime": 31.38197612762451, 
+            "EstimatedCapacity": 1658437, 
+            "Channel_ID": "627193318422347777", 
+            "Node2_pub_key": "0292b002b0e0c65c9628e4b1cd3fc8bf81364a3753544e2e89cebac6675b6d416c", 
+            "ShortChannelID": "570429:1552:1", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 1000000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "627219706643218433", 
+            "Node2_pub_key": "03844d74f7c60b52e50397c32e52e3910e37542b91c9c59bfdaa2306c63f9e5c6e", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 100000, 
+            "MeasurementTime": 21.853513956069946, 
+            "EstimatedCapacity": 100000, 
+            "Channel_ID": "627232900815847424", 
+            "Node2_pub_key": "0325dd85eb6787c4905379f8a2e879e4bdd54c8c2b656d1243d7587b2a3059a0e8", 
+            "ShortChannelID": "570465:1169:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 150000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -1, 
+            "Channel_ID": "627263687177011200", 
+            "Node2_pub_key": "0263070df7ff4e00996ec87f3c1e2917baf9aba7f30b417c2d049546cdd84c77e9", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 200000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "627287876554063872", 
+            "Node2_pub_key": "031add32c81f8b56790315f404db03d62b67c3fe081fba5aecde6b75fd98ca47fb", 
+            "ShortChannelID": "", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 100000, 
+            "MeasurementTime": 19.976614952087402, 
+            "EstimatedCapacity": 100000, 
+            "Channel_ID": "627301070549286912", 
+            "Node2_pub_key": "02d13b9e4bdc10f49f38d98f40b9a30cd089276dda588613079b712987c42adf76", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "570527:1360:0"
+        }, 
+        {
+            "Capacity": 110000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -1, 
+            "Channel_ID": "627360444209037312", 
+            "Node2_pub_key": "024289e1c12337c4f02f0cbb2992ce96335a92e5648a87dc5b49598ec910ce5cbc", 
+            "ShortChannelID": "", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 100000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -1, 
+            "Channel_ID": "627427514495991808", 
+            "Node2_pub_key": "026721ad53b0d40986686c173b88f47bea94a97e64ddf34dd45926f17a821505fd", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 2194909, 
+            "MeasurementTime": 17.581250190734863, 
+            "EstimatedCapacity": 2194909, 
+            "Channel_ID": "627435210897948673", 
+            "Node2_pub_key": "02c80136d51ee2605a32fdf015bf15f5651aafed07934091011cec88822a1a26dd", 
+            "ShortChannelID": "570649:293:1", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 600000, 
+            "MeasurementTime": 19.485740900039673, 
+            "EstimatedCapacity": 600000, 
+            "Channel_ID": "627449504646692865", 
+            "Node2_pub_key": "02527f644f0e1808af21581ed7182ebda1f13526eda39188ec677a4218778e5387", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "570662:1782:1"
+        }, 
+        {
+            "Capacity": 300000, 
+            "MeasurementTime": 21.588577032089233, 
+            "EstimatedCapacity": 300000, 
+            "Channel_ID": "627458300734210049", 
+            "Node2_pub_key": "0222678dd2b2f5512687ee5c8fb768f90743f6052a1f5aaf7a277078aa70be7189", 
+            "ShortChannelID": "570670:1698:1", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 200000, 
+            "MeasurementTime": 0, 
+            "EstimatedCapacity": -2, 
+            "Channel_ID": "627467096799444993", 
+            "Node2_pub_key": "03387af7c0420eccb3074ee4701c7b9c4ec3ba4b956a99c609c73d64f0926381ae", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": ""
+        }, 
+        {
+            "Capacity": 900000, 
+            "MeasurementTime": 6.915093898773193, 
+            "EstimatedCapacity": 900000, 
+            "Channel_ID": "627492385511571457", 
+            "Node2_pub_key": "03aafcca7bd82cff6ed3b7b047c158210cc31febc53dace1c4f7af5b880471011d", 
+            "ShortChannelID": "570701:430:1", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 1
+        }, 
+        {
+            "Capacity": 200000, 
+            "MeasurementTime": 21.343495845794678, 
+            "EstimatedCapacity": 200000, 
+            "Channel_ID": "627549560198397952", 
+            "Node2_pub_key": "02ee701cdc128efc0d19b5a8ed152de2e1cf00d1cc4402f9a441f13f8fa3c5f111", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "570753:1684:0"
+        }, 
+        {
+            "Capacity": 1000000, 
+            "MeasurementTime": 20.50970697402954, 
+            "EstimatedCapacity": 1000000, 
+            "Channel_ID": "627549560226775041", 
+            "Node2_pub_key": "02baf5476270b437cb04ff2683b0866bbeb8f24353377b9b66415cf72ba61083d9", 
+            "ShortChannelID": "570753:2117:1", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 100000, 
+            "MeasurementTime": 21.348467111587524, 
+            "EstimatedCapacity": 100000, 
+            "Channel_ID": "627596839143211008", 
+            "Node2_pub_key": "03702d1794d4309efec815b9d36d375ca3106ac68e9de6b283eb093347ee51c9bc", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "570796:842:0"
+        }, 
+        {
+            "Capacity": 2620000, 
+            "MeasurementTime": 17.602684020996094, 
+            "EstimatedCapacity": 2620000, 
+            "Channel_ID": "627615530875748352", 
+            "Node2_pub_key": "03189e1951f97a57a6ed4dd4c40416e9a528a11f7c2961c2d60505f2e15b577bd2", 
+            "ShortChannelID": "570813:1374:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 500000, 
+            "MeasurementTime": 18.112390995025635, 
+            "EstimatedCapacity": 10, 
+            "Channel_ID": "627617729848016896", 
+            "Node2_pub_key": "03e411b337c53b0f9867185761505752fb8f840baf14db7762b449ccdd7f5093a4", 
+            "Channel_direction": 1, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "570815:596:0"
+        }, 
+        {
+            "Capacity": 100000, 
+            "MeasurementTime": 25.05544400215149, 
+            "EstimatedCapacity": 100000, 
+            "Channel_ID": "627693596168814592", 
+            "Node2_pub_key": "0385abecc9b747739d1798f51939916f819c6b36636d959b9368248cffe3db097a", 
+            "ShortChannelID": "570884:878:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 300000, 
+            "MeasurementTime": 22.285143852233887, 
+            "EstimatedCapacity": 10, 
+            "Channel_ID": "627699093799305217", 
+            "Node2_pub_key": "03e3be775189c0b16bbeb8fc338128a186dc3448ed4ca87deb6be3d93c66895fc4", 
+            "Channel_direction": 1, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "570889:1982:1"
+        }, 
+        {
+            "Capacity": 1000000, 
+            "MeasurementTime": 20.65572500228882, 
+            "EstimatedCapacity": 1000000, 
+            "Channel_ID": "627712287933202432", 
+            "Node2_pub_key": "023e2c654b2d87a960f3fc12ec3d50fdbb4b9546a81d1c353a679a0a0cecf0bd45", 
+            "ShortChannelID": "570901:1896:0", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Capacity": 100000, 
+            "MeasurementTime": 21.61754298210144, 
+            "EstimatedCapacity": 100000, 
+            "Channel_ID": "627714486913269760", 
+            "Node2_pub_key": "02b6dabd436275044399002241195b82b7fed517b226d0a109b1d07a39d7b4a91a", 
+            "Channel_direction": 0, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "570903:1237:0"
+        }, 
+        {
+            "Capacity": 200000, 
+            "MeasurementTime": 21.33829379081726, 
+            "EstimatedCapacity": 200000, 
+            "Channel_ID": "627751870390468609", 
+            "Node2_pub_key": "021e64cc0db3fc88a6c151576b1276fc3d9821f8674542f75b8317ffc8c9b394ad", 
+            "ShortChannelID": "570937:2486:1", 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "Channel_direction": 0
+        }, 
+        {
+            "Channel_ID": "627751870390468609", 
+            "Node2_pub_key": "021e64cc0db3fc88a6c151576b1276fc3d9821f8674542f75b8317ffc8c9b394ad", 
+            "Capacity": 200000, 
+            "Channel_direction": 0, 
+            "MeasurementTime": 2.302963972091675, 
+            "Node1_pub_key": "03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f", 
+            "ShortChannelID": "570937:2486:1", 
+            "EstimatedCapacity": 200000
+        }
+    ]
+}

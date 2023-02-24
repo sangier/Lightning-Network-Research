@@ -1,0 +1,1 @@
+[lncli] unable to decode local amt: strconv.ParseInt: parsing "1000000000000000000000": value out of range

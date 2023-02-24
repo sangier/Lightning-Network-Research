@@ -1,0 +1,296 @@
+1: connect:
+NAME:
+   lncli connect - Connect to a remote lnd peer.
+
+USAGE:
+   lncli connect [command options] <pubkey>@host
+
+CATEGORY:
+   Peers
+
+OPTIONS:
+   --perm  If set, the daemon will attempt to persistently connect to the target peer.
+           If not, the call will be synchronous.
+		   
+		   
+
+
+2: describegraph:
+NAME:
+   lncli describegraph - Describe the network graph.
+
+USAGE:
+   lncli describegraph [command options] [arguments...]
+
+CATEGORY:
+   Peers
+
+DESCRIPTION:
+   Prints a human readable version of the known channel graph from the PoV of the node
+
+OPTIONS:
+   --include_unannounced  If set, unannounced channels will be included in the graph. Unannounced channels are both private channels, and public channels that are not yet announced to the network.
+
+
+
+
+3: openchannel:
+NAME:
+   lncli openchannel - Open a channel to a node or an existing peer.
+
+USAGE:
+   lncli openchannel [command options] node-key local-amt push-amt
+
+CATEGORY:
+   Channels
+
+DESCRIPTION:
+
+  Attempt to open a new channel to an existing peer with the key node-key
+  optionally blocking until the channel is 'open'.
+
+  One can also connect to a node before opening a new channel to it by
+  setting its host:port via the --connect argument. For this to work,
+  the node_key must be provided, rather than the peer_id. This is optional.
+
+  The channel will be initialized with local-amt satoshis local and push-amt
+  satoshis for the remote node. Note that specifying push-amt means you give that
+  amount to the remote node as part of the channel opening. Once the channel is open,
+  a channelPoint (txid:vout) of the funding output is returned.
+
+  One can manually set the fee to be used for the funding transaction via either
+  the --conf_target or --sat_per_byte arguments. This is optional.
+
+OPTIONS:
+   --node_key value          the identity public key of the target node/peer serialized in compressed format
+   --connect value           (optional) the host:port of the target node
+   --local_amt value         the number of satoshis the wallet should commit to the channel (default: 0)
+   --push_amt value          the number of satoshis to give the remote side as part of the initial commitment state, this is equivalent to first opening a channel and sending the remote party funds, but done all in one step (default: 0)
+   --block                   block and wait until the channel is fully open
+   --conf_target value       (optional) the number of blocks that the transaction *should* confirm in, will be used for fee estimation (default: 0)
+   --sat_per_byte value      (optional) a manual fee expressed in sat/byte that should be used when crafting the transaction (default: 0)
+   --private                 make the channel private, such that it won't be announced to the greater network, and nodes other than the two channel endpoints must be explicitly told about it to be able to route through it
+   --min_htlc_msat value     (optional) the minimum value we will require for incoming HTLCs on the channel (default: 0)
+   --remote_csv_delay value  (optional) the number of blocks we will require our channel counterparty to wait before accessing its funds in case of unilateral close. If this is not set, we will scale the value according to the channel size (default: 0)
+   --min_confs value         (optional) the minimum number of confirmations each one of your outputs used for the funding transaction must satisfy (default: 1)
+
+
+
+4: pendingchannel:
+NAME:
+   lncli pendingchannels - Display information pertaining to pending channels.
+
+USAGE:
+   lncli pendingchannels [arguments...]
+
+CATEGORY:
+   Channels
+
+
+
+5: listchannel:
+NAME:
+   lncli pendingchannels - Display information pertaining to pending channels.
+
+USAGE:
+   lncli pendingchannels [arguments...]
+
+CATEGORY:
+   Channels
+sangieri@sangierivm1:~$ ^C
+sangieri@sangierivm1:~$ lncli listchannels -h
+NAME:
+   lncli listchannels - List all open channels.
+
+USAGE:
+   lncli listchannels [command options] [arguments...]
+
+CATEGORY:
+   Channels
+
+OPTIONS:
+   --active_only    only list channels which are currently active
+   --inactive_only  only list channels which are currently inactive
+   --public_only    only list channels which are currently public
+   --private_only   only list channels which are currently private
+
+
+
+
+6: closeallchannels:
+NAME:
+   lncli closeallchannels - Close all existing channels.
+
+USAGE:
+   lncli closeallchannels [command options] [arguments...]
+
+CATEGORY:
+   Channels
+
+DESCRIPTION:
+
+  Close all existing channels.
+
+  Channels will be closed either cooperatively or unilaterally, depending
+  on whether the channel is active or not. If the channel is inactive, any
+  settled funds within it will be time locked for a few blocks before they
+  can be spent.
+
+  One can request to close inactive channels only by using the
+  --inactive_only flag.
+
+  By default, one is prompted for confirmation every time an inactive
+  channel is requested to be closed. To avoid this, one can set the
+  --force flag, which will only prompt for confirmation once for all
+  inactive channels and proceed to close them.
+
+OPTIONS:
+   --inactive_only  close inactive channels only
+   --force          ask for confirmation once before attempting to close existing channels
+
+
+
+7: queryroutes:
+NAME:
+   lncli queryroutes - Query a route to a destination.
+
+USAGE:
+   lncli queryroutes [command options] dest amt
+
+CATEGORY:
+   Payments
+
+DESCRIPTION:
+   Queries the channel router for a potential path to the destination that has sufficient flow for the amount including fees
+
+OPTIONS:
+   --dest value               the 33-byte hex-encoded public key for the payment destination
+   --amt value                the amount to send expressed in satoshis (default: 0)
+   --fee_limit value          maximum fee allowed in satoshis when sending the payment (default: 0)
+   --fee_limit_percent value  percentage of the payment's amount used as the maximum fee allowed when sending the payment (default: 0)
+   --num_max_routes value     the max number of routes to be returned (default: 10)
+   --final_cltv_delta value   (optional) number of blocks the last hop has to reveal the preimage (default: 0)
+
+
+
+
+
+8: sendtoroutes:
+NAME:
+   lncli sendtoroute - send a payment over a predefined route
+
+USAGE:
+   lncli sendtoroute [command options] [arguments...]
+
+DESCRIPTION:
+
+  Send a payment over Lightning using a specific route. One must specify
+  a list of routes to attempt and the payment hash. This command can even
+  be chained with the response to queryroutes. This command can be used
+  to implement channel rebalancing by crafting a self-route, or even
+  atomic swaps using a self-route that crosses multiple chains.
+
+  There are three ways to specify routes:
+     * using the --routes parameter to manually specify a JSON encoded
+       set of routes in the format of the return value of queryroutes:
+           (lncli sendtoroute --payment_hash=<pay_hash> --routes=<route>)
+
+     * passing the routes as a positional argument:
+           (lncli sendtoroute --payment_hash=pay_hash <route>)
+
+     * or reading in the routes from stdin, which can allow chaining the
+       response from queryroutes, or even read in a file with a set of
+       pre-computed routes:
+           (lncli queryroutes --args.. | lncli sendtoroute --payment_hash= -
+
+       notice the '-' at the end, which signals that lncli should read
+       the route in from stdin
+
+
+OPTIONS:
+   --payment_hash value, --pay_hash value  the hash to use within the payment's HTLC
+   --routes value, -r value                a json array string in the format of the response of queryroutes that denotes which routes to use
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+The open_channel Message
+
+This message contains information about a node and indicates its desire to set up a new channel. This is the first step toward creating the funding transaction and both versions of the commitment transaction.
+
+    type: 32 (open_channel)
+    data:
+        [32:chain_hash]
+        [32:temporary_channel_id]
+        [8:funding_satoshis]
+        [8:push_msat]
+        [8:dust_limit_satoshis]
+        [8:max_htlc_value_in_flight_msat]
+        [8:channel_reserve_satoshis]
+        [8:htlc_minimum_msat]
+        [4:feerate_per_kw]
+        [2:to_self_delay]
+        [2:max_accepted_htlcs]
+        [33:funding_pubkey]
+        [33:revocation_basepoint]
+        [33:payment_basepoint]
+        [33:delayed_payment_basepoint]
+        [33:htlc_basepoint]
+        [33:first_per_commitment_point]
+        [1:channel_flags]
+        [2:shutdown_len] (option_upfront_shutdown_script)
+        [shutdown_len:shutdown_scriptpubkey] (option_upfront_shutdown_script)
+
+- The chain_hash value denotes the exact blockchain that the opened channel will reside within. This is usually the genesis hash of the respective blockchain. 
+  The existence of the chain_hash allows nodes to open channels across many distinct blockchains as well as have channels within multiple blockchains opened to the same peer (if it supports the target chains).
+
+- The temporary_channel_id is used to identify this channel on a per-peer basis until the funding transaction is established, at which point it is replaced by the channel_id, which is derived from the funding transaction.
+
+- funding_satoshis is the amount the sender is putting into the channel. push_msat is an amount of initial funds that the sender is unconditionally giving to the receiver. 
+
+- dust_limit_satoshis is the threshold below which outputs should not be generated for this node's commitment or HTLC transactions (i.e. HTLCs below this amount plus HTLC transaction fees are not enforceable on-chain).
+  This reflects the reality that tiny outputs are not considered standard transactions and will not propagate through the Bitcoin network. 
+
+- channel_reserve_satoshis is the minimum amount that the other node is to keep as a direct payment. 
+
+- htlc_minimum_msat indicates the smallest value HTLC this node will accept.
+
+- max_htlc_value_in_flight_msat is a cap on total value of outstanding HTLCs, which allows a node to limit its exposure to HTLCs; similarly, max_accepted_htlcs limits the number of outstanding HTLCs the other node can offer.
+
+- feerate_per_kw indicates the initial fee rate in satoshi per 1000-weight (i.e. 1/4 the more normally-used 'satoshi per 1000 vbytes') that this side will pay for commitment and HTLC transactions, 
+as described in BOLT #3 (this can be adjusted later with an update_fee message).
+
+- to_self_delay is the number of blocks that the other node's to-self outputs must be delayed, using OP_CHECKSEQUENCEVERIFY delays; this is how long it will have to wait in case of breakdown before redeeming its own funds.
+
+- funding_pubkey is the public key in the 2-of-2 multisig script of the funding transaction output.
+
+The various _basepoint fields are used to derive unique keys as described in BOLT #3 for each commitment transaction. Varying these keys ensures that the transaction ID of each commitment transaction is unpredictable 
+to an external observer, even if one commitment transaction is seen; this property is very useful for preserving privacy when outsourcing penalty transactions to third parties.
+
+- first_per_commitment_point is the per-commitment point to be used for the first commitment transaction,
+
+Only the least-significant bit of channel_flags is currently defined: announce_channel. This indicates whether the initiator of the funding flow wishes to advertise this channel publicly to the network, 
+as detailed within BOLT #7.
+
+The shutdown_scriptpubkey allows the sending node to commit to where funds will go on mutual close, which the remote node should enforce even if a node is compromised later.
+
+
+
+
+
+
+
+
+https://github.com/lightningnetwork/lnd/issues/48  DUST LIMIT 
+
+
+https://medium.com/meetbitfury/blog-lightning-network-observations-on-the-bitcoin-mainnet-e5bfebb6fb00
+
+https://github.com/ElementsProject/lightning/issues/732

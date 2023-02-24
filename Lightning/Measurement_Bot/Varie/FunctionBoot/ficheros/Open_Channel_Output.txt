@@ -1,0 +1,3 @@
+{
+        "funding_txid": "5cdc47e95d662e56a801f72d419c71fefcd421ad5ef845c09fd6b0d9488744d2"
+}

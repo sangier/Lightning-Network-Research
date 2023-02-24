@@ -1,0 +1,15 @@
+SO WHAT WAS ACHIEVED?? Nobody in the entire circuit KNOWS THE PATH of the entire circuit because they only know what came directly before it and what comes directly after it! 
+The entry node (first onion router) only knows the IP of the originating computer and the IP of the next onion router. The intermediary node only knows the IP of the originating entry 
+node and the IP of the next onion router (in this case, the EXIT NODE). The exit node only knows the IP of the intermediary node and the destination IP address. 
+This all succeeds because the information is encrypted/encapsulated in "layers", such as the layers of an onion. Hence, onion routing.
+
+
+OPs consider rotating to a new circuit once a minute
+
+
+https://raiden.network/
+
+
+
+
+https://www.iana.org/help/abuse-answers

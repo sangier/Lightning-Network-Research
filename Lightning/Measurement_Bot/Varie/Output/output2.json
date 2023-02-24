@@ -1,0 +1,5 @@
+{
+	"payment_error": "unable to route payment to destination: UnknownNextPeer",
+	"payment_preimage": "",
+	"payment_route": null
+}

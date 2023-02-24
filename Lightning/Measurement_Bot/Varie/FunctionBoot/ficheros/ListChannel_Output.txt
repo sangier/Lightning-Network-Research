@@ -1,0 +1,94 @@
+
+
+
+{
+    "channels": [
+        {
+            "active": true,
+            "remote_pubkey": "0260d9119979caedc570ada883ff614c6efb93f7f7382e25d73ecbeba0b62df2d7",
+            "channel_point": "565b0cd4c890efc2cb8f9bf16d8577d0d5e7cbc25fd9307c5c4a1f47e9694775:0",
+            "chan_id": "1634969392462102528",
+            "capacity": "4295000",
+            "local_balance": "4294817",
+            "remote_balance": "0",
+            "commit_fee": "183",
+            "commit_weight": "600",
+            "fee_per_kw": "253",
+            "unsettled_balance": "0",
+            "total_satoshis_sent": "0",
+            "total_satoshis_received": "0",
+            "num_updates": "26",
+            "pending_htlcs": [
+            ],
+            "csv_delay": 516,
+            "private": false
+        },
+        {
+            "active": true,
+            "remote_pubkey": "02acb5b3bdf46d3a35e665c9abe46def12c341f55d603853ddeb1371076cab5c57",
+            "channel_point": "f43d5a98d50e928d73737f69b8fed02de9db2068778605172461de3515b9e5d6:1",
+            "chan_id": "1635242071342972929",
+            "capacity": "4295000",
+            "local_balance": "4294817",
+            "remote_balance": "0",
+            "commit_fee": "183",
+            "commit_weight": "600",
+            "fee_per_kw": "253",
+            "unsettled_balance": "0",
+            "total_satoshis_sent": "0",
+            "total_satoshis_received": "0",
+            "num_updates": "304",
+            "pending_htlcs": [
+            ],
+            "csv_delay": 516,
+            "private": false
+        }
+    ]
+}
+
+{
+        "remote_pub_key": "02acb5b3bdf46d3a35e665c9abe46def12c341f55d603853ddeb1371076cab5c57",
+        "channel_point": "6ed7b23452f28a873b3c15315b1fbae6fdba6eee731af104a0939e60b1916064:0",
+        "closing_txid": "e02d7adf42255d878063af15261cb01098a49fb559973252c15ec8aee5b5e1f6",
+        "error": ""
+}
+
+
+
+{
+    "total_limbo_balance": "10019634",
+    "pending_open_channels": [
+    ],
+    "pending_closing_channels": [
+    ],
+    "pending_force_closing_channels": [
+        {
+            "channel": {
+                "remote_node_pub": "0260d9119979caedc570ada883ff614c6efb93f7f7382e25d73ecbeba0b62df2d7",
+                "channel_point": "ee32f1ee109fda0c8e57ee489b92948bde59819aa35c5273b67117f9bcd48f53:1",
+                "capacity": "10000000",
+                "local_balance": "9999817",
+                "remote_balance": "0"
+            },
+            "closing_txid": "4bb22c87752be9498aa6edfa7ad5430b28383f9993bd0e45fa04c8deb7aa6d7a",
+            "limbo_balance": "9999817",
+            "maturity_height": 1488192,
+            "blocks_til_maturity": 513,
+            "recovered_balance": "0",
+            "pending_htlcs": [
+            ]
+        }
+    ],
+    "waiting_close_channels": [
+        {
+            "channel": {
+                "remote_node_pub": "02acb5b3bdf46d3a35e665c9abe46def12c341f55d603853ddeb1371076cab5c57",
+                "channel_point": "6ed7b23452f28a873b3c15315b1fbae6fdba6eee731af104a0939e60b1916064:0",
+                "capacity": "20000",
+                "local_balance": "19817",
+                "remote_balance": "0"
+            },
+            "limbo_balance": "19817"
+        }
+    ]
+}

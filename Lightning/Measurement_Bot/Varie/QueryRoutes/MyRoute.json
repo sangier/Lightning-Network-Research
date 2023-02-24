@@ -1,0 +1,384 @@
+{
+    "routes": [
+        {
+            "total_time_lock": 1482532,
+            "total_fees": "1",
+            "total_amt": "900001",
+            "hops": [
+                {
+                    "chan_id": "1629707129819627521",
+                    "chan_capacity": "5000000",
+                    "amt_to_forward": "900000",
+                    "fee": "1",
+                    "expiry": 1482388,
+                    "amt_to_forward_msat": "900000000",
+                    "fee_msat": "1900",
+                    "pub_key": "0269a94e8b32c005e4336bfb743c08a6e9beb13d940d57c479d95c8e687ccbdb9f"
+                },
+                {
+                    "chan_id": "1627773088853196800",
+                    "chan_capacity": "900000",
+                    "amt_to_forward": "900000",
+                    "fee": "0",
+                    "expiry": 1482388,
+                    "amt_to_forward_msat": "900000000",
+                    "fee_msat": "0",
+                    "pub_key": "03ecd95e86e780ae82139c3217b527073622d28c4d8a53b76142a7b7b1d1e36975"
+                }
+            ],
+            "total_fees_msat": "1900",
+            "total_amt_msat": "900001900"
+        },
+        {
+            "total_time_lock": 1482676,
+            "total_fees": "3",
+            "total_amt": "900003",
+            "hops": [
+                {
+                    "chan_id": "1629707129819627521",
+                    "chan_capacity": "5000000",
+                    "amt_to_forward": "900001",
+                    "fee": "1",
+                    "expiry": 1482532,
+                    "amt_to_forward_msat": "900001900",
+                    "fee_msat": "1900",
+                    "pub_key": "0269a94e8b32c005e4336bfb743c08a6e9beb13d940d57c479d95c8e687ccbdb9f"
+                },
+                {
+                    "chan_id": "1417390334977900544",
+                    "chan_capacity": "16777216",
+                    "amt_to_forward": "900000",
+                    "fee": "1",
+                    "expiry": 1482388,
+                    "amt_to_forward_msat": "900000000",
+                    "fee_msat": "1900",
+                    "pub_key": "03fd0aebde8713e9c311f22468d3d0524e788b1ef57f4cda41bf5b5a2300fc5cd6"
+                },
+                {
+                    "chan_id": "1629560894771494913",
+                    "chan_capacity": "5349777",
+                    "amt_to_forward": "900000",
+                    "fee": "0",
+                    "expiry": 1482388,
+                    "amt_to_forward_msat": "900000000",
+                    "fee_msat": "0",
+                    "pub_key": "03ecd95e86e780ae82139c3217b527073622d28c4d8a53b76142a7b7b1d1e36975"
+                }
+            ],
+            "total_fees_msat": "3800",
+            "total_amt_msat": "900003800"
+        },
+        {
+            "total_time_lock": 1482676,
+            "total_fees": "3",
+            "total_amt": "900003",
+            "hops": [
+                {
+                    "chan_id": "1629707129819627521",
+                    "chan_capacity": "5000000",
+                    "amt_to_forward": "900001",
+                    "fee": "1",
+                    "expiry": 1482532,
+                    "amt_to_forward_msat": "900001900",
+                    "fee_msat": "1900",
+                    "pub_key": "0269a94e8b32c005e4336bfb743c08a6e9beb13d940d57c479d95c8e687ccbdb9f"
+                },
+                {
+                    "chan_id": "1553215205603868672",
+                    "chan_capacity": "12000000",
+                    "amt_to_forward": "900000",
+                    "fee": "1",
+                    "expiry": 1482388,
+                    "amt_to_forward_msat": "900000000",
+                    "fee_msat": "1900",
+                    "pub_key": "0260d9119979caedc570ada883ff614c6efb93f7f7382e25d73ecbeba0b62df2d7"
+                },
+                {
+                    "chan_id": "1628201898388029440",
+                    "chan_capacity": "900000",
+                    "amt_to_forward": "900000",
+                    "fee": "0",
+                    "expiry": 1482388,
+                    "amt_to_forward_msat": "900000000",
+                    "fee_msat": "0",
+                    "pub_key": "03ecd95e86e780ae82139c3217b527073622d28c4d8a53b76142a7b7b1d1e36975"
+                }
+            ],
+            "total_fees_msat": "3800",
+            "total_amt_msat": "900003800"
+        },
+        {
+            "total_time_lock": 1482676,
+            "total_fees": "3",
+            "total_amt": "900003",
+            "hops": [
+                {
+                    "chan_id": "1629707129819627521",
+                    "chan_capacity": "5000000",
+                    "amt_to_forward": "900001",
+                    "fee": "1",
+                    "expiry": 1482532,
+                    "amt_to_forward_msat": "900001900",
+                    "fee_msat": "1900",
+                    "pub_key": "0269a94e8b32c005e4336bfb743c08a6e9beb13d940d57c479d95c8e687ccbdb9f"
+                },
+                {
+                    "chan_id": "1554642371474817025",
+                    "chan_capacity": "10000000",
+                    "amt_to_forward": "900000",
+                    "fee": "1",
+                    "expiry": 1482388,
+                    "amt_to_forward_msat": "900000000",
+                    "fee_msat": "1900",
+                    "pub_key": "0260d9119979caedc570ada883ff614c6efb93f7f7382e25d73ecbeba0b62df2d7"
+                },
+                {
+                    "chan_id": "1628201898388029440",
+                    "chan_capacity": "900000",
+                    "amt_to_forward": "900000",
+                    "fee": "0",
+                    "expiry": 1482388,
+                    "amt_to_forward_msat": "900000000",
+                    "fee_msat": "0",
+                    "pub_key": "03ecd95e86e780ae82139c3217b527073622d28c4d8a53b76142a7b7b1d1e36975"
+                }
+            ],
+            "total_fees_msat": "3800",
+            "total_amt_msat": "900003800"
+        },
+        {
+            "total_time_lock": 1482676,
+            "total_fees": "3",
+            "total_amt": "900003",
+            "hops": [
+                {
+                    "chan_id": "1629707129819627521",
+                    "chan_capacity": "5000000",
+                    "amt_to_forward": "900001",
+                    "fee": "1",
+                    "expiry": 1482532,
+                    "amt_to_forward_msat": "900001900",
+                    "fee_msat": "1900",
+                    "pub_key": "0269a94e8b32c005e4336bfb743c08a6e9beb13d940d57c479d95c8e687ccbdb9f"
+                },
+                {
+                    "chan_id": "1592539238741835776",
+                    "chan_capacity": "16777215",
+                    "amt_to_forward": "900000",
+                    "fee": "1",
+                    "expiry": 1482388,
+                    "amt_to_forward_msat": "900000000",
+                    "fee_msat": "1900",
+                    "pub_key": "0260d9119979caedc570ada883ff614c6efb93f7f7382e25d73ecbeba0b62df2d7"
+                },
+                {
+                    "chan_id": "1628201898388029440",
+                    "chan_capacity": "900000",
+                    "amt_to_forward": "900000",
+                    "fee": "0",
+                    "expiry": 1482388,
+                    "amt_to_forward_msat": "900000000",
+                    "fee_msat": "0",
+                    "pub_key": "03ecd95e86e780ae82139c3217b527073622d28c4d8a53b76142a7b7b1d1e36975"
+                }
+            ],
+            "total_fees_msat": "3800",
+            "total_amt_msat": "900003800"
+        },
+        {
+            "total_time_lock": 1482676,
+            "total_fees": "3",
+            "total_amt": "900003",
+            "hops": [
+                {
+                    "chan_id": "1629707129819627521",
+                    "chan_capacity": "5000000",
+                    "amt_to_forward": "900001",
+                    "fee": "1",
+                    "expiry": 1482532,
+                    "amt_to_forward_msat": "900001900",
+                    "fee_msat": "1900",
+                    "pub_key": "0269a94e8b32c005e4336bfb743c08a6e9beb13d940d57c479d95c8e687ccbdb9f"
+                },
+                {
+                    "chan_id": "1592540338255298560",
+                    "chan_capacity": "16777215",
+                    "amt_to_forward": "900000",
+                    "fee": "1",
+                    "expiry": 1482388,
+                    "amt_to_forward_msat": "900000000",
+                    "fee_msat": "1900",
+                    "pub_key": "0260d9119979caedc570ada883ff614c6efb93f7f7382e25d73ecbeba0b62df2d7"
+                },
+                {
+                    "chan_id": "1628201898388029440",
+                    "chan_capacity": "900000",
+                    "amt_to_forward": "900000",
+                    "fee": "0",
+                    "expiry": 1482388,
+                    "amt_to_forward_msat": "900000000",
+                    "fee_msat": "0",
+                    "pub_key": "03ecd95e86e780ae82139c3217b527073622d28c4d8a53b76142a7b7b1d1e36975"
+                }
+            ],
+            "total_fees_msat": "3800",
+            "total_amt_msat": "900003800"
+        },
+        {
+            "total_time_lock": 1482676,
+            "total_fees": "3",
+            "total_amt": "900003",
+            "hops": [
+                {
+                    "chan_id": "1629707129819627521",
+                    "chan_capacity": "5000000",
+                    "amt_to_forward": "900001",
+                    "fee": "1",
+                    "expiry": 1482532,
+                    "amt_to_forward_msat": "900001900",
+                    "fee_msat": "1900",
+                    "pub_key": "0269a94e8b32c005e4336bfb743c08a6e9beb13d940d57c479d95c8e687ccbdb9f"
+                },
+                {
+                    "chan_id": "1596663506857492481",
+                    "chan_capacity": "16777215",
+                    "amt_to_forward": "900000",
+                    "fee": "1",
+                    "expiry": 1482388,
+                    "amt_to_forward_msat": "900000000",
+                    "fee_msat": "1900",
+                    "pub_key": "0260d9119979caedc570ada883ff614c6efb93f7f7382e25d73ecbeba0b62df2d7"
+                },
+                {
+                    "chan_id": "1628201898388029440",
+                    "chan_capacity": "900000",
+                    "amt_to_forward": "900000",
+                    "fee": "0",
+                    "expiry": 1482388,
+                    "amt_to_forward_msat": "900000000",
+                    "fee_msat": "0",
+                    "pub_key": "03ecd95e86e780ae82139c3217b527073622d28c4d8a53b76142a7b7b1d1e36975"
+                }
+            ],
+            "total_fees_msat": "3800",
+            "total_amt_msat": "900003800"
+        },
+        {
+            "total_time_lock": 1482676,
+            "total_fees": "3",
+            "total_amt": "900003",
+            "hops": [
+                {
+                    "chan_id": "1629707129819627521",
+                    "chan_capacity": "5000000",
+                    "amt_to_forward": "900001",
+                    "fee": "1",
+                    "expiry": 1482532,
+                    "amt_to_forward_msat": "900001900",
+                    "fee_msat": "1900",
+                    "pub_key": "0269a94e8b32c005e4336bfb743c08a6e9beb13d940d57c479d95c8e687ccbdb9f"
+                },
+                {
+                    "chan_id": "1418496443671183360",
+                    "chan_capacity": "16777216",
+                    "amt_to_forward": "900000",
+                    "fee": "1",
+                    "expiry": 1482388,
+                    "amt_to_forward_msat": "900000000",
+                    "fee_msat": "1900",
+                    "pub_key": "038863cf8ab91046230f561cd5b386cbff8309fa02e3f0c3ed161a3aeb64a643b9"
+                },
+                {
+                    "chan_id": "1627656540621438976",
+                    "chan_capacity": "16777215",
+                    "amt_to_forward": "900000",
+                    "fee": "0",
+                    "expiry": 1482388,
+                    "amt_to_forward_msat": "900000000",
+                    "fee_msat": "0",
+                    "pub_key": "03ecd95e86e780ae82139c3217b527073622d28c4d8a53b76142a7b7b1d1e36975"
+                }
+            ],
+            "total_fees_msat": "3800",
+            "total_amt_msat": "900003800"
+        },
+        {
+            "total_time_lock": 1482676,
+            "total_fees": "3",
+            "total_amt": "900003",
+            "hops": [
+                {
+                    "chan_id": "1629707129819627521",
+                    "chan_capacity": "5000000",
+                    "amt_to_forward": "900001",
+                    "fee": "1",
+                    "expiry": 1482532,
+                    "amt_to_forward_msat": "900001900",
+                    "fee_msat": "1900",
+                    "pub_key": "0269a94e8b32c005e4336bfb743c08a6e9beb13d940d57c479d95c8e687ccbdb9f"
+                },
+                {
+                    "chan_id": "1418776819134038016",
+                    "chan_capacity": "16777216",
+                    "amt_to_forward": "900000",
+                    "fee": "1",
+                    "expiry": 1482388,
+                    "amt_to_forward_msat": "900000000",
+                    "fee_msat": "1900",
+                    "pub_key": "038863cf8ab91046230f561cd5b386cbff8309fa02e3f0c3ed161a3aeb64a643b9"
+                },
+                {
+                    "chan_id": "1627656540621438976",
+                    "chan_capacity": "16777215",
+                    "amt_to_forward": "900000",
+                    "fee": "0",
+                    "expiry": 1482388,
+                    "amt_to_forward_msat": "900000000",
+                    "fee_msat": "0",
+                    "pub_key": "03ecd95e86e780ae82139c3217b527073622d28c4d8a53b76142a7b7b1d1e36975"
+                }
+            ],
+            "total_fees_msat": "3800",
+            "total_amt_msat": "900003800"
+        },
+        {
+            "total_time_lock": 1482676,
+            "total_fees": "3",
+            "total_amt": "900003",
+            "hops": [
+                {
+                    "chan_id": "1629707129819627521",
+                    "chan_capacity": "5000000",
+                    "amt_to_forward": "900001",
+                    "fee": "1",
+                    "expiry": 1482532,
+                    "amt_to_forward_msat": "900001900",
+                    "fee_msat": "1900",
+                    "pub_key": "0269a94e8b32c005e4336bfb743c08a6e9beb13d940d57c479d95c8e687ccbdb9f"
+                },
+                {
+                    "chan_id": "1418496443671183360",
+                    "chan_capacity": "16777216",
+                    "amt_to_forward": "900000",
+                    "fee": "1",
+                    "expiry": 1482388,
+                    "amt_to_forward_msat": "900000000",
+                    "fee_msat": "1900",
+                    "pub_key": "038863cf8ab91046230f561cd5b386cbff8309fa02e3f0c3ed161a3aeb64a643b9"
+                },
+                {
+                    "chan_id": "1629294812950691840",
+                    "chan_capacity": "16777215",
+                    "amt_to_forward": "900000",
+                    "fee": "0",
+                    "expiry": 1482388,
+                    "amt_to_forward_msat": "900000000",
+                    "fee_msat": "0",
+                    "pub_key": "03ecd95e86e780ae82139c3217b527073622d28c4d8a53b76142a7b7b1d1e36975"
+                }
+            ],
+            "total_fees_msat": "3800",
+            "total_amt_msat": "900003800"
+        }
+    ]
+}

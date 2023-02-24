@@ -1,0 +1,9 @@
+bitcoin.active=1
+bitcoin.testnet=1
+debuglevel=trace
+bitcoin.node=bitcoind
+bitcoind.rpcuser=sangierib2
+bitcoind.rpcpass=AyjTmTqHwJb2
+externalip=163.117.166.53:9835
+bitcoind.zmqpubrawblock=tcp://127.0.0.1:28332
+bitcoind.zmqpubrawtx=tcp://127.0.0.1:28333

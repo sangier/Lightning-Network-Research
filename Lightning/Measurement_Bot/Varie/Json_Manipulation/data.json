@@ -1,0 +1,28 @@
+{
+    "channels": [
+        {
+            "Node1_pub_key": "Scott",
+            "Node2_pub_key": "stackabuse.com",
+            "Channel_ID": "Nebraska",
+            "Short_Channel_ID": "test",
+            "Capacity": "test22",
+            "Real_Capacity": "test222"
+        },
+        {
+            "Node1_pub_key": "Scott",
+            "Node2_pub_key": "stackabuse.com",
+            "Channel_ID": "Nebraska",
+            "Short_Channel_ID": "test",
+            "Capacity": "test22",
+            "Real_Capacity": "test222"
+        },
+        {
+            "Node1_pub_key": "Scott",
+            "Node2_pub_key": "stackabuse.com",
+            "Channel_ID": "Nebraska",
+            "Short_Channel_ID": "test",
+            "Capacity": "test22",
+            "Real_Capacity": "test222"
+        }
+    ]
+}

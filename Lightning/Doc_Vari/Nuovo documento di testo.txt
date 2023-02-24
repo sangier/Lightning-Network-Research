@@ -1,0 +1,38 @@
+https://bitcoin.stackexchange.com/questions/9046/why-is-my-transaction-not-getting-confirmed-and-what-can-i-do-about-it
+
+
+v1: 02a09f477196886694be593349f5eb76b2f534939d8acca512bef35c418f71025d@163.117.166.221:9735
+v2: 03538c45e97be30bf01623fdec4b27355beef75ab797d3ada61091807febaeede9@163.117.166.53:9935
+v3: 02d6d16fec1124470803e6472b7b85fb650909a3697fdfb5cb27e12ae7807f8ff8@163.117.166.53:9835
+v4: 02e34c1b4c5f8e7419cf4d10e3bc9651d46dc1af68df6a7b81a24951a9192aa9c4@163.117.166.53:9945
+
+
+02a09f477196886694be593349f5eb76b2f534939d8acca512bef35c418f71025d@163.117.166.221:9735
+
+
+
+
+
+
+
+
+
+1) Si en el establecimiento de un canal se hace un push de fondos al vecino, ¿qué se anuncia en el routing?
+
+2) Comprobar quién cobra la fee (primer nodo del canal, el otro nodo del canal, los dos?): si para cada canal atravesado la fee cobrada es la del primer nodo, hay resultados de experimentos que encajarían.
+
+3) Test: Creo canal de N0 a N1. Muevo dinero de N0 a N1.
+Hago queryroute en N1 para pagar a N0: ¿me da ruta? Y para otro nodo N7 conectado a N0 (es decir, un pago que no termina en N0, si no un salto más allá?
+
+4) Topología de la red. Conectarse a un par de nodos de la mainnet, mirar si los canales aparecen en los dos (o sólo en uno), si los nodos aparecen en los dos, si la información para un mismo canal 
+que aparece en los dos es igual o distinta…
+
+
+N1 ->N2 --A> N3 <-N1'
+
+5): Measure A at same time with two different nodes.
+6): Verify if the difference between LocalBalance and what you can queryroutes for depends on the InitialChannelBalance 
+7): Verify if we can now under which daemon is working the other node 
+8): Verify Bilaterals channels. -->    ->N2 
+                                    N1       <- N3    Can N2 decide where to forward N3 payment?     
+									  <-N2

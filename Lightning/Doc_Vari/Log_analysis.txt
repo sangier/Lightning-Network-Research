@@ -1,0 +1,44 @@
+2019-01-10 18:09:39.691 [INF] CRTR: New channel discovered! Link connects 03bb88ccc444534da7b5b64b4f7b15e1eccb18e102db0e400d4b9cfe93763aa26d and 03bc9337c7a28bb784d67742ebedd30a93bacdf7e4ca16436ef3798000242b2251 with ChannelPoint(bfc2250f7dfd7dffcf24d1a65825f22798703ce472db9eef3e16756287d4030d:1): chan_id=607532951046455297, capacity=0.03 BTC
+
+
+https://github.com/lightningnetwork/lightning-rfc/blob/master/07-routing-gossip.md#the-channel_update-message
+
+607534050434940929
+
+
+ --debuglevel=                                           Logging level for all subsystems {trace, debug, info, warn, error, critical} -- You may also specify
+                                                              <subsystem>=<level>,<subsystem2>=<level>,... to set the log level for individual subsystems -- Use show to list available subsystems (default:
+                                                              info)
+
+															  
+															  
+
+
+Channels do not publicly announce their balance for several obvious reasons
+
+    It would be a huge privacy concern if balances could be viewed live on the network. People could monitor large parts of the network and aggregate data about how balances change over time, which could then be used to trace payments through the network and deanonymize users.
+
+    If every transaction by every node required a broadcast of the new channel balance, then bandwidth usage would become extremely large. The network would not scale for the same reasons Bitcoin can't have massive blocks. It would make running a node impossible on a commodity computer and internet connection.
+
+    Broadcasting channel balance would really be quite useless because the concept of "real-time" does not exist in a distributed network. A node could advertize its channel balances to its peers, but before any peer has chance to act on that data, those balances could have changed if they route a payment for another peer. The system is in constant change, and there is no way to atomically check a channel balance and then send a payment over that channel. It would be a bad idea to attempt to add such locks because there is no central coordinator of them, and it would result in all kinds of race conditions happening, like livelocks and deadlocks.
+
+Channels only advertize their capacities, features, fees, minimum and maximum (optional) transaction values. There is no guarantee that a payment will route successfully even if you've provided a valid amount between the minimum and maximum with the correct fees.
+
+The explorer shows its Channel Point is: 
+ea6279771eff21c491f36512be9842bfdc9154e8b1848f4be2896b147d49da70:0
+The first part of this is the bitcoin transaction ID of the funding transaction, and the second part after the colon is a zero-based index of the transaction output. Zero-based index means the 0 here points to the first output of the transaction.
+
+
+This is something relating to channel closing. This blocks brings 4 closing channels transaction 
+CRTR: Block 00000000000000000022d517bb20a748debd2bcd9ce65745fa2b84e19f55ea7f (height=558079) closed 4 channels
+
+https://medium.com/coinmonks/distinguishing-mutual-and-unilateral-channel-closing-in-the-bitcoin-blockchain-ec2e0e7d71f4
+
+100000011
+
+import json
+import pandas as pd
+with open('lndgraph_Only_Fee.json', 'r') as f:
+    data = json.load(f)
+df = pd.DataFrame(data)
+print(df)

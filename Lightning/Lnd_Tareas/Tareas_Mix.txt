@@ -1,0 +1,40 @@
+				1) Si en el establecimiento de un canal se hace un push de fondos al vecino, ¿qué se anuncia en el routing?
+
+				2) Comprobar quién cobra la fee (primer nodo del canal, el otro nodo del canal, los dos?): si para cada canal atravesado la fee cobrada es la del primer nodo, hay resultados de experimentos que encajarían.
+
+3) Test: Creo canal de N0 a N1. Muevo dinero de N0 a N1.
+Hago queryroute en N1 para pagar a N0: ¿me da ruta? Y para otro nodo N7 conectado a N0 (es decir, un pago que no termina en N0, si no un salto más allá?
+
+				4) Topología de la red. Conectarse a un par de nodos de la mainnet, mirar si los canales aparecen en los dos (o sólo en uno), si los nodos aparecen en los dos, si la información para un mismo canal 
+que aparece en los dos es igual o distinta…
+
+
+N1 ->N2 --A> N3 <-N1'
+
+5): Measure A at same time with two different nodes.
+6): Verify if the difference between LocalBalance and what you can queryroutes for depends on the InitialChannelBalance 
+7): Verify if we can now under which daemon is working the other node 
+8): Verify Bilaterals channels. -->    ->N2 
+                                    N1       <- N3    Can N2 decide where to forward N3 payment?     
+									  <-N2
+ 
+ 
+				9) En mainnet, coger peer1 de los experimentos que hemos hecho. Hacer un salto a los nodos vecinos, medir los canales. 
+Mirar cuánto está gastado de canales salientes/entrantes. Cuál es el balance de estos nodo? Queremos entender la asimetría entre que los canales salientes de peer1 están gastados, y los entrantes están sin gastar.
+
+
+				11)Hacer local tests. Ver las pruebas que están en la sección de implementación del paper. No sé si entendemos bien todos los parámetros del pago, por ver qué puede fallar (tipo dust_limit… ¿cuáles son los otros parámetros, 
+qué podría salir mal?
+
+				12)[Esto no lo hemos hablado, pero me parece interesante] Con la información de rutas, me gustaría saber el balance de los funding transactions de cada nodo.
+La motivación es la siguiente: hemos visto que peer1 parece que ha transferido mucho dinero al resto (mucho más que lo que ha recibido). 
+Quiero saber el balance de las funding transactions: suma del valor de las funding transactions generadas por un nodo – suma valor de las funding transactions hechas por otros nodos que terminan aquí.
+Quiero ver la relación de este balance con el número de canales que tienen (los que tienen muchos canales son ‘paganos’, los que tienen pocos son más bien ‘receptores’?- yo diría que debería ser al revés, pero…)
+
+13)Implementar el ‘algoritmo mejorado’. Está descrito en el repositorio del paper, fichero measures_bis.tex. Probar que funciona…
+
+14)Hay algún repositorio de las rutas de lightning guardadas cada cierto tiempo? (por ejemplo, unos cuantos nodos que vuelcan cada cierto tiempo – por ejemplo, 
+cada 4 horas -en un fichero las rutas que tienen, canales, etc.). Si no existe, podría ser interesante, incluso para ponerlo público (otros lo pueden utilizar, te refieren…)
+Son las vistas de routing de diferentes nodos iguales o distintas… cómo de distintas son? (eg, son iguales para información ‘nueva’… o son más distintas?)
+Es posible saber qué transacciones en Bitcoin corresponden a canales de lightning? Hay alguien que haya hecho este estudio?
+                                                               i.      Si se puede saber, y no se ha estudiado, sería interesante ver la evolución a lo largo del tiempo del número de canales, ver qué cantidades tienen, ver cuántos se han cerrado…

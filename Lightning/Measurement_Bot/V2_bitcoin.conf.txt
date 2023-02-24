@@ -1,0 +1,10 @@
+testnet=1
+txindex=1
+server=1
+daemon=1
+zmqpubrawblock=tcp://127.0.0.1:28332
+zmqpubrawtx=tcp://127.0.0.1:28333
+rpcuser=sangierib2
+rpcpassword=AyjTmTqHwJb2
+externalip=163.117.166.53
+port=8433

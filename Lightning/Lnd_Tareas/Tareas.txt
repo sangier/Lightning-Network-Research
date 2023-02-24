@@ -1,0 +1,37 @@
+2 Se anuncia alguna vez un canal en las dos direcciones? No hay match. Un canal solo sale una vez en los anuncios de rutas. 
+
+
+CLTV_EXPIRY_DELTA contributes to the time that funds will be unavailable in the event of a worst-case failure. 
+
+
+
+Forwarding HTLCs
+
+In general, a node offers HTLCs for two reasons: to initiate a payment of its own, or to forward another node's payment. 
+In the forwarding case, care must be taken to ensure the outgoing HTLC cannot be redeemed unless the incoming HTLC can be redeemed. The following requirements ensure this is always true.
+
+The respective addition/removal of an HTLC is considered irrevocably committed when:
+
+    The commitment transaction with/without it is committed to by both nodes, and any previous commitment transaction without/with it has been revoked, OR
+    The commitment transaction with/without it has been irreversibly committed to the blockchain.
+
+
+The route is constructed by the origin node, which knows the public keys of each intermediate node and of the final node.
+
+An HTLCs can be broadcasted onto bitcoin network
+Now, everyone can clear out, because they have a guaranteed way to pull their deserved funds by broadcasting these HTLCs onto Bitcoin’s network (i.e. on-chain). 
+They would prefer not to do that though, since broadcasting on-chain is more expensive, and instead settle each of these hops off chain
+
+
+https://github.com/lightningnetwork/lnd/blob/master/cmd/lncli/commands.go
+
+in an open channel transaction: 
+local_amt 
+push_amt 
+
+
+describe_graph : Prints a human readable version of the known channel graph from the PoV of the node
+
+queryRoutesCommand: Queries the channel router for a potential path to the destination that has sufficient flow for the amount including fees
+
+

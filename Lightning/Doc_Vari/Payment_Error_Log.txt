@@ -1,0 +1,102 @@
+root@Debian-94-stretch-64-minimal ~/lightning # cli/lightning-cli invoice 147900 1 movingfunds
+{
+  "payment_hash": "7d7f8720cfa3d745bc15698e7f5908ddf658fa6241cfeb51e3085d338140766a",
+  "expiry_time": 1529652202,
+  "expires_at": 1529652202,
+  "bolt11": "lnbc1479n1pdje9w6pp504lcwgx050t5t0q4dx887kggmhm937nzg887k50rppwn8q2qwe4qdqjd4hhv6twvan82mnywvcqp25ajsmsdp9g9e9xcdwl26f6h37xusn4d2q30mde40lvekrhlcajxs9y6c70qzcmhxcu6kjm6wtm2f6u5dgutn4q3tsluzrmmtvuhw65gpg920uv"
+}
+
+
+root@LightningN:~/c-lightning/lightning# cli/lightning-cli pay -k maxfeepercent=5 bolt11=lnbc1479n1pdje9w6pp504lcwgx050t5t0q4dx887kggmhm937nzg887k50rppwn8q2qwe4qdqjd4hhv6twvan82mnywvcqp25ajsmsdp9g9e9xcdwl26f6h37xusn4d2q30mde40lvekrhlcajxs9y6c70qzcmhxcu6kjm6wtm2f6u5dgutn4q3tsluzrmmtvuhw65gpg920uv
+{ "code" : 205, "message" : "Could not find a route", "data" :
+{
+  "getroute_tries": 3,
+  "sendpay_tries": 2,
+  "failures": [
+    {
+      "message": "reply from remote",
+      "type": "FAIL_PAYMENT_REPLY",
+      "erring_index": 1,
+      "failcode": 4103,
+      "erring_node": "02f6725f9c1c40333b67faea92fd211c183050f28df32cac3f9d69685fe9665432",
+      "erring_channel": "520051:68:0",
+      "route": [
+        {
+          "id": "02f6725f9c1c40333b67faea92fd211c183050f28df32cac3f9d69685fe9665432",
+          "channel": "527929:1112:1",
+          "msatoshi": 155190,
+          "delay": 326
+        },
+        {
+          "id": "02e8334fcab092f496bce7421e8d711d41cbbfef0429bb30149784418df53dd1b1",
+          "channel": "520051:68:0",
+          "msatoshi": 154189,
+          "delay": 312
+        },
+        {
+          "id": "02ad6fb8d693dc1e4569bcedefadf5f72a931ae027dc0f0c544b34c1c6f3b9a02b",
+          "channel": "520051:63:0",
+          "msatoshi": 153188,
+          "delay": 298
+        },
+        {
+          "id": "025e77156e4c5e1ed62f9ad113ac2115a981ee99fa05d95be9e43add7f785a9b4d",
+          "channel": "519778:1560:0",
+          "msatoshi": 153187,
+          "delay": 154
+        },
+        {
+          "id": "02b0de5dece2ae1c6cf62dba60e584268b8f27babb936a849e998c2170802efc9b",
+          "channel": "528515:2266:1",
+          "msatoshi": 152188,
+          "delay": 10
+        }
+      ]
+    },
+    {
+      "message": "reply from remote",
+      "type": "FAIL_PAYMENT_REPLY",
+      "erring_index": 3,
+      "failcode": 4103,
+      "erring_node": "025e77156e4c5e1ed62f9ad113ac2115a981ee99fa05d95be9e43add7f785a9b4d",
+      "erring_channel": "528515:2266:1",
+      "channel_update": "b5bf64e0b15971ffb29e148080d717baac4aa707bd66214fd15585fdb1035af068de16ea66698a780814564733606ac8d1aa06ef9ddcce0d7b1b2e593f8734b06fe28c0ab6f1b372c1a6a246ae63f74f931e8365e15a089c68d61900000000000810830008da00015b2b7930000000900000000000000001000003e700000001",
+      "route": [
+        {
+          "id": "02f6725f9c1c40333b67faea92fd211c183050f28df32cac3f9d69685fe9665432",
+          "channel": "527929:1112:1",
+          "msatoshi": 154711,
+          "delay": 312
+        },
+        {
+          "id": "02ad6fb8d693dc1e4569bcedefadf5f72a931ae027dc0f0c544b34c1c6f3b9a02b",
+          "channel": "528371:1680:1",
+          "msatoshi": 153710,
+          "delay": 298
+        },
+        {
+          "id": "025e77156e4c5e1ed62f9ad113ac2115a981ee99fa05d95be9e43add7f785a9b4d",
+          "channel": "514137:241:0",
+          "msatoshi": 153709,
+          "delay": 154
+        },
+        {
+          "id": "02b0de5dece2ae1c6cf62dba60e584268b8f27babb936a849e998c2170802efc9b",
+          "channel": "528515:2266:1",
+          "msatoshi": 152710,
+          "delay": 10
+        }
+      ]
+    }
+  ]
+} }
+
+
+
+
+The top byte of failure_code can be read as a set of flags:
+
+    0x8000 (BADONION): unparsable onion encrypted by sending peer
+    0x4000 (PERM): permanent failure (otherwise transient)
+    0x2000 (NODE): node failure (otherwise channel)
+    0x1000 (UPDATE): new channel update enclosed

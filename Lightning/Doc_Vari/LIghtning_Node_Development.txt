@@ -1,0 +1,32 @@
+https://medium.com/coinmonks/bitcoin-setup-your-own-lightning-node-on-mainnet-94337bda09fa
+
+
+https://medium.com/coinmonks/the-lightning-network-how-to-install-and-hopefully-make-money-6e3058e3fa7c
+
+
+https://github.com/ElementsProject/lightning/issues/1798
+
+
+https://medium.com/coinmonks/bitcoin-lightning-network-run-your-node-at-home-for-fun-and-no-profit-da5b61be2ba9
+
+
+https://steemit.com/bitcoin/@k0dlaty/how-to-run-lightning-network-node-on-ubuntu
+
+
+https://diar.co/volume-2-issue-25/
+
+https://stackoverflow.com/questions/8934697/listen-on-a-network-port-and-save-data-to-a-text-file
+
+
+
+
+title Allocation and Prefix Management
+
+InBlock_Manager->InBlock:Initialize_InBlock
+LIR->InBlock: Ask_Oracle_Price (Call)
+LIR->InBlock: Ask_Prefix_Fee (Oracle_Fee)
+LIR->InBlock: Sparse_Allocation(Prefix_Fee)
+InBlock->InBlock_Manager: Transfer Prefix Fee
+note right of InBlock: Associate a block to the requesting LIR account
+LIR->InBlock: SetROA(Transaction_Fee)
+External User->InBlock: getBlockROA(call)

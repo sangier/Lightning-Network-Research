@@ -1,0 +1,235 @@
+{
+    "channels": [
+        {
+            "node1_pub": "0269a94e8b32c005e4336bfb743c08a6e9beb13d940d57c479d95c8e687ccbdb9f",
+            "node2_pub": "02ae2f22b02375e3e9b4b4a2db4f12e1b50752b4062dbefd6e01332acdaf680379",
+            "channel_id": "1416578895407415296",
+            "capacity": "100000",
+            "real_capacity": -1
+        },
+        {
+            "node1_pub": "0269a94e8b32c005e4336bfb743c08a6e9beb13d940d57c479d95c8e687ccbdb9f",
+            "node2_pub": "03fd0aebde8713e9c311f22468d3d0524e788b1ef57f4cda41bf5b5a2300fc5cd6",
+            "channel_id": "1417390334977900544",
+            "capacity": "16777216",
+            "real_capacity": -2
+        },
+        {
+            "node1_pub": "0269a94e8b32c005e4336bfb743c08a6e9beb13d940d57c479d95c8e687ccbdb9f",
+            "node2_pub": "03236a685d30096b26692dce0cf0fa7c8528bdf61dbf5363a3ef6d5c92733a3016",
+            "channel_id": "1486106513172398081",
+            "capacity": "16777215",
+            "real_capacity": -2
+        },
+        {
+            "node1_pub": "0269a94e8b32c005e4336bfb743c08a6e9beb13d940d57c479d95c8e687ccbdb9f",
+            "node2_pub": "03236a685d30096b26692dce0cf0fa7c8528bdf61dbf5363a3ef6d5c92733a3016",
+            "channel_id": "1487353359362162688",
+            "capacity": "16499817",
+            "real_capacity": -2
+        },
+        {
+            "node1_pub": "0269a94e8b32c005e4336bfb743c08a6e9beb13d940d57c479d95c8e687ccbdb9f",
+            "node2_pub": "02daa7783d21ced1b94b3c9cd30cb8c01885be4cde3113efed51d9a386b68926f4",
+            "channel_id": "1491124684269944833",
+            "capacity": "5465855",
+            "real_capacity": -2
+        },
+        {
+            "node1_pub": "0269a94e8b32c005e4336bfb743c08a6e9beb13d940d57c479d95c8e687ccbdb9f",
+            "node2_pub": "0270685ca81a8e4d4d01beec5781f4cc924684072ae52c507f8ebe9daf0caaab7b",
+            "channel_id": "1522707056388210688",
+            "capacity": "16777215",
+            "real_capacity": -2
+        },
+        {
+            "node1_pub": "0269a94e8b32c005e4336bfb743c08a6e9beb13d940d57c479d95c8e687ccbdb9f",
+            "node2_pub": "03933884aaf1d6b108397e5efe5c86bcf2d8ca8d2f700eda99db9214fc2712b134",
+            "channel_id": "1554020047948152832",
+            "capacity": "15000000",
+            "real_capacity": -2
+        },
+        {
+            "node1_pub": "0269a94e8b32c005e4336bfb743c08a6e9beb13d940d57c479d95c8e687ccbdb9f",
+            "node2_pub": "03933884aaf1d6b108397e5efe5c86bcf2d8ca8d2f700eda99db9214fc2712b134",
+            "channel_id": "1554020047948677121",
+            "capacity": "15000000",
+            "real_capacity": -2
+        },
+        {
+            "node1_pub": "0269a94e8b32c005e4336bfb743c08a6e9beb13d940d57c479d95c8e687ccbdb9f",
+            "node2_pub": "03933884aaf1d6b108397e5efe5c86bcf2d8ca8d2f700eda99db9214fc2712b134",
+            "channel_id": "1554020047949004800",
+            "capacity": "15000000",
+            "real_capacity": -2
+        },
+        {
+            "node1_pub": "0269a94e8b32c005e4336bfb743c08a6e9beb13d940d57c479d95c8e687ccbdb9f",
+            "node2_pub": "0359aea819633770a6b59239473cbcffded4ec0df349dcd2b92627250cdbfd0217",
+            "channel_id": "1554072824445534209",
+            "capacity": "16777215",
+            "real_capacity": -2
+        },
+        {
+            "node1_pub": "0269a94e8b32c005e4336bfb743c08a6e9beb13d940d57c479d95c8e687ccbdb9f",
+            "node2_pub": "03adf1a17ab83438f23bc6c3b87ed8664757923988d5907c469840ddba1a7d1415",
+            "channel_id": "1555119559529529344",
+            "capacity": "157944",
+            "real_capacity": -1
+        },
+        {
+            "node1_pub": "0269a94e8b32c005e4336bfb743c08a6e9beb13d940d57c479d95c8e687ccbdb9f",
+            "node2_pub": "038863cf8ab91046230f561cd5b386cbff8309fa02e3f0c3ed161a3aeb64a643b9",
+            "channel_id": "1555460408124768256",
+            "capacity": "15900000",
+            "real_capacity": -2
+        },
+        {
+            "node1_pub": "0269a94e8b32c005e4336bfb743c08a6e9beb13d940d57c479d95c8e687ccbdb9f",
+            "node2_pub": "038863cf8ab91046230f561cd5b386cbff8309fa02e3f0c3ed161a3aeb64a643b9",
+            "channel_id": "1555527478331506689",
+            "capacity": "15900000",
+            "real_capacity": -2
+        },
+        {
+            "node1_pub": "0269a94e8b32c005e4336bfb743c08a6e9beb13d940d57c479d95c8e687ccbdb9f",
+            "node2_pub": "038863cf8ab91046230f561cd5b386cbff8309fa02e3f0c3ed161a3aeb64a643b9",
+            "channel_id": "1555697902634467328",
+            "capacity": "15900000",
+            "real_capacity": -2
+        },
+        {
+            "node1_pub": "0269a94e8b32c005e4336bfb743c08a6e9beb13d940d57c479d95c8e687ccbdb9f",
+            "node2_pub": "038863cf8ab91046230f561cd5b386cbff8309fa02e3f0c3ed161a3aeb64a643b9",
+            "channel_id": "1556016761006522368",
+            "capacity": "16777215",
+            "real_capacity": -2
+        },
+        {
+            "node1_pub": "0269a94e8b32c005e4336bfb743c08a6e9beb13d940d57c479d95c8e687ccbdb9f",
+            "node2_pub": "034fe52e98a0e9d3c21b767e1b371881265d8c7578c21f5afd6d6438da10348b36",
+            "channel_id": "1578304961209040896",
+            "capacity": "16777215",
+            "real_capacity": -2
+        },
+        {
+            "node1_pub": "0269a94e8b32c005e4336bfb743c08a6e9beb13d940d57c479d95c8e687ccbdb9f",
+            "node2_pub": "038474ec195f497cf4036e5994bd820dd365bb0aaa7fb42bd9b536913a1a2dcc9e",
+            "channel_id": "1582911914930995201",
+            "capacity": "3000000",
+            "real_capacity": -1
+        },
+        {
+            "node1_pub": "0269a94e8b32c005e4336bfb743c08a6e9beb13d940d57c479d95c8e687ccbdb9f",
+            "node2_pub": "03236a685d30096b26692dce0cf0fa7c8528bdf61dbf5363a3ef6d5c92733a3016",
+            "channel_id": "1588416070140821505",
+            "capacity": "16499817",
+            "real_capacity": -2
+        },
+        {
+            "node1_pub": "0269a94e8b32c005e4336bfb743c08a6e9beb13d940d57c479d95c8e687ccbdb9f",
+            "node2_pub": "030f375d8aecdddc852309c15c3b67c2934de0de4d31e1e04a03d656ca0a78d008",
+            "channel_id": "1590389693509140480",
+            "capacity": "2249369",
+            "real_capacity": -1
+        },
+        {
+            "node1_pub": "0269a94e8b32c005e4336bfb743c08a6e9beb13d940d57c479d95c8e687ccbdb9f",
+            "node2_pub": "02e8d54ff99dc2e4c5697626f87a216adb339a9c91c50b9bff21955656dfd2249b",
+            "channel_id": "1591456219790180352",
+            "capacity": "3200000",
+            "real_capacity": -1
+        },
+        {
+            "node1_pub": "0269a94e8b32c005e4336bfb743c08a6e9beb13d940d57c479d95c8e687ccbdb9f",
+            "node2_pub": "0340a5ef77a609691ceff9163c73d35f548f692824ecfe155bb0c781b8715906f0",
+            "channel_id": "1594358930485870592",
+            "capacity": "5000000",
+            "real_capacity": -2
+        },
+        {
+            "node1_pub": "0269a94e8b32c005e4336bfb743c08a6e9beb13d940d57c479d95c8e687ccbdb9f",
+            "node2_pub": "038863cf8ab91046230f561cd5b386cbff8309fa02e3f0c3ed161a3aeb64a643b9",
+            "channel_id": "1595349590461906945",
+            "capacity": "16777215",
+            "real_capacity": -2
+        },
+        {
+            "node1_pub": "0269a94e8b32c005e4336bfb743c08a6e9beb13d940d57c479d95c8e687ccbdb9f",
+            "node2_pub": "03d5e17a3c213fe490e1b0c389f8cfcfcea08a29717d50a9f453735e0ab2a7c003",
+            "channel_id": "1596341349953830912",
+            "capacity": "10000000",
+            "real_capacity": -2
+        },
+        {
+            "node1_pub": "0269a94e8b32c005e4336bfb743c08a6e9beb13d940d57c479d95c8e687ccbdb9f",
+            "node2_pub": "031c64a68e6d1b9e50711336d92b434c584ce668b2fae59ee688bd73713fee1569",
+            "channel_id": "1597079122259673088",
+            "capacity": "1110451",
+            "real_capacity": -1
+        },
+        {
+            "node1_pub": "0269a94e8b32c005e4336bfb743c08a6e9beb13d940d57c479d95c8e687ccbdb9f",
+            "node2_pub": "038863cf8ab91046230f561cd5b386cbff8309fa02e3f0c3ed161a3aeb64a643b9",
+            "channel_id": "1599168194345697281",
+            "capacity": "16777215",
+            "real_capacity": -2
+        },
+        {
+            "node1_pub": "0269a94e8b32c005e4336bfb743c08a6e9beb13d940d57c479d95c8e687ccbdb9f",
+            "node2_pub": "03cf50e2fa5c5bf30422e995d06b28a1a73ad038edd817d65afebd430db29521a0",
+            "channel_id": "1601202290858262529",
+            "capacity": "7703990",
+            "real_capacity": -2
+        },
+        {
+            "node1_pub": "0269a94e8b32c005e4336bfb743c08a6e9beb13d940d57c479d95c8e687ccbdb9f",
+            "node2_pub": "03a89a67a54a63e52bf0e24718a4d631fee267b046f8b87fb8d68fcff6c8e01f40",
+            "channel_id": "1601471671205036032",
+            "capacity": "16777215",
+            "real_capacity": -2
+        },
+        {
+            "node1_pub": "0269a94e8b32c005e4336bfb743c08a6e9beb13d940d57c479d95c8e687ccbdb9f",
+            "node2_pub": "031e276436d65a08be1fb0fab1cdb32c11c176737b2653b96ad437fa39da25af08",
+            "channel_id": "1627231029621555201",
+            "capacity": "9646791",
+            "real_capacity": -2
+        },
+        {
+            "node1_pub": "0269a94e8b32c005e4336bfb743c08a6e9beb13d940d57c479d95c8e687ccbdb9f",
+            "node2_pub": "038863cf8ab91046230f561cd5b386cbff8309fa02e3f0c3ed161a3aeb64a643b9",
+            "channel_id": "1627411349532573696",
+            "capacity": "16777215",
+            "real_capacity": -2
+        },
+        {
+            "node1_pub": "0269a94e8b32c005e4336bfb743c08a6e9beb13d940d57c479d95c8e687ccbdb9f",
+            "node2_pub": "038863cf8ab91046230f561cd5b386cbff8309fa02e3f0c3ed161a3aeb64a643b9",
+            "channel_id": "1627618057722265600",
+            "capacity": "16777215",
+            "real_capacity": -2
+        },
+        {
+            "node1_pub": "0269a94e8b32c005e4336bfb743c08a6e9beb13d940d57c479d95c8e687ccbdb9f",
+            "node2_pub": "038863cf8ab91046230f561cd5b386cbff8309fa02e3f0c3ed161a3aeb64a643b9",
+            "channel_id": "1627745601063550976",
+            "capacity": "16777215",
+            "real_capacity": -2
+        },
+        {
+            "node1_pub": "0269a94e8b32c005e4336bfb743c08a6e9beb13d940d57c479d95c8e687ccbdb9f",
+            "node2_pub": "03ecd95e86e780ae82139c3217b527073622d28c4d8a53b76142a7b7b1d1e36975",
+            "channel_id": "1627773088853196800",
+            "capacity": "900000",
+            "real_capacity": -1
+        },
+        {
+            "node1_pub": "0269a94e8b32c005e4336bfb743c08a6e9beb13d940d57c479d95c8e687ccbdb9f",
+            "node2_pub": "03d21e56a377f8db14a3e67f893c9e9301a6c3a79db276f8c98fe35b1c8c095ed9",
+            "channel_id": "1627974299482259456",
+            "capacity": "20000",
+            "real_capacity": -1
+        }
+    ]
+}

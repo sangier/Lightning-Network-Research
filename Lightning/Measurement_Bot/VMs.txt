@@ -1,0 +1,215 @@
+cgminer -o http://localhost:18332 -u sangieri -p AyjTmTqHwJt1 --btc-address 2N4E2hMEgrxP3nratuaVXNUCtfm2xHZGCmo
+
+./configure -u sangieri -p AyjTmTqHwJt1 --btc-address 2N4E2hMEgrxP3nratuaVXNUCtfm2xHZGCmo --enable-cpumining && make
+https://bitcoin-rpc.github.io/en/doc/0.17.99/rpc/network/getpeerinfo/ Bitcoin-cli
+
+ultima installazione da : https://github.com/lightningnetwork/lnd/blob/master/docs/INSTALL.md
+downgrad bitcoin core :https://bitcointalk.org/index.php?topic=5183565.0
+
+https://techexpert.tips/bitcoin/bitcoin-lightning-node-linux/     Installation Guide 1
+
+Utili per l'installazione: 
+
+sudo ln -s /usr/local/go/bin/go /usr/bin/go
+
+go get -u gopkg.in/urfave/cli.v1/altsrc
+
+
+How to run wireshark  remotely 
+"C:\Program Files\PuTTY\plink.exe" AyjTmTqHwJ sangieri@163.117.166.221 "sudo tcpdump -U -s 0 -w - 'not port 22'" | "C:\Program Files\Wireshark\wireshark.exe" -k -i –
+
+ssh sangieri@163.117.166.221 tcpdump -U -s0 -w - 'not port 22' | "C:\Program Files\Wireshark\wireshark.exe" -k -i -
+
+lncli -network=testnet queryroutes 03ecd95e86e780ae82139c3217b527073622d28c4d8a53b76142a7b7b1d1e36975 900000 --final_cltv_delta=144 | lncli -network=testnet sendtoroute -pay_hash=1945ff485d17365377ac5365aee3661b1191c7ff0d75f93fe919da486ade25b3 - 
+
+
+lncli --network=testnet sendtoroute --payment_hash=35ac914ee69d4e30de1a12637fe49d3125ec0560b2b9af5d1b4cdf3884e87512 --routes="$(cat route.json)" -
+
+0269a94e8b32c005e4336bfb743c08a6e9beb13d940d57c479d95c8e687ccbdb9f@197.155.6.38:9735
+
+https://gist.github.com/bretton/0b22a0503a9eba09df86a23f3d625c13  Installation Guide 2
+
+https://bitcointalk.org/index.php?topic=4623749.msg%msg_id%
+
+https://messari.io/resource/lightning-network
+https://raw.githubusercontent.com/bcongdon/awesome-lightning-network/master/readme.md
+
+Virtual Machine: 
+lnd --bitcoin.active --bitcoin.mainnet --debuglevel=debug --bitcoin.node=bitcoind --bitcoind.rpcuser=sangieri --bitcoind.rpcpass=AyjTmTqHwJ  --bitcoind.zmqpubrawblock=tcp://127.0.0.1:28332 --bitcoind.zmqpubrawtx=tcp://127.0.0.1:28333
+VM1: 163.117.166.221 ::: Bitcoin Address: 2NCRajjifLtjtRo1FzDRmgjDXAMJHQcNm72   ::: LND Address: 2N9bXmopJJGivkQJJBWy2ysEadXmfrKZ1S6
+VM2: 163.117.166.163 ::: Bitcoin Address: 2N56FHqYLvGzhhFVtfe6YANqesxK2jhXtyv   ::: LND Address: 2NBxsMUNcNDreZSQJtRFhGx9F5FpFbpVU4V
+VM3: 163.117.166.179 ::: Bitcoin Address: 2MzCbxXB4Udu3sTQfKzCMvS3DgUD1sChLzA   ::: LND Address: 2N77FHLEp2BaGMz49qUvZqNvouyPtPhSkLW
+VM4: 192.168.122.12  ::: Bitcoin Address: 2Mz4E8W7PBfSZacANLmh59o5G7mxnJu2Gu7   ::: LND Address: 2N9ABrKSh4aK9Cow4vwZPHUv6ps7xep84qj
+NAT: 192.168.122.181
+-u:sangieri
+-p:AyjTmTqHwJ
+1455793:9:0
+Port Redirection: 
+
+6c3fa196a6991b3f1463fa408daab3c5b3ba3b435be28df106f4523e690ff421
+
+03d5e17a3c213fe490e1b0c389f8cfcfcea08a29717d50a9f453735e0ab2a7c003
+
+163.117.166.53:18433 -> sangierivm3:18333
+163.117.166.53:18533 -> sangierivm2:18333
+163.117.166.53:18633 -> sangierivm4:18333
+163.117.166.53:8433 -> sangierivm3:8333
+163.117.166.53:9835 -> sangierivm3:9735
+163.117.166.53:8533 -> sangierivm2:8333
+163.117.166.53:9935 -> sangierivm2:9735
+163.117.166.53:8633 -> sangierivm4:8333
+163.117.166.53:9945 -> sangierivm4:9735
+
+
+tcp dpt:8433 to:192.168.122.74:8333
+tcp dpt:10022 to:192.168.122.74:22
+tcp dpt:8533 to:192.168.122.73:8333
+tcp dpt:8633 to:192.168.122.12:8333
+tcp dpt:9835 to:192.168.122.74:9735
+tcp dpt:9945 to:192.168.122.12:9735
+tcp dpt:9935 to:192.168.122.73:9735
+tcp dpt:18433 to:192.168.122.74:18333
+tcp dpt:18633 to:192.168.122.12:18333
+tcp dpt:18533 to:192.168.122.73:18333
+
+
+
+Lightning testnets nodes: https://1ml.com/testnet/node/022f5fdb72079d060d0608e8d1df75914f21ee068c25c79c6ad351e7879a0d2153
+039f01ad62e5208940faff11d0bbc997582eafad7642aaf53de6a5f6551ab73400@40.114.234.63:9735
+
+03a8334aba5660e241468e2f0deb2526bfd50d0e3fe808d882913e39094dc1a028@138.229.205.237:9735
+https://ledroideenchaine.com/en/frlncli-arguments-du-client-pour-lightning-network-daemon-lnd/ lncli 
+
+
+pscp sangieri@163.117.166.221:routes.json C:\Users\User\Desktop\VMsLogs\
+
+pscp C:\Users\User\Desktop\VMsLogs\route.json sangieri@163.117.166.221:route.json 
+
+https://lightningpowerusers.com/home/ OPENING A CHANNEL AND A CHANNEL BACK    https://1ml.com/node/0331f80652fb840239df8dc99205792bba2e559a05469915804c08420230e23c7c
+
+
+Test-NetConnection <host> -port <port>
+
+
+env -i bash
+
+sudo env "PATH=$PATH" go get -u github.com/golang/dep/cmd/dep
+
+
+ git clone https://github.com/golang/dep
+ 
+
+ https://askubuntu.com/questions/8653/how-to-keep-processes-running-after-ending-ssh-session
+ 
+vm3
+ils
+~ $
+https://github.com/janoside/lightning-rpc-explorer
+https://medium.com/@Jayvdb/setting-up-and-transacting-on-the-bitcoin-lightning-network-a9ada42ec305
+
+
+03a8334aba5660e241468e2f0deb2526bfd50d0e3fe808d882913e39094dc1a028@138.229.205.237:9735
+
+163.117.166.53:9835
+
+vm1
+lnd --bitcoin.active --bitcoin.mainnet --debuglevel=debug --bitcoin.node=bitcoind --bitcoind.rpcuser=sangierib1 --bitcoind.rpcpass=AyjTmTqHwJb1 --bitcoind.zmqpubrawblock=tcp://127.0.0.1:28332 --bitcoind.zmqpubrawtx=tcp://127.0.0.1:28333
+
+---------------BEGIN LND CIPHER SEED---------------
+ 1. abandon   2. casual   3. shift    4. oven
+ 5. rebel     6. rent     7. speed    8. blossom
+ 9. coyote   10. cool    11. coil    12. gap
+13. ladder   14. search  15. anchor  16. uncover
+17. popular  18. wrong   19. sketch  20. very
+21. nothing  22. winter  23. bean    24. cement
+---------------END LND CIPHER SEED-----------------
+
+
+
+vm2
+lnd --bitcoin.active --bitcoin.mainnet --debuglevel=debug --bitcoin.node=bitcoind --bitcoind.rpcuser=sangierib2 --bitcoind.rpcpass=AyjTmTqHwJb2 --externalip=163.117.166.53:9835 --bitcoind.zmqpubrawblock=tcp://127.0.0.1:28332 --bitcoind.zmqpubrawtx=tcp://127.0.0.1:28333
+---------------BEGIN LND CIPHER SEED---------------
+ 1. able       2. scorpion   3. jaguar    4. female
+ 5. decline    6. almost     7. toe       8. atom
+ 9. decorate  10. quick     11. tell     12. silk
+13. mass      14. response  15. captain  16. slim
+17. marine    18. ignore    19. soul     20. awesome
+21. frog      22. runway    23. bundle   24. helmet
+---------------END LND CIPHER SEED-----------------
+
+https://testnet-faucet.mempool.co/
+
+HOW TO FUND LIGHTNING NODE : https://medium.com/@Jayvdb/setting-up-and-transacting-on-the-bitcoin-lightning-network-a9ada42ec305
+https://testnet.smartbit.com.au/tx/18c00ee6dfdc1374670d9b1d2d2afc0cc7520d381f2a487e6e97bd979610948d
+vm1:Testnet:
+---------------BEGIN LND CIPHER SEED---------------
+ 1. abstract   2. manage   3. brown    4. illegal
+ 5. junior     6. finish   7. oyster   8. play
+ 9. error     10. sad     11. absent  12. school
+13. spider    14. ocean   15. ivory   16. sorry
+17. top       18. one     19. syrup   20. phone
+21. space     22. odor    23. dish    24. lava
+---------------END LND CIPHER SEED-----------------
+
+Bitcoin: 2N4E2hMEgrxP3nratuaVXNUCtfm2xHZGCmo
+
+Lightning: 2MuiKsZ8Cd1w4zZh2o4vKWqxgDg979iNk98
+TXID: 78db86fea9ed2e03ffda4dd700c6fa98ec0ce3cfc93367adafd716975c1016a4
+
+038863cf8ab91046230f561cd5b386cbff8309fa02e3f0c3ed161a3aeb64a643b9
+23984306
+16777215
+
+vm2: Testnet
+---------------BEGIN LND CIPHER SEED---------------
+ 1. about      2. mistake   3. long      4. film
+ 5. alcohol    6. silver    7. abuse     8. odor
+ 9. warfare   10. service  11. hen      12. sample
+13. hint      14. whisper  15. measure  16. law
+17. reason    18. chimney  19. time     20. ostrich
+21. tomorrow  22. nest     23. horn     24. situate
+---------------END LND CIPHER SEED-----------------
+
+Bitcoin: 2NG54axnaoJpArbf1wEyFDAG4CaUmWGmkGx
+ 
+Lightning: 2MxssSYoA2P4DyNmQbmnCYpSjyqo5gozHh1, 2NAES79Cn6XVeTdwdzqskPi1vtMStnsrLzd
+
+TXID: 3bdfabc010427737ba009bccfb04f69f34dc49b56f737dce67889545340c5dbd
+
+
+vm3:Testnet 
+
+---------------BEGIN LND CIPHER SEED---------------
+ 1. about     2. lounge     3. glare     4. sunset
+ 5. always    6. romance    7. gallery   8. goose
+ 9. warfare  10. multiply  11. stay     12. glue
+13. hill     14. away      15. world    16. vibrant
+17. survey   18. dolphin   19. they     20. lamp
+21. acid     22. enroll    23. clog     24. sure
+---------------END LND CIPHER SEED-----------------
+
+
+Bitcoin: 2N6msWBgB81bw4zxnLvxQJoCqAPEvhGk6iJ
+
+Lightning: 2NFNZHdgsUVqAZgXKzBkKUn1WLpUswyQvMS, "2NAh8u3rFAABxF3mZKi9VxatYyCJhmzwBZ2"
+
+TXID: 87e21327c56659e19e7caddce4bf5a03db5fa12065ecb523bdf3b2dae011dfb0
+
+
+vm4:testnet 
+---------------BEGIN LND CIPHER SEED---------------
+ 1. about     2. right     3. baby     4. bomb
+ 5. enjoy     6. time      7. stable   8. add
+ 9. embark   10. grow     11. please  12. position
+13. nothing  14. amount   15. turn    16. shadow
+17. upper    18. fantasy  19. erode   20. budget
+21. scene    22. trip     23. hurry   24. scheme
+---------------END LND CIPHER SEED-----------------
+
+
+Bitcoin: 2N8gymNWBSZ9LeCkCFZ9KSLDuHyN1TBDXmU
+
+Lightning: 2Mz6F2thCv9koJvr1FyKRYpEdaktxCipxhU
+
+TXID: 98b14d2d68264510bee37de6e6c16e96331c88bc103455460ee9df9d0a90b442
+

@@ -1,0 +1,79 @@
+lncli -network=testnet queryroutes 023b431c093e9599a17ee86f339f8f3105e5f69bdbe72b0a71f79635f1319731ef 98815
+{
+    "routes": [
+        {
+            "total_time_lock": 1511308,
+            "total_fees": "0",
+            "total_amt": "98815",
+            "hops": [
+                {
+                    "chan_id": "1661551185571086336",
+                    "chan_capacity": "100000",
+                    "amt_to_forward": "98815",
+                    "fee": "0",
+                    "expiry": 1511308,
+                    "amt_to_forward_msat": "98815000",
+                    "fee_msat": "0",
+                    "pub_key": "023b431c093e9599a17ee86f339f8f3105e5f69bdbe72b0a71f79635f1319731ef"
+                }
+            ],
+            "total_fees_msat": "0",
+            "total_amt_msat": "98815000"
+        }
+    ]
+}
+
+
+lncli -network=testnet queryroutes 023b431c093e9599a17ee86f339f8f3105e5f69bdbe72b0a71f79635f1319731ef 98816
+[lncli] rpc error: code = Unknown desc = unable to find a path to destination
+
+
+
+{
+    "channels": [
+        {
+            "active": true,
+            "remote_pubkey": "023b431c093e9599a17ee86f339f8f3105e5f69bdbe72b0a71f79635f1319731ef",
+            "channel_point": "d3e62b9262dab27964d3eaced8d68ee9df50c325b92e02ee1394031945f811e1:0",
+            "chan_id": "1661551185571086336",
+            "capacity": "100000",
+            "local_balance": "99815",
+            "remote_balance": "0",
+            "commit_fee": "185",
+            "commit_weight": "600",
+            "fee_per_kw": "256",
+            "unsettled_balance": "0",
+            "total_satoshis_sent": "0",
+            "total_satoshis_received": "0",
+            "num_updates": "0",
+            "pending_htlcs": [
+            ],
+            "csv_delay": 144,
+            "private": false
+        }
+    ]
+}
+
+
+{
+            "channel_id": "1661551185571086336",
+            "chan_point": "d3e62b9262dab27964d3eaced8d68ee9df50c325b92e02ee1394031945f811e1:0",
+            "last_update": 1556014085,
+            "node1_pub": "023b431c093e9599a17ee86f339f8f3105e5f69bdbe72b0a71f79635f1319731ef",
+            "node2_pub": "035639efb2bdd73ff6b82374a9d958c7ab404f8c1acb6dee678d9596e7cae25b2c",
+            "capacity": "100000",
+            "node1_policy": {
+                "time_lock_delta": 144,
+                "min_htlc": "1000",
+                "fee_base_msat": "1000",
+                "fee_rate_milli_msat": "1",
+                "disabled": false
+            },
+            "node2_policy": {
+                "time_lock_delta": 144,
+                "min_htlc": "1000",
+                "fee_base_msat": "1000",
+                "fee_rate_milli_msat": "1",
+                "disabled": false
+            }
+        },

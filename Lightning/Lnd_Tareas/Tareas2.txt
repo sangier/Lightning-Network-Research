@@ -1,0 +1,9 @@
+N1 ->N2 --A> N3 <-N1'
+
+1: Measure A at same time with two different nodes.
+2: Verify if the difference between LocalBalance and what you can queryroutes for depends on the InitialChannelBalance 
+3: Verify if we can now under which daemon is working the other node 
+4: Verify Bilaterals channels. -->    ->N2 
+                                    N1       <- N3    Can N2 decide where to forward N3 payment?     
+									  <-N2
+ 

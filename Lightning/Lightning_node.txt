@@ -1,0 +1,7 @@
+:~/.lnd$
+
+https://freedomnode.com/blog/107/how-to-install-and-use-lightning-network-with-bitcoind-on-the-bitcoin-mainnet
+
+
+
+https://gist.github.com/bretton/0b22a0503a9eba09df86a23f3d625c13
